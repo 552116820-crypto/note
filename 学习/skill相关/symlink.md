@@ -146,4 +146,4 @@ l rwxrwxrwx  agentic-harness-patterns-zh -> ../../.agents/skills/agentic-harness
   l rwxrwxrwx  agentic-harness-patterns -> ../../.agents/skills/agentic-harness-patterns
   │                                     │
   │                                     └── 指向的实际目标
-  └── 开头的 "l" 表示这是一个 link（符号链接），不是普通文件(-)或目录(d)
+  └── 开头的 "l" 表示这是一个 link（符号链接），不是普通文件(-)或目录(d
