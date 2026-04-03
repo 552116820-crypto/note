@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/代码交付 by claude.md",
+                "file": "20260403/任务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代码交付 by claude"
+              "title": "任务"
             }
           }
         ]
@@ -192,13 +192,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21881cfaa5d9d79f",
+  "active": "26b967370fbf9b83",
   "lastOpenFiles": [
-    "客户流失预警/代码交付 by codex.md",
-    "滴普Fastagi/代码交付 by claude.md.tmp.7658.1775206248687",
+    "20260403/json-rpc.md",
+    "20260403/obsidian 2 github.md",
+    "20260403/mcp原理.md",
+    "2026-04-03.md",
     "20260403/任务.md",
-    "客户流失预警/代码交付 by claude.md",
     "滴普Fastagi/企微机器人.md",
+    "客户流失预警/代码交付 by claude.md",
+    "客户流失预警/代码交付 by codex.md",
+    "学习/claude-code-best-practice使用指南.md",
+    "滴普Fastagi/代码交付 by claude.md.tmp.7658.1775206248687",
     "学习/git的状态字母.md",
     "学习/git的状态字母.md.tmp.4776.1775201521819",
     "claude code源码学习/sourcemap by codex.md",
@@ -206,16 +211,12 @@
     "claude code源码学习/sourcemap by claude.md",
     "claude code源码学习/bun和npm.md",
     "claude code源码学习/sourcemap by claude.md.tmp.4776.1775199791225",
-    "20260403/json-rpc.md",
-    "20260403/obsidian 2 github.md",
-    "20260403/mcp原理.md",
     "学习/skill相关/symlink.md",
     "学习/skill相关/symlink.md.tmp.3751.1775186441756",
     "claude code源码学习/harness与agent架构.md",
     "本地部署模型/h20落地参数和硬件要求.md",
     "20260403/json-rpc.md.tmp.1701.1775181663447",
     "20260403/obsidian 2 github.md.tmp.1701.1775179498216",
-    "2026-04-03.md",
     "未命名.canvas",
     "20260403/mcp原理.md.tmp.1701.1775177689078",
     "20260403/it培训（dify和滴普）.md",
