@@ -11,14 +11,14 @@
             "id": "53c3049a0b671381",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "2026-04-03.md",
-                "mode": "source",
-                "source": false
+                "aFile": "20260403/obsidian 2 github.md",
+                "bFile": "20260403/obsidian 2 github.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2026-04-03"
+              "icon": "diff",
+              "title": "Diff: obsidian 2 github  (Working Tree)"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-04-03.md",
+                "file": "20260403/obsidian 2 github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2026-04-03 的反向链接列表"
+              "title": "obsidian 2 github 的反向链接列表"
             }
           },
           {
@@ -194,11 +194,13 @@
   },
   "active": "53c3049a0b671381",
   "lastOpenFiles": [
-    "未命名.canvas",
-    "2026-04-03.md",
+    "20260403/obsidian 2 github.md",
+    "20260403/obsidian 2 github.md.tmp.1701.1775179498216",
     "20260403/mcp原理.md",
-    "20260403/mcp原理.md.tmp.1701.1775177689078",
     "20260403/任务.md",
+    "2026-04-03.md",
+    "未命名.canvas",
+    "20260403/mcp原理.md.tmp.1701.1775177689078",
     "20260403/it培训（dify和滴普）.md",
     "滴普Fastagi/企微机器人.md",
     "滴普Fastagi/企微机器人.md.tmp.11583.1775124220183",
@@ -221,7 +223,6 @@
     "20260403",
     "客户流失预警/dify的可行性2.md.tmp.1904.1775023546811",
     "TypeStript等其他技术栈/Java（Spring Boot）.md",
-    "TypeStript等其他技术栈/Java（Spring Boot）.md.tmp.3541.1775023446857",
     "20260330-0401/harness.md",
     "20260330-0401/企微OAuth.md",
     "20260330-0401/docker内置dns.md",
@@ -229,7 +230,6 @@
     "20260330-0401/python.venv.md",
     "20260330-0401/PostgreSQL数据库.md",
     "20260330-0401/BI.md",
-    "20260330-0401/CI.md",
     "asset/image.png",
     "asset/Pasted image 20260310180001.png",
     "客探/客探1.2版本/未命名.canvas",
