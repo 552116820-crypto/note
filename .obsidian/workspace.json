@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fa75f0b5b55215db",
+        "id": "cea6d696d88b1250",
         "type": "tabs",
         "children": [
           {
-            "id": "53c3049a0b671381",
+            "id": "26b967370fbf9b83",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "20260403/obsidian 2 github.md",
-                "bFile": "20260403/obsidian 2 github.md",
-                "aRef": ""
+                "file": "学习/skill相关/symlink.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: obsidian 2 github  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "symlink"
             }
           }
         ]
@@ -192,12 +192,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53c3049a0b671381",
+  "active": "21881cfaa5d9d79f",
   "lastOpenFiles": [
-    "20260403/obsidian 2 github.md",
-    "20260403/obsidian 2 github.md.tmp.1701.1775179498216",
-    "20260403/mcp原理.md",
+    "学习/skill相关/symlink.md.tmp.3751.1775186441756",
+    "claude code源码学习/harness与agent架构.md",
+    "学习/skill相关/symlink.md",
+    "claude code源码学习/bun和npm.md",
+    "20260403/json-rpc.md",
     "20260403/任务.md",
+    "本地部署模型/h20落地参数和硬件要求.md",
+    "20260403/mcp原理.md",
+    "20260403/obsidian 2 github.md",
+    "20260403/json-rpc.md.tmp.1701.1775181663447",
+    "20260403/obsidian 2 github.md.tmp.1701.1775179498216",
     "2026-04-03.md",
     "未命名.canvas",
     "20260403/mcp原理.md.tmp.1701.1775177689078",
@@ -211,25 +218,19 @@
     "滴普Fastagi/图谱.md",
     "滴普Fastagi/图谱.md.tmp.6150.1775092941499",
     "滴普Fastagi/对比dify.md.tmp.6150.1775091534222",
-    "claude code源码学习/bun和npm.md",
     "claude code源码学习/bun和npm.md.tmp.3769.1775091304441",
     "客户流失预警/dify的可行性2.md",
     "AI工作台/框架plan.md",
-    "claude code源码学习/harness与agent架构.md",
     "claude code源码学习/harness与agent架构.md.tmp.3769.1775090810770",
     "claude code源码学习/快速认知.md",
     "claude code源码学习/项目架构.md",
     "20260330-0401/任务.md",
     "20260403",
-    "客户流失预警/dify的可行性2.md.tmp.1904.1775023546811",
     "TypeStript等其他技术栈/Java（Spring Boot）.md",
     "20260330-0401/harness.md",
     "20260330-0401/企微OAuth.md",
     "20260330-0401/docker内置dns.md",
     "20260330-0401/docker 命令参数解释.md",
-    "20260330-0401/python.venv.md",
-    "20260330-0401/PostgreSQL数据库.md",
-    "20260330-0401/BI.md",
     "asset/image.png",
     "asset/Pasted image 20260310180001.png",
     "客探/客探1.2版本/未命名.canvas",
