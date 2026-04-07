@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260403/mcp原理.md",
+                "file": "客户流失预警/实现思路 by claude.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mcp原理"
+              "title": "实现思路 by claude"
             }
           }
         ],
@@ -221,8 +221,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21881cfaa5d9d79f",
+  "active": "c3e9ea4a06ac8df8",
   "lastOpenFiles": [
+    "客户流失预警/dify日志报表.md",
+    "客户流失预警/dify code节点和独立python.md",
+    "客户流失预警/不用工作流.md",
+    "客户流失预警/dify的可行性2.md",
+    "AI写代码的占比.md",
+    "20260403/mcp原理.md",
     "本地部署模型/h20落地参数和硬件要求.md",
     "本地部署模型/qwen3.5 27B 模型参数.md",
     "本地部署模型/vllm推理框架.md",
@@ -234,20 +240,15 @@
     "客户流失预警/思路整理.md",
     "客户流失预警/Django使用边界.md",
     "滴普Fastagi/搭建工作流的skill.md",
-    "客户流失预警/不用工作流.md",
-    "客户流失预警/dify日志报表.md",
-    "客户流失预警/dify code节点和独立python.md",
     "客户流失预警/Dify 工作流图 + Python API 设计 + 分批策略.md",
     "客户流失预警/大模型预警引擎的实现.md",
     "客户流失预警/代码交付 by codex.md",
     "客户流失预警/dify的可行性.md",
-    "客户流失预警/dify的可行性2.md",
     "本地部署模型/qwen3.5 27B 模型参数.md.tmp.6544.1775552532460",
     "本地部署模型/vllm推理框架.md.tmp.6544.1775552150563",
     "20260403/任务.md",
     "openrouter的免费模型.md",
     "openrouter的免费模型.md.tmp.5047.1775549769100",
-    "AI写代码的占比.md",
     "未命名",
     "AI写代码的占比.md.tmp.5791.1775548356468",
     "滴普Fastagi/搭建工作流的skill.md.tmp.5047.1775547662304",
