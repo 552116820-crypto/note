@@ -41,16 +41,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/实现思路 by claude.md",
+                "file": "sub2api相关/解决路径.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "实现思路 by claude"
+              "title": "解决路径"
+            }
+          },
+          {
+            "id": "2aacf8c4c8f445aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "response_mode streaming的处理方式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "response_mode streaming的处理方式"
+            }
+          },
+          {
+            "id": "6a5df5a4e495483a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/dify的可行性2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dify的可行性2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "MCP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 291.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -221,44 +249,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3e9ea4a06ac8df8",
+  "active": "6a5df5a4e495483a",
   "lastOpenFiles": [
-    "客户流失预警/dify日志报表.md",
-    "客户流失预警/dify code节点和独立python.md",
-    "客户流失预警/不用工作流.md",
-    "客户流失预警/dify的可行性2.md",
-    "AI写代码的占比.md",
+    "客户流失预警/代码交付 by claude.md",
+    "客户流失预警/大模型预警引擎的实现.md",
+    "客户流失预警/实现思路 by claude.md",
+    "客户流失预警/思路整理.md",
+    "客户流失预警/思路整理 review by claude.md",
+    "20260403/json-rpc.md",
     "20260403/mcp原理.md",
+    "claude code源码学习/评价.md",
+    "claude code源码学习/agent runtime.md",
+    "claude code源码学习/框架.md",
+    "claude code源码学习/bun和npm.md",
+    "前端数据来源.md",
+    "20260403/任务.md",
+    "20260403/obsidian 2 github.md",
+    "20260408/agent调用不同知识库，数据库.md",
+    "20260408/任务.md",
+    "20260408/skill，mcp，prompt有冲突.md",
+    "20260408/agent调用不同知识库，数据库.md.tmp.1904.1775630184538",
+    "20260408",
+    "response_mode streaming的处理方式.md",
+    "sub2api相关/解决路径.md",
+    "滴普Fastagi/输出图片.md",
+    "滴普Fastagi/asset/image-1.png",
+    "滴普Fastagi/asset/image.png",
+    "滴普Fastagi/asset",
+    "滴普Fastagi/企微机器人.md",
+    "滴普Fastagi/搭建工作流的skill.md",
+    "前端数据来源.md.tmp.1904.1775613218839",
+    "response_mode streaming的处理方式.md.tmp.1904.1775612756264",
+    "response_mode streaming的处理方式.md.tmp.1904.1775612661050",
+    "sub2api相关/openai.PermissionDeniedError.md",
     "本地部署模型/h20落地参数和硬件要求.md",
     "本地部署模型/qwen3.5 27B 模型参数.md",
     "本地部署模型/vllm推理框架.md",
-    "本地部署模型/h20硬件.md",
-    "本地部署模型/qwen3.5开源模型选型 27B和32B.md",
-    "客户流失预警/实现思路 by claude.md",
     "客户流失预警/实现思路 by claude.md.tmp.6544.1775554849792",
-    "客户流失预警/思路整理 review by claude.md",
-    "客户流失预警/思路整理.md",
-    "客户流失预警/Django使用边界.md",
-    "滴普Fastagi/搭建工作流的skill.md",
-    "客户流失预警/Dify 工作流图 + Python API 设计 + 分批策略.md",
-    "客户流失预警/大模型预警引擎的实现.md",
-    "客户流失预警/代码交付 by codex.md",
-    "客户流失预警/dify的可行性.md",
     "本地部署模型/qwen3.5 27B 模型参数.md.tmp.6544.1775552532460",
     "本地部署模型/vllm推理框架.md.tmp.6544.1775552150563",
-    "20260403/任务.md",
-    "openrouter的免费模型.md",
     "openrouter的免费模型.md.tmp.5047.1775549769100",
-    "未命名",
-    "AI写代码的占比.md.tmp.5791.1775548356468",
-    "滴普Fastagi/搭建工作流的skill.md.tmp.5047.1775547662304",
-    "客探/ai自动搭建工作流的原理.md",
-    "客探/直接让ai在dify WEB上搭建工作流（全流程自动化）.md",
-    "滴普Fastagi/企微机器人.md",
-    "客户流失预警/代码交付 by claude.md",
-    "滴普Fastagi/代码交付 by claude.md.tmp.7658.1775206248687",
-    "学习/git的状态字母.md.tmp.4776.1775201521819",
-    "claude code源码学习/sourcemap by claude.md.tmp.4776.1775199791225",
     "未命名.canvas",
     "asset/image.png",
     "asset/Pasted image 20260310180001.png",
@@ -269,8 +299,6 @@
     "客探一期dify代办和总结/Pasted image 20260227081736.png",
     "客探一期dify查潜客/企知道客户数据处理/企业微信截图_17718993681656.png",
     "客探一期dify查潜客/企知道客户数据处理/企业微信截图_17718993078049.png",
-    "客探一期dify查潜客/企知道客户数据处理/企业微信截图_17718993452334.png",
-    "客探一期dify查潜客/客探一期笔记/Pasted image 20260206155957.png",
     "客探一期dify代办和总结/未命名.canvas"
   ]
 }
