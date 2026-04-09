@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "./asset",
-  "promptDelete": false
+  "promptDelete": false,
+  "showLineNumber": true
 }
