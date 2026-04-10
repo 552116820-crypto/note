@@ -25,14 +25,14 @@
             "id": "6e2eccf0c29e4af8",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "未命名.base",
-                "bFile": "未命名.base",
-                "aRef": ""
+                "file": "20260409/Karpathy.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 未命名.base  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Karpathy"
             }
           },
           {
@@ -263,11 +263,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e2eccf0c29e4af8",
+  "active": "21881cfaa5d9d79f",
   "lastOpenFiles": [
+    "客户流失预警/chat-export.md",
+    "客探/客探1.2版本/语音转文字优化方案.md",
+    "response_mode streaming的处理方式.md",
+    "前端数据来源.md",
+    "未命名.base",
+    "20260409/Karpathy.md",
     "滴普Fastagi/签名生成规则.md",
     "滴普Fastagi/使用文档的知识.md",
-    "未命名.base",
     "客户流失预警/git 和 Bugbot.md",
     "客户流失预警/review by claude 6.md",
     "客户流失预警/review by claude 5.md",
@@ -285,13 +290,8 @@
     "客户流失预警/思路整理.md",
     "客户流失预警/思路整理 review by claude.md",
     "客户流失预警/算法实现 by codex.md",
-    "客户流失预警/chat-export.md",
     "客户流失预警/review by codex 4.md",
     "客户流失预警/review by codex 5.md",
-    "20260408/skill，mcp，prompt有冲突.md",
-    "客户流失预警/2.md",
-    "20260408/agent调用不同知识库，数据库.md",
-    "20260408/任务.md",
     "git相关原理/git.md.tmp.14952.1775807266959",
     "git相关原理",
     "客户流失预警/review by claude 6.md.tmp.8854.1775804853107",
