@@ -370,3 +370,8 @@ else:
 - 算法: EWMA(2^i) + IQR + 双因子置信度 + severity + 参数推荐 + 双向量级
 - 生产就绪: 环境变量切 MySQL + Celery 调度 + 去重幂等 + 输入校验
 - 核心依赖: FastAPI + Pydantic（MySQL/Celery 可选安装）
+
+
+
+
+
