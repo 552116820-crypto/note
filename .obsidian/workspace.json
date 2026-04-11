@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "26b967370fbf9b83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/review by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review by codex"
-            }
-          },
-          {
             "id": "6e2eccf0c29e4af8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260409/Karpathy.md",
+                "file": "20260409-0411/wecom-cli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Karpathy"
+              "title": "wecom-cli"
             }
           },
           {
@@ -91,8 +77,7 @@
               "title": "算法实现 by codex"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -263,35 +248,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21881cfaa5d9d79f",
+  "active": "6e2eccf0c29e4af8",
   "lastOpenFiles": [
-    "客户流失预警/chat-export.md",
+    "20260409-0411/wecom-cli 的skill.md",
+    "20260409-0411/wecom-cli.md",
+    "20260409-0411/工作内容.md",
+    "20260409-0411/未命名",
+    "20260409-0411/claude-export and codex-export的操作指南.md",
+    "客户流失预警/阅读指南.md",
+    "20260409/20260411.md",
+    "滴普Fastagi/加密文件进滴普 上传解密，下载加密.md",
+    "滴普Fastagi/滴普知识库 接入 企微机器人.md",
+    "20260409/claude-export and codex-export的操作指南.md.tmp.2478.1775869103947",
+    "20260409-0411/chat-export.md",
+    "20260409/1.md",
+    "20260409-0411/BaseModel.md",
+    "20260409-0411/claude-export.md",
+    "20260409-0411/Karpathy.md",
+    "20260409/test-slash.md",
+    "客户流失预警/review by codex.md",
+    "客户流失预警/test-export.md",
+    "20260409-0411/系统  无法访问文件.md",
     "客探/客探1.2版本/语音转文字优化方案.md",
     "response_mode streaming的处理方式.md",
     "前端数据来源.md",
     "未命名.base",
-    "20260409/Karpathy.md",
     "滴普Fastagi/签名生成规则.md",
     "滴普Fastagi/使用文档的知识.md",
     "客户流失预警/git 和 Bugbot.md",
     "客户流失预警/review by claude 6.md",
     "客户流失预警/review by claude 5.md",
-    "客户流失预警/阅读指南.md",
     "客户流失预警/后续的文档维护.md",
-    "客户流失预警/review by codex 3.md",
-    "客户流失预警/review by claude 4.md",
-    "客户流失预警/review by codex 2.md",
-    "客户流失预警/review by claude 3.md",
-    "客户流失预警/review by claude 2.md",
-    "客户流失预警/review by claude.md",
-    "客户流失预警/优化代码 by codex.md",
-    "客户流失预警/review by codex.md",
-    "客户流失预警/算法介绍.md",
-    "客户流失预警/思路整理.md",
-    "客户流失预警/思路整理 review by claude.md",
-    "客户流失预警/算法实现 by codex.md",
-    "客户流失预警/review by codex 4.md",
-    "客户流失预警/review by codex 5.md",
     "git相关原理/git.md.tmp.14952.1775807266959",
     "git相关原理",
     "客户流失预警/review by claude 6.md.tmp.8854.1775804853107",
@@ -299,8 +286,6 @@
     "客户流失预警/review by claude 5.md.tmp.8854.1775801382997",
     "客户流失预警/review by claude 4.md.tmp.5454.1775786188814",
     "客户流失预警/review by claude 3.md.tmp.5454.1775785247788",
-    "客户流失预警/review by claude 2.md.tmp.2619.1775782880797",
-    "客户流失预警/review by claude.md.tmp.2613.1775715307949",
     "滴普Fastagi/asset/image-1.png",
     "滴普Fastagi/asset/image.png",
     "未命名.canvas",
