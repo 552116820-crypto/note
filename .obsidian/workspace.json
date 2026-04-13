@@ -8,76 +8,245 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e2eccf0c29e4af8",
+            "id": "43c91e87f5fc76f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260409-0411/经验萃取2.md",
+                "file": "客户流失预警/review by codex 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "经验萃取2"
+              "title": "review by codex 5"
             }
           },
           {
-            "id": "c17f92b64a634b97",
+            "id": "195505f363c328f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI写代码的占比.md",
+                "file": "客户流失预警/生产准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI写代码的占比"
+              "title": "生产准备"
             }
           },
           {
-            "id": "c3e9ea4a06ac8df8",
+            "id": "831a8bdb559128c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sub2api相关/解决路径.md",
+                "file": "20260413/uv和venv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "解决路径"
+              "title": "uv和venv"
             }
           },
           {
-            "id": "2aacf8c4c8f445aa",
+            "id": "cc5b68cf654259b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "response_mode streaming的处理方式.md",
+                "file": "客户流失预警/生产路径 问题 by codex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "response_mode streaming的处理方式"
+              "title": "生产路径 问题 by codex"
             }
           },
           {
-            "id": "6a5df5a4e495483a",
+            "id": "74ffd3ad255a6ce8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/算法实现 by codex.md",
+                "file": "20260413/模型API 接口sdk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "算法实现 by codex"
+              "title": "模型API 接口sdk"
+            }
+          },
+          {
+            "id": "462041966dde318b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260408/任务.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "任务"
+            }
+          },
+          {
+            "id": "71678f37338febb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260413/当前待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "当前待办"
+            }
+          },
+          {
+            "id": "8822dfb90276a7c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260330-0401/python.venv.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "python.venv"
+            }
+          },
+          {
+            "id": "b376caa319c0f5b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/文档结构优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文档结构优化"
+            }
+          },
+          {
+            "id": "d01c32c2b026f6e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/运行指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "运行指南"
+            }
+          },
+          {
+            "id": "eed25ae17135207d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "aa51e95cbdb47836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/接口上线后的优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "接口上线后的优化"
+            }
+          },
+          {
+            "id": "dcfc0f4ff7b44ca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260409-0411/codex-export fork.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex-export fork"
+            }
+          },
+          {
+            "id": "09a80438bebfcf8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git相关原理/fork 功能.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fork 功能"
+            }
+          },
+          {
+            "id": "922917769fb770a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/对齐crm的api接口.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "对齐crm的api接口"
+            }
+          },
+          {
+            "id": "d647db1b561945a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260413/claude-export支持windows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "claude-export支持windows"
+            }
+          },
+          {
+            "id": "2df54e54d2801063",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/重构文档结构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "重构文档结构"
             }
           }
-        ]
+        ],
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -109,7 +278,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MCP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,44 +417,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a1965610c23e2829",
+  "active": "21881cfaa5d9d79f",
   "lastOpenFiles": [
-    "20260409-0411/经验萃取2.md.tmp.11027.1775902113355",
-    "20260409-0411/经验萃取.md",
-    "20260409-0411/经验萃取2.md",
-    "20260409-0411/工作内容.md",
-    "20260409-0411/经验萃取.md.tmp.11027.1775900585474",
-    "客户流失预警/接口对接 by codex.md",
-    "客户流失预警/接口文档.md",
-    "客户流失预警/接口文档 date含义.md",
-    "20260409-0411/chat-export.md",
-    "20260409-0411/Karpathy.md",
-    "20260409-0411/claude-export and codex-export的操作指南.md",
-    "20260409-0411/wecom-cli.md",
-    "20260409-0411/wecom-cli 的skill.md",
-    "20260409-0411/claude-export.md",
+    "客户流失预警/接口上线后的优化.md",
+    "20260409-0411/codex-export fork.md",
+    "客户流失预警/未命名.md",
+    "git相关原理/fork 功能.md",
+    "客户流失预警/运行指南.md",
+    "客户流失预警/文档结构优化.md",
+    "客户流失预警/对齐crm的api接口.md",
+    "客户流失预警/test.md",
+    "20260413/claude-export支持windows.md",
+    "客户流失预警/重构文档结构.md",
+    "客户流失预警/生产路径 问题 by codex.md",
+    "20260330-0401/python.venv.md",
+    "20260413/当前待办.md",
+    "20260408/任务.md",
+    "20260413/模型API 接口sdk.md",
+    "20260413/uv和venv.md",
+    "客户流失预警/生产准备.md",
+    "客户流失预警/review by codex 5.md",
+    "客户流失预警/git 和 Bugbot.md",
     "客户流失预警/接口文档 给前端.md",
-    "客户流失预警/思路整理.md",
-    "客户流失预警/代码交付 by codex.md",
-    "客户流失预警/代码交付 by claude.md",
+    "客户流失预警/接口对接 by codex.md",
+    "客户流失预警/IsolationForest ML模型.md",
+    "20260409-0411/经验萃取2.md",
+    "20260409-0411/wecom-cli.md",
+    "20260409-0411/本周工作内容.md",
+    "客户流失预警/上线方式与边界界定.md",
+    "20260413",
+    "20260409-0411/经验萃取2.md.tmp.11027.1775902113355",
+    "20260409-0411/经验萃取.md.tmp.11027.1775900585474",
     "20260409-0411/未命名",
-    "客户流失预警/阅读指南.md",
-    "20260409/20260411.md",
-    "滴普Fastagi/加密文件进滴普 上传解密，下载加密.md",
-    "滴普Fastagi/滴普知识库 接入 企微机器人.md",
     "20260409/claude-export and codex-export的操作指南.md.tmp.2478.1775869103947",
-    "20260409/1.md",
-    "20260409-0411/BaseModel.md",
-    "20260409/test-slash.md",
-    "客户流失预警/review by codex.md",
-    "客户流失预警/test-export.md",
     "未命名.base",
     "git相关原理/git.md.tmp.14952.1775807266959",
     "git相关原理",
     "客户流失预警/review by claude 6.md.tmp.8854.1775804853107",
     "客户流失预警/review by claude 5.md.tmp.8854.1775801614541",
-    "客户流失预警/review by claude 5.md.tmp.8854.1775801382997",
-    "客户流失预警/review by claude 4.md.tmp.5454.1775786188814",
     "滴普Fastagi/asset/image-1.png",
     "滴普Fastagi/asset/image.png",
     "未命名.canvas",

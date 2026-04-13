@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "./asset",
   "promptDelete": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "focusNewTab": false
 }
