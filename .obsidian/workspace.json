@@ -4,95 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "0740413eeaf6532e",
+        "id": "d39ed55db5dea3c0",
         "type": "tabs",
         "children": [
           {
-            "id": "172f2c902d51b1fa",
+            "id": "1e1155058a9b5f91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git相关原理/git remote 多个远程地址.md",
+                "file": "客户流失预警/走向生产级review/确认并调整业务逻辑判断.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git remote 多个远程地址"
+              "title": "确认并调整业务逻辑判断"
             }
           },
           {
-            "id": "411147ae6868844a",
+            "id": "57cde5c5282183f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/gitlab 上传相关.md",
+                "file": "客户流失预警/走向生产级review/mysql全量写入，服务器上传.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gitlab 上传相关"
+              "title": "mysql全量写入，服务器上传"
             }
           },
           {
-            "id": "05bd5919ef579c85",
+            "id": "e66842d962cd4bd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/业务相关知识.md",
+                "file": "客户流失预警/走向生产级review/warning_records 和 mysql迁移.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "业务相关知识"
+              "title": "warning_records 和 mysql迁移"
             }
           },
           {
-            "id": "3865bc16a5409ed1",
+            "id": "beabdad00093b82b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/登录服务器.md",
+                "file": "20260417-18/任务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "登录服务器"
+              "title": "任务"
             }
           },
           {
-            "id": "6a7be5a12c95f29a",
+            "id": "e717900457a37f1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/mysql 使用2.md",
+                "file": "20260417-18/temp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mysql 使用2"
+              "title": "temp"
             }
           },
           {
-            "id": "b72ad0ffa03cd497",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/LLM的使用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LLM的使用"
-            }
-          },
-          {
-            "id": "4705e31426355605",
+            "id": "c83492b62334c293",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,91 +92,7 @@
             }
           },
           {
-            "id": "d180ca61e306b680",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260413-0415/当前待办.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "当前待办"
-            }
-          },
-          {
-            "id": "e36a15f0360f21a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/预警逻辑优化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "预警逻辑优化"
-            }
-          },
-          {
-            "id": "daa997f5e1a4a49d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/测试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "测试"
-            }
-          },
-          {
-            "id": "8c7447d6f40181b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "a2d2caef5f57b615",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260413-0415/拓扑.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "拓扑"
-            }
-          },
-          {
-            "id": "813cdaba27acaac9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260413-0415/webhook url.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "webhook url"
-            }
-          },
-          {
-            "id": "70bc83575cb6c919",
+            "id": "68bf3e51c470bb36",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -204,213 +106,49 @@
             }
           },
           {
-            "id": "f7a4a55c8ef268ac",
+            "id": "046247b312dbbe6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/review前端接口和预警逻辑改动.md",
+                "file": "客户流失预警/走向生产级review/内网ip相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "review前端接口和预警逻辑改动"
+              "title": "内网ip相关"
             }
           },
           {
-            "id": "2af23fe5edc854b6",
+            "id": "5e60b9536a394913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滴普Fastagi/企微的消息推送.md",
+                "file": "客户流失预警/走向生产级review/接入拜访记录接口.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "企微的消息推送"
+              "title": "接入拜访记录接口"
             }
           },
           {
-            "id": "557a091a3123a3c1",
+            "id": "2baab22cbf4f66ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/前端友好接口的开发.md",
+                "file": "客户流失预警/走向生产级review/测试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "前端友好接口的开发"
+              "title": "测试"
             }
           },
           {
-            "id": "03c6f019e2ba1e3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/review by codex 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review by codex 3"
-            }
-          },
-          {
-            "id": "9b3c922f1ceca4f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/review by codex 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review by codex 2"
-            }
-          },
-          {
-            "id": "73b239aaa37c59b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/review by codex 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review by codex 1"
-            }
-          },
-          {
-            "id": "9dd3931d35fba2b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/review by claude.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review by claude"
-            }
-          },
-          {
-            "id": "5ca005052005fd03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/企微机器人 配置相关.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "企微机器人 配置相关"
-            }
-          },
-          {
-            "id": "723a05dea394b100",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "滴普Fastagi/asset/image-1.png"
-              },
-              "icon": "lucide-image",
-              "title": "image-1"
-            }
-          },
-          {
-            "id": "075ceca8598e9b9a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "滴普Fastagi/asset/image.png"
-              },
-              "icon": "lucide-image",
-              "title": "image"
-            }
-          },
-          {
-            "id": "6838df9d161541cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/服务器运行相关.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "服务器运行相关"
-            }
-          },
-          {
-            "id": "45e1b5636ec9b3a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/优化代码 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "优化代码 by codex"
-            }
-          },
-          {
-            "id": "f2f984b4d13db960",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/运行指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "运行指南"
-            }
-          },
-          {
-            "id": "44087a12c50a4eb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/伤口和疤痕护理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "伤口和疤痕护理"
-            }
-          },
-          {
-            "id": "338c258021f05237",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260413-0415/claude-export支持windows.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "claude-export支持windows"
-            }
-          },
-          {
-            "id": "f6cdb11fa04882ac",
+            "id": "bff6b71fd606bb0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -424,35 +162,175 @@
             }
           },
           {
-            "id": "8452f96026058063",
+            "id": "c35e17de50795902",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260413-0415/模型API 接口sdk.md",
+                "file": "客户流失预警/走向生产级review/前端友好接口的开发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "模型API 接口sdk"
+              "title": "前端友好接口的开发"
             }
           },
           {
-            "id": "7522e9d3bd298c79",
+            "id": "4e4942bd22ed0b24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260413-0415/uv和venv.md",
+                "file": "客户流失预警/走向生产级review/mysql 使用2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uv和venv"
+              "title": "mysql 使用2"
+            }
+          },
+          {
+            "id": "e2e96cf72ed27226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/登录服务器.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "登录服务器"
+            }
+          },
+          {
+            "id": "c39b176b9a3937a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/gitlab 上传相关.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gitlab 上传相关"
+            }
+          },
+          {
+            "id": "2477a03e69f7e60d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/服务器运行相关.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "服务器运行相关"
+            }
+          },
+          {
+            "id": "b0e019adfbd9095b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/预警逻辑优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "预警逻辑优化"
+            }
+          },
+          {
+            "id": "d9ef57e21515bf43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/review前端接口和预警逻辑改动.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "review前端接口和预警逻辑改动"
+            }
+          },
+          {
+            "id": "80f0df7606f8e7c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/PR前的review.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PR前的review"
+            }
+          },
+          {
+            "id": "6a5f9f96cb8961a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/AI大模型分析的实现.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI大模型分析的实现"
+            }
+          },
+          {
+            "id": "7b115058112cad39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/AI功能测试和sql查询性能优化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI功能测试和sql查询性能优化"
+            }
+          },
+          {
+            "id": "995f350348daabe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/解决AI分析接口响应慢的问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "解决AI分析接口响应慢的问题"
+            }
+          },
+          {
+            "id": "76a7bb5828eecb85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/运行指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "运行指南"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -484,7 +362,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "443",
+                "query": "docker compose ps",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -623,56 +501,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "daa997f5e1a4a49d",
+  "active": "beabdad00093b82b",
   "lastOpenFiles": [
-    "20260413-0415/当前待办.md",
-    "客户流失预警/走向生产级review/review前端接口和预警逻辑改动.md",
+    "20260417-18/temp.md",
+    "20260417-18/任务.md",
+    "客户流失预警/走向生产级review/解决AI分析接口响应慢的问题.md",
+    "客户流失预警/走向生产级review/AI功能测试和sql查询性能优化.md",
     "客户流失预警/走向生产级review/项目部署凭据.md",
-    "客户流失预警/走向生产级review/mysql.md",
-    "客户流失预警/走向生产级review/测试.md",
-    "20260413-0415/webhook url.md",
-    "20260413-0415/拓扑.md",
-    "未命名.md",
-    "未命名",
-    "客户流失预警/走向生产级review/预警逻辑优化.md",
+    "客户流失预警/走向生产级review/warning_records 和 mysql迁移.md",
+    "客户流失预警/走向生产级review/AI大模型分析的实现.md",
+    "客户流失预警/走向生产级review/mysql全量写入，服务器上传.md",
+    "客户流失预警/走向生产级review/接入拜访记录接口.md",
+    "客户流失预警/走向生产级review/内网ip相关.md",
+    "客户流失预警/走向生产级review/确认并调整业务逻辑判断.md",
+    "客户流失预警/运行指南.md",
     "客户流失预警/走向生产级review/前端友好接口的开发.md",
     "客户流失预警/走向生产级review/查询接口.md",
+    "客户流失预警/走向生产级review/PR前的review.md",
+    "客户流失预警/走向生产级review/观测用例.md",
+    "客户流失预警/走向生产级review/review前端接口和预警逻辑改动.md",
+    "客户流失预警/走向生产级review/预警逻辑优化.md",
     "客户流失预警/走向生产级review/服务器运行相关.md",
-    "客户流失预警/运行指南.md",
-    "客户流失预警/走向生产级review/review by codex 1.md",
-    "客户流失预警/走向生产级review/review by claude.md",
-    "客户流失预警/走向生产级review/review by codex 2.md",
-    "客户流失预警/走向生产级review/review by codex 3.md",
-    "客户流失预警/业务相关知识.md",
     "客户流失预警/走向生产级review/gitlab 上传相关.md",
-    "客户流失预警/走向生产级review/编写查询接口.md",
     "客户流失预警/走向生产级review/登录服务器.md",
-    "滴普Fastagi/企微机器人 配置相关.md",
-    "滴普Fastagi/企微的消息推送.md",
     "客户流失预警/走向生产级review/mysql 使用2.md",
-    "20260413-0415/模型API 接口sdk.md",
-    "20260413-0415/uv和venv.md",
+    "客户流失预警/走向生产级review/测试.md",
+    "客户流失预警/走向生产级review/mysql.md",
+    "客户流失预警/走向生产级review/确认并调整业务逻辑判断2.md",
+    "客户流失预警/走向生产级review 1/asset/image.png",
+    "客户流失预警/走向生产级review 1/项目部署凭据.md",
+    "客户流失预警/走向生产级review 1/asset",
+    "客户流失预警/走向生产级review 1",
+    "20260417-18",
+    "客户流失预警/走向生产级review/asset/image.png",
+    "客户流失预警/走向生产级review/asset",
     "20260413-0415/asset/image.png",
     "滴普Fastagi/asset/image-2.png",
     "滴普Fastagi/asset/image-1.png",
     "滴普Fastagi/asset/image.png",
     "20260413-0415/asset",
-    "客户流失预警/走向生产级review 1",
     "客户流失预警/走向生产级review",
     "20260413-0415",
     "20260409-0411/经验萃取2.md.tmp.11027.1775902113355",
     "20260409-0411/经验萃取.md.tmp.11027.1775900585474",
     "20260409-0411/未命名",
-    "20260409/claude-export and codex-export的操作指南.md.tmp.2478.1775869103947",
-    "未命名.base",
     "未命名.canvas",
     "asset/image.png",
     "asset/Pasted image 20260310180001.png",
     "客探/客探1.2版本/未命名.canvas",
     "学习/CLI相关/Pasted image 20260306164217.png",
     "客探二期/asset/Pasted image 20260311114257.png",
-    "Pasted image 20260310175855.png",
-    "客探一期dify代办和总结/Pasted image 20260227081736.png",
     "客探一期dify代办和总结/未命名.canvas"
   ]
 }
