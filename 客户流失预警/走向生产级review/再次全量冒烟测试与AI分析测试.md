@@ -1,9 +1,27 @@
 # Codex CLI 对话记录
 
 - **来源**: Codex CLI
+- **会话**: `019da855-4c0a-7d40-bfe1-3e3cad7a4263`
+- **范围**: Turn 1
+- **导出时间**: 2026-04-20 08:41:58
+
+---
+
+### Turn 1  *(2026-04-20 00:41)*
+
+**User:**
+
+现在这个项目文档中有没有技术文档
+
+---
+
+
+# Codex CLI 对话记录
+
+- **来源**: Codex CLI
 - **会话**: `019d9e80-3ea3-7d51-acbf-19c6d2b27319`
-- **范围**: Turn 1-6
-- **导出时间**: 2026-04-18 16:09:42
+- **范围**: Turn 1-9
+- **导出时间**: 2026-04-20 08:42:33
 
 ---
 
@@ -579,5 +597,373 @@ DeepSeek API = 最终要送达/处理的服务
 ```
 
 现在的问题不是 DeepSeek 慢，而是“快递驿站地址当前机器找不到”。
+
+---
+
+### Turn 7  *(2026-04-20 00:20)*
+
+**User:**
+
+如果要用这次 product run 真实派发 AI 任务，最好在容器里执行，因为容器内能解析 redis：
+
+  docker compose exec celery python - <<'PY'
+  from app.churn.factory import build_churn_service
+  from app.churn.tasks import _dispatch_ai_analysis_for_warnings
+  from app.celery_app import celery_app
+
+  run_id = "02de8bee-3344-4029-a10f-2d7246861f66"
+  service = build_churn_service()
+  run = service.repository.get_detection_run(run_id)
+  customer_task = celery_app.tasks["app.churn.tasks.generate_ai_analysis_for_customer"]
+
+  summary = _dispatch_ai_analysis_for_warnings(
+      customer_task,
+      service,
+      run.warning_ids,
+      run.biz_date,
+  )
+  print({
+      "status": summary["status"],
+      "customer_count": summary["customer_count"],
+  })
+  PY这里怎么做
+
+**Assistant:**
+
+这里的做法是：先把 Docker Compose 环境跑起来，然后在 `celery` 容器里执行这段 Python。关键点是用 `docker compose exec -T celery ...`，`-T` 适合配合 heredoc 输入脚本。
+
+在项目根目录执行：
+
+```bash
+cd /mnt/e/churn-warning-engine
+```
+
+先确认 Docker 在 WSL 里可用：
+
+```bash
+docker compose ps
+```
+
+如果这里提示 WSL integration 没启用，需要先打开 Docker Desktop：
+
+```text
+Docker Desktop -> Settings -> Resources -> WSL Integration -> 启用当前 WSL distro
+```
+
+然后启动 Redis 和 Celery：
+
+```bash
+docker compose up -d redis celery
+```
+
+确认服务起来了：
+
+```bash
+docker compose ps
+```
+
+你应该能看到类似：
+
+```text
+redis    running/healthy
+celery   running
+```
+
+再确认容器内 Redis 可用：
+
+```bash
+docker compose exec redis redis-cli ping
+```
+
+返回：
+
+```text
+PONG
+```
+
+然后执行真实 AI 派发：
+
+```bash
+docker compose exec -T celery python - <<'PY'
+from app.churn.factory import build_churn_service
+from app.churn.tasks import _dispatch_ai_analysis_for_warnings
+from app.celery_app import celery_app
+
+run_id = "02de8bee-3344-4029-a10f-2d7246861f66"
+
+service = build_churn_service()
+run = service.repository.get_detection_run(run_id)
+
+customer_task = celery_app.tasks[
+    "app.churn.tasks.generate_ai_analysis_for_customer"
+]
+
+summary = _dispatch_ai_analysis_for_warnings(
+    customer_task,
+    service,
+    run.warning_ids,
+    run.biz_date,
+)
+
+print({
+    "status": summary["status"],
+    "customer_count": summary["customer_count"],
+})
+PY
+```
+
+如果成功，应该看到类似：
+
+```text
+{'status': 'dispatched', 'customer_count': 1265}
+```
+
+这表示 `1265` 个客户级 AI 分析任务已经写入 Redis broker。之后由 `celery` worker 异步消费，消费时才会真正调用 DeepSeek API。
+
+可以看 worker 日志确认是否在消费：
+
+```bash
+docker compose logs -f celery
+```
+
+如果想看当前 AI 结果表有没有增长，可以查 MySQL：
+
+```bash
+docker compose exec celery python - <<'PY'
+from app.shared.db import get_engine
+from sqlalchemy import text
+
+engine = get_engine()
+with engine.connect() as conn:
+    count = conn.execute(text("select count(*) from churn_ai_analyses")).scalar()
+    latest = conn.execute(text("select max(created_at) from churn_ai_analyses")).scalar()
+
+print({
+    "churn_ai_analyses_count": count,
+    "latest_created_at": str(latest) if latest else None,
+})
+PY
+```
+
+注意：一旦真实派发成功，worker 会开始调用 DeepSeek。上次 dry-run 结果是 `1265` 个客户任务，除非已有缓存命中，否则会产生较多 DeepSeek API 请求。
+
+---
+
+### Turn 8  *(2026-04-20 00:21)*
+
+**User:**
+
+huangch001002@DESKTOP-IDKULC6:/mnt/e/churn-warning-engine$ docker compose exec -T celery python - <<'PY'
+  from app.churn.factory import build_churn_service
+  from app.churn.tasks import _dispatch_ai_analysis_for_warnings
+  from app.celery_app import celery_app
+
+  run_id = "02de8bee-3344-4029-a10f-2d7246861f66"
+
+  service = build_churn_service()
+  run = service.repository.get_detection_run(run_id)
+
+  customer_task = celery_app.tasks[
+      "app.churn.tasks.generate_ai_analysis_for_customer"
+  ]
+
+  summary = _dispatch_ai_analysis_for_warnings(
+      customer_task,
+      service,
+      run.warning_ids,
+      run.biz_date,
+  )
+
+  print({
+      "status": summary["status"],
+      "customer_count": summary["customer_count"],
+  })
+  PY
+>这是什么情况
+
+**Assistant:**
+
+这是 Bash 的 heredoc 还没结束。你现在看到的：
+
+```text
+>
+```
+
+不是程序在跑，而是 shell 在等你输入结束标记 `PY`。
+
+原因是你粘贴的结束行前面有空格：
+
+```bash
+  PY
+```
+
+heredoc 的结束标记必须顶格，不能有任何空格。你现在可以先按：
+
+```text
+Ctrl+C
+```
+
+退出当前等待状态，然后重新执行下面这个版本，注意所有 `PY` 都是顶格的，Python 代码也不要整体缩进：
+
+```bash
+docker compose exec -T celery python - <<'PY'
+from app.churn.factory import build_churn_service
+from app.churn.tasks import _dispatch_ai_analysis_for_warnings
+from app.celery_app import celery_app
+
+run_id = "02de8bee-3344-4029-a10f-2d7246861f66"
+
+service = build_churn_service()
+run = service.repository.get_detection_run(run_id)
+
+customer_task = celery_app.tasks[
+    "app.churn.tasks.generate_ai_analysis_for_customer"
+]
+
+summary = _dispatch_ai_analysis_for_warnings(
+    customer_task,
+    service,
+    run.warning_ids,
+    run.biz_date,
+)
+
+print({
+    "status": summary["status"],
+    "customer_count": summary["customer_count"],
+})
+PY
+```
+
+成功的话会输出类似：
+
+```text
+{'status': 'dispatched', 'customer_count': 1265}
+```
+
+如果你不想用 heredoc，也可以用一行命令避免 `>` 这种问题，但上面这个顶格版本最清楚。
+
+---
+
+### Turn 9  *(2026-04-20 00:26)*
+
+**User:**
+
+{'status': 'dispatched', 'customer_count': 1265}返回了这个，然后呢
+
+**Assistant:**
+
+这表示**真实派发已经成功**：`1265` 个客户级 AI 分析任务已经写进 Redis broker 了。下一步不是再派发，而是确认 Celery worker 是否在消费、DeepSeek 是否在被调用、结果是否写入表。
+
+按这个顺序看。
+
+**1. 看 Celery 日志**
+
+```bash
+docker compose logs -f celery
+```
+
+正常会看到 worker 接收任务、执行任务、失败重试等日志。你重点看有没有类似这些信息：
+
+```text
+Task app.churn.tasks.generate_ai_analysis_for_customer received
+Task app.churn.tasks.generate_ai_analysis_for_customer succeeded
+客户 AI 流失分析生成失败
+DeepSeek API request failed
+```
+
+如果日志一直没动，说明 worker 没消费或者卡住。
+
+**2. 看 Redis 队列还剩多少任务**
+
+```bash
+docker compose exec redis redis-cli -n 0 LLEN celery
+```
+
+含义：
+
+- 数字很大：任务还在排队。
+- 数字逐渐变小：worker 正在消费。
+- 返回 `0`：主队列已经被取完，但可能还有正在执行或重试中的任务。
+
+也可以看 Redis 里有哪些 Celery 相关 key：
+
+```bash
+docker compose exec redis redis-cli -n 0 KEYS '*'
+```
+
+**3. 看 worker 当前状态**
+
+```bash
+docker compose exec celery celery -A app.celery_app inspect active
+```
+
+看正在跑的任务。
+
+```bash
+docker compose exec celery celery -A app.celery_app inspect reserved
+```
+
+看 worker 已经预取但还没执行的任务。
+
+```bash
+docker compose exec celery celery -A app.celery_app inspect stats
+```
+
+看 worker 是否在线。
+
+**4. 看 AI 分析结果表是否增长**
+
+隔几分钟执行一次：
+
+```bash
+docker compose exec -T celery python - <<'PY'
+from app.shared.db import get_engine
+from sqlalchemy import text
+
+engine = get_engine()
+with engine.connect() as conn:
+    count = conn.execute(text("select count(*) from churn_ai_analyses")).scalar()
+    latest = conn.execute(text("select max(created_at) from churn_ai_analyses")).scalar()
+
+print({
+    "churn_ai_analyses_count": count,
+    "latest_created_at": str(latest) if latest else None,
+})
+PY
+```
+
+如果 `churn_ai_analyses_count` 增长，说明 DeepSeek 调用成功并落库了。
+
+**5. 如果想看最近生成的几条**
+
+```bash
+docker compose exec -T celery python - <<'PY'
+from app.shared.db import get_engine
+from sqlalchemy import text
+
+engine = get_engine()
+with engine.connect() as conn:
+    rows = conn.execute(text("""
+        select analysis_id, sales_id, customer_id, biz_date, model_name, created_at
+        from churn_ai_analyses
+        order by created_at desc
+        limit 10
+    """)).mappings().all()
+
+for row in rows:
+    print(dict(row))
+PY
+```
+
+现在的状态可以理解为：
+
+```text
+派发完成 -> 1265 个任务已入队
+接下来 -> Celery worker 慢慢消费
+消费时 -> 调 DeepSeek API
+完成后 -> 写 churn_ai_analyses
+```
+
+如果你看到队列不下降、结果表不增长，把 `docker compose logs --tail=200 celery` 的关键错误贴出来，就能继续判断是 worker、DeepSeek API、数据库写入，还是任务重试卡住。
 
 ---
