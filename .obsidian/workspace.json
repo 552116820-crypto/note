@@ -4,191 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d6ae1aec4fd4276",
+        "id": "27a6b2a68c3a7943",
         "type": "tabs",
         "children": [
           {
-            "id": "21f33212f1e7b9c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/mysql全量写入，服务器上传.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "mysql全量写入，服务器上传"
-            }
-          },
-          {
-            "id": "c7288b68760c569d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/再次全量冒烟测试与AI分析测试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "再次全量冒烟测试与AI分析测试"
-            }
-          },
-          {
-            "id": "0b19394a8c4f17ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/总监级的全局配置接口.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "总监级的全局配置接口"
-            }
-          },
-          {
-            "id": "5641de191d4c075f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "客户流失预警/走向生产级review/asset/image.png"
-              },
-              "icon": "lucide-image",
-              "title": "image"
-            }
-          },
-          {
-            "id": "fee8042515d7eaab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/前端友好接口的开发.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "前端友好接口的开发"
-            }
-          },
-          {
-            "id": "637b3dffee71cad9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/全量测试结果，以及性能优化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "全量测试结果，以及性能优化"
-            }
-          },
-          {
-            "id": "064abd2c16324ebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/针对mysql读取和写入的性能优化.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "针对mysql读取和写入的性能优化"
-            }
-          },
-          {
-            "id": "80703442cabe1b5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/MYSQL清空表的几种方式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MYSQL清空表的几种方式"
-            }
-          },
-          {
-            "id": "a88048f003f3f9e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/查询接口.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "查询接口"
-            }
-          },
-          {
-            "id": "cc2c5d19694b2cc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/上线前的review.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "上线前的review"
-            }
-          },
-          {
-            "id": "12392176d2700310",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/开关AI分析.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "开关AI分析"
-            }
-          },
-          {
-            "id": "0932ead42b135597",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/评估并优化性能.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "评估并优化性能"
-            }
-          },
-          {
-            "id": "01e6b051b34ff370",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260420-24/待办.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待办"
-            }
-          },
-          {
-            "id": "ed5ed27e225d7ec1",
+            "id": "cf6d893ecb7f378e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -202,7 +22,49 @@
             }
           },
           {
-            "id": "663666bca160c17c",
+            "id": "eb6d200e9c0f88a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260420-24/待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待办"
+            }
+          },
+          {
+            "id": "6fa4ad0d69e31a31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260426/待办.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待办"
+            }
+          },
+          {
+            "id": "42e4d64d18bb7463",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/烟测结果.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "烟测结果"
+            }
+          },
+          {
+            "id": "4b9011eb3f17cad0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,301 +78,7 @@
             }
           },
           {
-            "id": "b6b5333c2cb37eed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/修改数据库字段.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "修改数据库字段"
-            }
-          },
-          {
-            "id": "3977b5cfa7e0c3a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "本地部署模型/h20落地参数和硬件要求.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "h20落地参数和硬件要求"
-            }
-          },
-          {
-            "id": "abad9505a63fc7d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "本地部署模型/qwen3.5 27B 模型参数.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "qwen3.5 27B 模型参数"
-            }
-          },
-          {
-            "id": "6408e6300b60c230",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "本地部署模型/qwen3.5开源模型选型 27B和32B.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "qwen3.5开源模型选型 27B和32B"
-            }
-          },
-          {
-            "id": "876f55eed2f8751b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "本地部署模型/h20硬件.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "h20硬件"
-            }
-          },
-          {
-            "id": "e0559a853a4840ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/review 最后的.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review 最后的"
-            }
-          },
-          {
-            "id": "97324f2652b23543",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/使用文档的知识.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "使用文档的知识"
-            }
-          },
-          {
-            "id": "6bb03032848a75d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/签名生成规则.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "签名生成规则"
-            }
-          },
-          {
-            "id": "dc66901b967b5b98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/网站嵌入，token校验.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "网站嵌入，token校验"
-            }
-          },
-          {
-            "id": "e0602a917d5e0073",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/deepexi_auth_protocol.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "deepexi_auth_protocol"
-            }
-          },
-          {
-            "id": "365268b166c95d5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/企微 OAuth 桥接服务.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "企微 OAuth 桥接服务"
-            }
-          },
-          {
-            "id": "b305d4f68a9c73a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/企微 OAuth.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "企微 OAuth"
-            }
-          },
-          {
-            "id": "16aedc9b722573ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/对比dify.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "对比dify"
-            }
-          },
-          {
-            "id": "e319ab61cebad8ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普Fastagi/图谱.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "图谱"
-            }
-          },
-          {
-            "id": "2266e0b52e23fbd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/review 复杂度.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review 复杂度"
-            }
-          },
-          {
-            "id": "da220b54e444609a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/全局配置点击更新，mysql迁移.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "全局配置点击更新，mysql迁移"
-            }
-          },
-          {
-            "id": "818a371329c911b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/旧预警的处理.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "旧预警的处理"
-            }
-          },
-          {
-            "id": "804298d7f0ecdfca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/接口返回数据字段调整.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "接口返回数据字段调整"
-            }
-          },
-          {
-            "id": "5b9845076994661a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/crm H5页面的配置接口.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "crm H5页面的配置接口"
-            }
-          },
-          {
-            "id": "f5daa8bd29ee0fbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/项目部署凭据.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目部署凭据"
-            }
-          },
-          {
-            "id": "61d612654905ea28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "gitlab 和 服务器 流程"
-            }
-          },
-          {
-            "id": "8e72404c3f6deb2f",
+            "id": "542d4a1b5638dff1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -524,117 +92,119 @@
             }
           },
           {
-            "id": "b25ef0538a683f63",
+            "id": "04f4e45deddb4156",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260417-18/任务.md",
+                "file": "客户流失预警/走向生产级review/修改数据库字段.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "任务"
+              "title": "修改数据库字段"
             }
           },
           {
-            "id": "ff53379a6a0959ec",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "滴普Fastagi/asset/image-2.png"
-              },
-              "icon": "lucide-image",
-              "title": "image-2"
-            }
-          },
-          {
-            "id": "13a87d2c569f08b1",
+            "id": "915776f747d25a87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滴普Fastagi/企微机器人 配置相关.md",
+                "file": "客户流失预警/走向生产级review/前端友好接口的开发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "企微机器人 配置相关"
+              "title": "前端友好接口的开发"
             }
           },
           {
-            "id": "0b9cdedeb86eecbd",
+            "id": "8e304e464b2410ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滴普Fastagi/企微机器人 待开发.md",
+                "file": "客户流失预警/走向生产级review/全量测试结果，以及性能优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "企微机器人 待开发"
+              "title": "全量测试结果，以及性能优化"
             }
           },
           {
-            "id": "5ffb24fcf9a70a45",
+            "id": "da8edec409656d88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滴普Fastagi/企微机器人 测试.md",
+                "file": "客户流失预警/走向生产级review/接口压测.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "企微机器人 测试"
+              "title": "接口压测"
             }
           },
           {
-            "id": "9e8c4f098b126685",
+            "id": "fb6de451e4dda1c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/mysql相关.md",
+                "file": "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mysql相关"
+              "title": "gitlab 和 服务器 流程"
             }
           },
           {
-            "id": "ed15b7e1f6fc77d6",
+            "id": "294c2f442fa42842",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/手动触发流程.md",
+                "file": "客户流失预警/走向生产级review/流程确认.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "手动触发流程"
+              "title": "流程确认"
             }
           },
           {
-            "id": "7bb9fc60fd6f2a19",
+            "id": "f1559da3e49b449f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/再次上线前review.md",
+                "file": "客户流失预警/走向生产级review/针对mysql读取和写入的性能优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "再次上线前review"
+              "title": "针对mysql读取和写入的性能优化"
+            }
+          },
+          {
+            "id": "a1a16463287a8bab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/mysql批量持久化，批量校验，锁释放.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mysql批量持久化，批量校验，锁释放"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -805,15 +375,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed5ed27e225d7ec1",
+  "active": "fb6de451e4dda1c0",
   "lastOpenFiles": [
+    "20260426/待办.md",
+    "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
+    "客户流失预警/走向生产级review/流程确认.md",
+    "客户流失预警/走向生产级review/接口压测.md",
+    "客户流失预警/走向生产级review/mysql批量持久化，批量校验，锁释放.md",
+    "客户流失预警/走向生产级review/烟测结果.md",
+    "客户流失预警/走向生产级review/修改数据库字段.md",
     "20260420-24/待办.md",
     "20260420-24/周报.md",
+    "客户流失预警/走向生产级review/针对mysql读取和写入的性能优化.md",
     "客户流失预警/走向生产级review/全量测试结果，以及性能优化.md",
-    "客户流失预警/走向生产级review/修改数据库字段.md",
     "客户流失预警/走向生产级review/前端友好接口的开发.md",
-    "20260420-24/客户流失预警对齐需求文档.md",
+    "20260426",
     "20260420-24/调整dify周报，月报的代码.md",
+    "20260420-24/客户流失预警对齐需求文档.md",
     "本地部署模型/h20落地参数和硬件要求.md",
     "本地部署模型/qwen3.5 27B 模型参数.md",
     "本地部署模型/h20硬件.md",
@@ -823,17 +401,10 @@
     "滴普Fastagi/企微机器人 配置相关.md",
     "20260417-18/任务.md",
     "滴普Fastagi/asset/image-2.png",
-    "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
     "客户流失预警/走向生产级review/项目部署凭据.md",
     "滴普Fastagi/图谱.md",
     "滴普Fastagi/对比dify.md",
     "滴普Fastagi/企微 OAuth.md",
-    "滴普Fastagi/企微 OAuth 桥接服务.md",
-    "滴普Fastagi/deepexi_auth_protocol.md",
-    "滴普Fastagi/网站嵌入，token校验.md",
-    "滴普Fastagi/签名生成规则.md",
-    "滴普Fastagi/使用文档的知识.md",
-    "客户流失预警/走向生产级review/review 最后的.md",
     "客户流失预警/走向生产级review/asset/image.png",
     "20260420-24",
     "客户流失预警/走向生产级review 1/asset/image.png",
@@ -848,7 +419,6 @@
     "客户流失预警/走向生产级review",
     "20260413-0415",
     "20260409-0411/经验萃取2.md.tmp.11027.1775902113355",
-    "20260409-0411/经验萃取.md.tmp.11027.1775900585474",
     "未命名.canvas",
     "asset/image.png",
     "asset/Pasted image 20260310180001.png",
