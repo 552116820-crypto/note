@@ -945,3 +945,24 @@ CHURN_WARNING_EXPORT_CONCURRENCY=1
 ```
 
 ---
+
+• beat 是 Celery 的定时调度器。它负责按 app/celery_app.py:19 里的 beat_schedule 到点“派发任务”到 broker，比如 Redis；真
+  正执行任务的是 worker。
+
+  我刚查了当前环境里的进程：
+
+  pgrep -af "celery|beat"
+
+  没有任何匹配输出，所以在这个当前机器/当前环境里，celery beat 没有启动。
+
+  如果你只启动了：
+
+  uvicorn app.main:app --reload
+
+  那只是 API，不会跑定时任务。
+
+  要启动定时派发，需要跑：
+
+  celery -A app.celery_app worker --loglevel=info --beat
+
+  这个命令会同时启动 worker 和内嵌 beat。生产环境通常会把 worker 和 beat 拆成两个独立进程。
