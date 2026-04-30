@@ -22,6 +22,146 @@
             }
           },
           {
+            "id": "4a0de7b96d284f86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/销售定制推荐客户方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "销售定制推荐客户方案"
+            }
+          },
+          {
+            "id": "469298f4a5635ce0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/百万级公海客户附近推荐方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "百万级公海客户附近推荐方案"
+            }
+          },
+          {
+            "id": "f88830a488873188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/空间索引.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "空间索引"
+            }
+          },
+          {
+            "id": "2d7270f40acac240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普Fastagi/解决文档上传的问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "解决文档上传的问题"
+            }
+          },
+          {
+            "id": "6b79e7cd82bb4c3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普Fastagi/通过接口上传文档.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "通过接口上传文档"
+            }
+          },
+          {
+            "id": "917819b5fed57d26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/Elasticsearch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Elasticsearch"
+            }
+          },
+          {
+            "id": "fc65fbfcd8dbd8a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/Python 对 PostgreSQL 支持.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python 对 PostgreSQL 支持"
+            }
+          },
+          {
+            "id": "331ab62c698b4d3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260426/本周工作内容.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本周工作内容"
+            }
+          },
+          {
+            "id": "97b8777e4f7866c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260426/本月工作内容.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本月工作内容"
+            }
+          },
+          {
+            "id": "28c38495f7fd87b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/数据库选型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "数据库选型"
+            }
+          },
+          {
             "id": "55f2f6205f06a1ce",
             "type": "leaf",
             "state": {
@@ -49,7 +189,8 @@
               "title": "待办"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -220,21 +361,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54ffc15023962fa8",
+  "active": "331ab62c698b4d3a",
   "lastOpenFiles": [
+    "20260426/本月工作内容.md",
+    "20260426/本周工作内容.md",
+    "智能拓客/Python 对 PostgreSQL 支持.md",
+    "智能拓客/数据库选型.md",
+    "智能拓客/Elasticsearch.md",
+    "滴普Fastagi/通过接口上传文档.md",
+    "滴普Fastagi/解决文档上传的问题.md",
+    "智能拓客/空间索引.md",
+    "智能拓客/百万级公海客户附近推荐方案.md",
+    "智能拓客/销售定制推荐客户方案.md",
+    "智能拓客/初步方案和想法.md",
     "20260426/待办.md",
     "20260426/模型处理多模态的方式.md",
-    "智能拓客/初步方案和想法.md",
-    "智能拓客/销售定制推荐客户方案.md",
     "智能拓客/附近客户方案.md",
     "智能拓客/企业星级评分方案.md",
     "智能拓客/相似客户与成交匹配度衡量方案.md",
-    "滴普Fastagi/通过接口上传文档.md",
     "客户流失预警/走向生产级review/celery的使用.md",
     "客户流失预警/走向生产级review/项目部署凭据.md",
     "滴普Fastagi/用dify测试.md",
     "智能拓客",
-    "滴普Fastagi/解决文档上传的问题.md",
     "滴普Fastagi/上传文档的问题.md",
     "滴普Fastagi/评估并改进风险.md",
     "滴普Fastagi/企微机器人上传文档.md",
@@ -245,14 +393,7 @@
     "滴普Fastagi/asset/image-1.png",
     "滴普Fastagi/asset/image-2.png",
     "客户流失预警/走向生产级review/git 两个远程仓库.md",
-    "滴普Fastagi/企微机器人 待开发.md",
-    "客户流失预警/走向生产级review/服务器运维相关.md",
-    "客户流失预警/走向生产级review/解决employee_code为空，celery日志.md",
-    "客户流失预警/走向生产级review/linux 选中功能 和 codex复制代码块.md",
-    "客户流失预警/走向生产级review/流程确认.md",
     "客户流失预警/走向生产级review/asset/image.png",
-    "客户流失预警/走向生产级review/接口压测.md",
-    "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
     "20260426",
     "20260420-24",
     "客户流失预警/走向生产级review 1/asset/image.png",
