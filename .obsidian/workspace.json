@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "dba367fda0396d43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git相关原理/git remote 多个远程地址.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git remote 多个远程地址"
+            }
+          },
+          {
             "id": "be2b9269fd019947",
             "type": "leaf",
             "state": {
@@ -49,7 +63,8 @@
               "title": "企业星级评分方案"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,11 +235,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d779435e4f97fb4b",
+  "active": "dba367fda0396d43",
   "lastOpenFiles": [
+    "客户流失预警/走向生产级review/review by claude 0430.md",
     "智能拓客/企业星级评分方案.md",
     "智能拓客/相似客户与成交匹配度衡量方案.md",
-    "客户流失预警/走向生产级review/review by claude 0430.md",
     "20260426/本月工作内容.md",
     "20260426/本周工作内容.md",
     "智能拓客/Python 对 PostgreSQL 支持.md",
