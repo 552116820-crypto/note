@@ -36,6 +36,202 @@
             }
           },
           {
+            "id": "c5b16d24415f8128",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/cookie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cookie"
+            }
+          },
+          {
+            "id": "324bb7c73080d670",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/codex cli 的理解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex cli 的理解"
+            }
+          },
+          {
+            "id": "5cb2e3f649113838",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/unix.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "unix"
+            }
+          },
+          {
+            "id": "f21fa2ed7559ca25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/Beanstalkd.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Beanstalkd"
+            }
+          },
+          {
+            "id": "33d985bdc7ed8a8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/消息队列 主流有哪些.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "消息队列 主流有哪些"
+            }
+          },
+          {
+            "id": "acec3e6266f25e80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/消息队列 落地案例.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "消息队列 落地案例"
+            }
+          },
+          {
+            "id": "ff9838abfa61cfe9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260312/消息队列.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "消息队列"
+            }
+          },
+          {
+            "id": "eabc360c11386863",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260426/HBM和GPU.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HBM和GPU"
+            }
+          },
+          {
+            "id": "51c8ca566f150075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260426/本周工作内容.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本周工作内容"
+            }
+          },
+          {
+            "id": "22e7f0fbfcf21982",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260426/本月工作内容.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本月工作内容"
+            }
+          },
+          {
+            "id": "d7b66a67fea48769",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "20260426/HBM和GPU.md",
+                "bFile": "20260426/HBM和GPU.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: HBM和GPU  (Working Tree)"
+            }
+          },
+          {
+            "id": "db19e462b59fff31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/百万级公海客户附近推荐方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "百万级公海客户附近推荐方案"
+            }
+          },
+          {
+            "id": "e8fa522b8f608c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/Python 对 PostgreSQL 支持.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python 对 PostgreSQL 支持"
+            }
+          },
+          {
+            "id": "a0db1abcaf083794",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/数据库选型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "数据库选型"
+            }
+          },
+          {
             "id": "be2b9269fd019947",
             "type": "leaf",
             "state": {
@@ -64,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -235,35 +431,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dba367fda0396d43",
+  "active": "d7b66a67fea48769",
   "lastOpenFiles": [
+    "20260426/本月工作内容.md",
+    "20260426/本周工作内容.md",
+    "20260426/HBM和GPU.md",
+    "智能拓客/数据库选型.md",
+    "智能拓客/Python 对 PostgreSQL 支持.md",
+    "智能拓客/百万级公海客户附近推荐方案.md",
+    "20260312/消息队列.md",
+    "20260312/消息队列 落地案例.md",
+    "20260312/消息队列 主流有哪些.md",
+    "20260312/Beanstalkd.md",
+    "20260312/unix.md",
+    "20260312/codex cli 的理解.md",
+    "20260312/cookie.md",
+    "git相关原理/git remote 多个远程地址.md",
     "客户流失预警/走向生产级review/review by claude 0430.md",
     "智能拓客/企业星级评分方案.md",
     "智能拓客/相似客户与成交匹配度衡量方案.md",
-    "20260426/本月工作内容.md",
-    "20260426/本周工作内容.md",
-    "智能拓客/Python 对 PostgreSQL 支持.md",
-    "智能拓客/数据库选型.md",
     "智能拓客/Elasticsearch.md",
     "滴普Fastagi/通过接口上传文档.md",
     "滴普Fastagi/解决文档上传的问题.md",
     "智能拓客/空间索引.md",
-    "智能拓客/百万级公海客户附近推荐方案.md",
     "智能拓客/销售定制推荐客户方案.md",
     "智能拓客/初步方案和想法.md",
     "20260426/待办.md",
     "20260426/模型处理多模态的方式.md",
     "智能拓客/附近客户方案.md",
-    "客户流失预警/走向生产级review/celery的使用.md",
-    "客户流失预警/走向生产级review/项目部署凭据.md",
-    "滴普Fastagi/用dify测试.md",
     "智能拓客",
-    "滴普Fastagi/上传文档的问题.md",
-    "滴普Fastagi/评估并改进风险.md",
-    "滴普Fastagi/企微机器人上传文档.md",
-    "滴普Fastagi/企微机器人 测试.md",
-    "滴普Fastagi/解决streaming带来的错误.md",
-    "滴普Fastagi/企微机器人 连接原理.md",
     "滴普Fastagi/asset/image.png",
     "滴普Fastagi/asset/image-1.png",
     "滴普Fastagi/asset/image-2.png",
