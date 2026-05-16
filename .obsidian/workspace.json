@@ -4,417 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "36dde877139328ff",
+        "id": "5f5a345feec754e1",
         "type": "tabs",
         "children": [
           {
-            "id": "2fa1afb762284953",
+            "id": "bd90356832aa603e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/两个plan，评估和比较.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "两个plan，评估和比较"
-            }
-          },
-          {
-            "id": "05f0f7b84c9052dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/P01 研究过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P01 研究过程"
-            }
-          },
-          {
-            "id": "56fdb08b678caacd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/销售agent开发.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "销售agent开发"
-            }
-          },
-          {
-            "id": "1e1bf41216774b23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-13/反蒸馏.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "反蒸馏"
-            }
-          },
-          {
-            "id": "6badbaaec56e048f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/销售agent开发2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "销售agent开发2"
-            }
-          },
-          {
-            "id": "a6a31ccb8ac30691",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/excel中文乱码，转码方式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "excel中文乱码，转码方式"
-            }
-          },
-          {
-            "id": "e4a6c61f74046fe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/P02 研究过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P02 研究过程"
-            }
-          },
-          {
-            "id": "1f24146b6c1d1972",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/周一分享.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "周一分享"
-            }
-          },
-          {
-            "id": "a77bdf991bc12b27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/涂料行业产品调研skill迁移.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "涂料行业产品调研skill迁移"
-            }
-          },
-          {
-            "id": "da7ca33b6ec82b96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/skill与agent的深入理解.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "skill与agent的深入理解"
-            }
-          },
-          {
-            "id": "23714bffcc2f26ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/备忘录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "备忘录"
-            }
-          },
-          {
-            "id": "be5dd1a2d28c5aa5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/客探-查客户-扩大范围-改造思路.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "客探-查客户-扩大范围-改造思路"
-            }
-          },
-          {
-            "id": "857012bd5730b96c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P01 明显错误.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P01 明显错误"
-            }
-          },
-          {
-            "id": "b711722f462a2ae0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P01 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P01 by codex"
-            }
-          },
-          {
-            "id": "41317168bae433aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P02 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P02 by codex"
-            }
-          },
-          {
-            "id": "b73c93f7510a169a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P04 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P04 by codex"
-            }
-          },
-          {
-            "id": "c48a960a0f23d9ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P06 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P06 by codex"
-            }
-          },
-          {
-            "id": "5aaa542c93d5bcac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/P07 研究过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P07 研究过程"
-            }
-          },
-          {
-            "id": "f2e372c391d97c47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P07 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P07 by codex"
-            }
-          },
-          {
-            "id": "2a50709266c58b52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-16/理论与工程的差异.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "理论与工程的差异"
-            }
-          },
-          {
-            "id": "cc231b9aa06adac8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/P06 研究过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P06 研究过程"
-            }
-          },
-          {
-            "id": "607081f66b269e84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P03 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P03 by codex"
-            }
-          },
-          {
-            "id": "3faf64abac93f92e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P05 by codex.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P05 by codex"
-            }
-          },
-          {
-            "id": "19bec505dbbe944c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/推断池.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "推断池"
-            }
-          },
-          {
-            "id": "2d851509ddd334db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/P04 研究过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P04 研究过程"
-            }
-          },
-          {
-            "id": "d62d59e7da014fa8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260511-13/grill-me super-power.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "grill-me super-power"
-            }
-          },
-          {
-            "id": "929b166e757ca52e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/整体工作流程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "整体工作流程"
-            }
-          },
-          {
-            "id": "cf80d2335e39edf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/收集研发岗位对应的竞争企业.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "收集研发岗位对应的竞争企业"
-            }
-          },
-          {
-            "id": "37e227b5490f013d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "查找研发岗对应的竞争企业/review P02 收紧 live 判定.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review P02 收紧 live 判定"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 11
+        ]
       }
     ],
     "direction": "vertical"
@@ -585,35 +188,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be5dd1a2d28c5aa5",
+  "active": "bd90356832aa603e",
   "lastOpenFiles": [
+    "查找研发岗对应的竞争企业/出错原因.md",
+    "查找研发岗对应的竞争企业/局限性考量.md",
+    "查找研发岗对应的竞争企业/review P07 by claude code.md",
+    "20260511-16/周一分享，搭建基于claude code的竞企调研工作流.md",
+    "20260511-16/plan mode 配置.md",
+    "20260511-16/mcp工具的使用.md",
+    "20260511-16/plan mode.md",
+    "20260511-16/AI搜索的mcp工具的配置与测试.md",
+    "20260511-16/AI搜索的mcp工具.md",
+    "20260511-16/客探-查客户-扩大范围-改造思路.md",
     "20260511-16/备忘录.md",
+    "20260511-16/skill与mcp的配置与项目复用.md",
+    "20260511-16/项目概述.md",
+    "20260511-16/windows的兼容性.md",
+    "20260511-16/本周工作内容.md",
+    "20260511-16/agents,skills,harness概念.md",
+    "查找研发岗对应的竞争企业/review P06 by claude code.md",
+    "查找研发岗对应的竞争企业/redo P01 by claude code - diff origin.md",
+    "查找研发岗对应的竞争企业/redo P02 by claude code.md",
+    "查找研发岗对应的竞争企业/review P03 by claude code.md",
+    "查找研发岗对应的竞争企业/review P04 by claude code.md",
+    "查找研发岗对应的竞争企业/review P05 by claude code.md",
+    "查找研发岗对应的竞争企业/合并结果.md",
+    "查找研发岗对应的竞争企业/P02 研究过程.md",
+    "查找研发岗对应的竞争企业/review P02 by codex.md",
+    "git相关原理/[[200~终端转义序列.md",
     "20260511-16/asset/results_photo.xlsx",
     "20260511-16/asset",
-    "20260511-16/周一分享.md",
-    "20260511-16/客探-查客户-扩大范围-改造思路.md",
-    "查找研发岗对应的竞争企业/P07 研究过程.md",
-    "查找研发岗对应的竞争企业/review P07 by codex.md",
-    "查找研发岗对应的竞争企业/review P06 by codex.md",
-    "查找研发岗对应的竞争企业/review P02 by codex.md",
-    "查找研发岗对应的竞争企业/review P02 收紧 live 判定.md",
-    "20260511-16/理论与工程的差异.md",
-    "查找研发岗对应的竞争企业/review P04 by codex.md",
-    "查找研发岗对应的竞争企业/review P03 by codex.md",
-    "查找研发岗对应的竞争企业/review P05 by codex.md",
-    "查找研发岗对应的竞争企业/P06 研究过程.md",
-    "查找研发岗对应的竞争企业/P04 研究过程.md",
-    "查找研发岗对应的竞争企业/P01 研究过程.md",
-    "查找研发岗对应的竞争企业/推断池.md",
-    "20260511-16/excel中文乱码，转码方式.md",
-    "20260511-16/销售agent开发2.md",
-    "20260511-16/销售agent开发.md",
-    "查找研发岗对应的竞争企业/skill与agent的深入理解.md",
-    "查找研发岗对应的竞争企业/涂料行业产品调研skill迁移.md",
-    "20260511-16/反蒸馏.md",
-    "20260511-16/grill-me super-power.md",
-    "查找研发岗对应的竞争企业/review P01 by codex.md",
-    "查找研发岗对应的竞争企业/review P01 明显错误.md",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "查找研发岗对应的竞争企业/asset",
