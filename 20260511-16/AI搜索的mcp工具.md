@@ -124,11 +124,11 @@ Tavily，Firecrawl，Jina Reader，会比现有的更好吗
 
 它们解决的问题层次不一样，不是简单替换关系：
 
-| 工具 | 本质 | 处理 SPA |
-|------|------|---------|
-| **Tavily** | AI 优化的搜索 API | ❌ 本身是搜索，不渲染页面 |
-| **Firecrawl** | 爬虫服务（带无头浏览器） | ✅ 后端跑 Chromium，能渲染 JS |
-| **Jina Reader** | URL → LLM-friendly Markdown | ✅ 后端渲染，输出干净 Markdown |
+| 工具              | 本质                          | 处理 SPA                |
+| --------------- | --------------------------- | --------------------- |
+| **Tavily**      | AI 优化的搜索 API                | ❌ 本身是搜索，不渲染页面         |
+| **Firecrawl**   | 爬虫服务（带无头浏览器）                | ✅ 后端跑 Chromium，能渲染 JS |
+| **Jina Reader** | URL → LLM-friendly Markdown | ✅ 后端渲染，输出干净 Markdown  |
 
 # 逐个对比
 

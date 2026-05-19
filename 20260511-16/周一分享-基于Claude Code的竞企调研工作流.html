@@ -1,47 +1,338 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b5b4e">
   <link rel="icon" href="data:,">
   <title>周一分享：搭建基于 Claude Code 的竞企调研工作流</title>
-  <style>:root{--bg:#f6f5f1;--paper:#fff;--ink:#202124;--muted:#626a73;--line:#dedbd2;--soft:#eeece5;--accent:#0f766e;--accent-dark:#124f4a;--accent-soft:#dcefeb;--shadow:0 22px 50px rgba(43,38,28,.12)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;background:linear-gradient(180deg,rgba(15,118,110,.10),rgba(246,245,241,0) 360px),var(--bg);color:var(--ink);line-height:1.72}.page{display:grid;grid-template-columns:280px minmax(0,1fr);gap:32px;width:min(1440px,100%);margin:0 auto;padding:28px 28px 72px}.sidebar{position:sticky;top:20px;align-self:start;max-height:calc(100vh - 40px);overflow:auto;padding:18px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.86);box-shadow:0 12px 30px rgba(43,38,28,.08);backdrop-filter:blur(12px)}.sidebar-title{margin:0 0 12px;font-size:13px;font-weight:800;color:var(--accent-dark)}.toc{display:grid;gap:4px;margin:0;padding:0;list-style:none;font-size:13px;line-height:1.35}.toc a{display:block;padding:7px 8px;border-radius:6px;color:#384047;text-decoration:none}.toc a:hover{background:var(--accent-soft);color:var(--accent-dark)}.doc{min-width:0}.hero{min-height:58vh;display:grid;align-content:end;gap:18px;padding:62px clamp(24px,5vw,70px) 46px;border-radius:8px;background:linear-gradient(135deg,rgba(19,79,74,.96),rgba(29,67,89,.92)),repeating-linear-gradient(90deg,rgba(255,255,255,.08) 0 1px,transparent 1px 42px);color:#fff;box-shadow:var(--shadow);overflow:hidden}.eyebrow{margin:0;font-size:14px;color:rgba(255,255,255,.78)}h1{max-width:980px;margin:0;font-size:clamp(34px,5vw,64px);line-height:1.12;font-weight:800;letter-spacing:0}.hero .summary{max-width:940px;margin:0;font-size:18px;color:rgba(255,255,255,.88)}.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}button{min-height:40px;padding:0 14px;border:1px solid rgba(255,255,255,.28);border-radius:6px;background:rgba(255,255,255,.12);color:#fff;font:inherit;font-weight:700;cursor:pointer}button:hover{background:rgba(255,255,255,.20)}main{margin-top:26px;padding:clamp(26px,4vw,58px);border:1px solid var(--line);border-radius:8px;background:var(--paper);box-shadow:var(--shadow)}section{padding:18px 0 34px;border-bottom:1px solid var(--line)}section:last-child{border-bottom:0}h2{margin:0 0 18px;font-size:clamp(24px,3vw,34px);line-height:1.25;letter-spacing:0}h3{margin:30px 0 12px;font-size:20px;line-height:1.35;color:#23313d}p{margin:0 0 16px}.lead,blockquote{padding:18px 20px;border-left:4px solid var(--accent);border-radius:6px;background:var(--accent-soft);font-size:18px;font-weight:700;color:#173f3b}.table-wrap{width:100%;overflow-x:auto;margin:16px 0 22px;border:1px solid var(--line);border-radius:8px}table{width:100%;min-width:760px;border-collapse:collapse;background:#fff;font-size:14px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:var(--soft);color:#2d3338;font-weight:800;white-space:nowrap}tr:last-child td{border-bottom:0}ul,ol{padding-left:1.35rem}li{margin:6px 0}code{padding:2px 5px;border-radius:4px;background:#f3f1eb;color:#17202a;font-family:Consolas,"SFMono-Regular",Menlo,monospace;font-size:.92em}pre{margin:16px 0 22px;padding:16px;overflow-x:auto;border-radius:8px;background:#18222d;color:#eff6f3;line-height:1.55}pre code{padding:0;background:transparent;color:inherit}.source-note{margin-top:26px;color:var(--muted);font-size:13px}@media(max-width:1080px){.page{grid-template-columns:1fr;padding:16px}.sidebar{position:static;max-height:none}.toc{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:640px){.hero{min-height:auto;padding:34px 22px}h1{font-size:32px}.hero .summary{font-size:16px}main{padding:22px 18px}.toc{grid-template-columns:1fr}table{min-width:640px}}@media print{body{background:#fff}.page{display:block;width:100%;padding:0}.sidebar,.toolbar{display:none}.hero,main{box-shadow:none;border-radius:0}section{break-inside:avoid}a{color:inherit}}</style>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root{
+  --bg:#f6f3ea;
+  --paper:#ffffff;
+  --ink:#1a1612;
+  --ink-2:#2d2620;
+  --muted:#6e6557;
+  --line:#e0d9c8;
+  --line-soft:#eee7d5;
+  --soft:#f3ede0;
+  --primary:#0b5b4e;
+  --primary-dark:#073d34;
+  --primary-soft:#dceee9;
+  --primary-mint:#ecf6f2;
+  --accent:#a45a1f;
+  --accent-soft:#fbe9d4;
+  --accent-dark:#7a4015;
+  --code-bg:#11231f;
+  --code-ink:#f0eadf;
+  --shadow-sm:0 1px 2px rgba(26,22,18,.06), 0 1px 1px rgba(26,22,18,.04);
+  --shadow-md:0 8px 18px rgba(26,22,18,.08), 0 2px 4px rgba(26,22,18,.04);
+  --shadow-lg:0 32px 60px -16px rgba(26,22,18,.20), 0 12px 30px -10px rgba(26,22,18,.12);
+  --radius-sm:6px;
+  --radius:12px;
+  --radius-lg:18px;
+  --font-sans:'Inter','PingFang SC','Microsoft YaHei','Source Han Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --font-serif:'Source Serif 4','Songti SC','Source Han Serif SC',Georgia,serif;
+  --font-mono:'JetBrains Mono','SFMono-Regular','Menlo','Consolas',monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  font-feature-settings:"cv01","cv02","cv03","cv04","ss01";
+  background:
+    radial-gradient(circle at 18% -8%, rgba(11,91,78,.10), rgba(246,243,234,0) 42%),
+    radial-gradient(circle at 110% 18%, rgba(164,90,31,.07), rgba(246,243,234,0) 38%),
+    var(--bg);
+  color:var(--ink);
+  line-height:1.78;
+  letter-spacing:.005em;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* layout */
+.page{display:grid;grid-template-columns:300px minmax(0,1fr);gap:44px;width:min(1480px,100%);margin:0 auto;padding:32px 32px 96px}
+.sidebar{position:sticky;top:24px;align-self:start;max-height:calc(100vh - 48px);overflow:auto;padding:22px 18px;border:1px solid var(--line);border-radius:var(--radius);background:rgba(255,255,255,.78);box-shadow:var(--shadow-sm);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.sidebar::-webkit-scrollbar{width:6px}
+.sidebar::-webkit-scrollbar-thumb{background:var(--line);border-radius:6px}
+.sidebar-eyebrow{margin:0 0 4px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--accent-dark)}
+.sidebar-title{margin:0 0 18px;font-family:var(--font-serif);font-size:18px;line-height:1.3;color:var(--ink);font-weight:700}
+
+.toc{display:grid;gap:2px;margin:0;padding:0;list-style:none;font-size:13px;line-height:1.4}
+.toc-part{margin:14px 0 4px;padding:6px 10px 4px;font-family:var(--font-serif);font-weight:700;color:var(--accent-dark);font-size:12px;letter-spacing:.04em;border-bottom:1px solid var(--accent-soft)}
+.toc-part:first-child{margin-top:0}
+.toc-part .pn{display:inline-block;min-width:22px;font-family:var(--font-mono);font-size:10px;font-weight:600;color:var(--accent);margin-right:6px}
+.toc-item{position:relative}
+.toc-item::before{content:attr(data-num);position:absolute;left:8px;top:9px;font-family:var(--font-mono);font-size:10px;font-weight:600;color:var(--muted);letter-spacing:0;line-height:1}
+.toc-item a{display:block;padding:8px 10px 8px 36px;border-radius:var(--radius-sm);color:#4a3f2f;text-decoration:none;transition:all .18s ease;border-left:2px solid transparent}
+.toc-item a:hover{background:var(--primary-soft);color:var(--primary-dark);border-left-color:var(--primary)}
+.toc-item:hover::before{color:var(--primary)}
+
+/* hero */
+.doc{min-width:0}
+.hero{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:48px;align-items:end;padding:88px clamp(28px,5vw,72px) 60px;border-radius:var(--radius-lg);color:#f8f3e6;background:
+  linear-gradient(135deg,rgba(7,61,52,.94),rgba(8,40,72,.92)),
+  radial-gradient(circle at 88% 14%, rgba(255,221,168,.18), rgba(0,0,0,0) 38%),
+  radial-gradient(circle at 10% 90%, rgba(164,210,201,.16), rgba(0,0,0,0) 40%);
+  box-shadow:var(--shadow-lg)
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 1px,transparent 1px 52px),
+                   repeating-linear-gradient(0deg,rgba(255,255,255,.025) 0 1px,transparent 1px 52px);
+  pointer-events:none;mix-blend-mode:overlay;opacity:.8;
+}
+.hero::after{
+  content:"";position:absolute;right:-120px;top:-120px;width:340px;height:340px;border-radius:50%;
+  background:radial-gradient(circle, rgba(255,232,196,.25), rgba(255,232,196,0) 65%);
+  pointer-events:none;
+}
+.hero-text{position:relative;z-index:1;display:grid;gap:22px}
+.eyebrow{margin:0;display:inline-flex;align-items:center;gap:10px;padding:7px 14px;border:1px solid rgba(255,255,255,.20);border-radius:999px;background:rgba(255,255,255,.06);font-size:11.5px;font-weight:700;letter-spacing:.20em;text-transform:uppercase;color:rgba(255,235,194,.94);width:max-content;backdrop-filter:blur(4px)}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:#facc8e}
+h1{max-width:880px;margin:0;font-family:var(--font-serif);font-size:clamp(36px,4.5vw,60px);line-height:1.10;font-weight:700;letter-spacing:-.01em;color:#fff;text-wrap:balance}
+.hero .summary{max-width:760px;margin:0;font-size:18px;line-height:1.65;color:rgba(248,243,230,.86);font-weight:400}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+button{min-height:42px;padding:0 18px;border:1px solid rgba(255,255,255,.26);border-radius:999px;background:rgba(255,255,255,.10);color:#fff;font:600 13.5px/1 var(--font-sans);letter-spacing:.03em;cursor:pointer;transition:all .18s ease}
+button:hover{background:rgba(255,255,255,.22);border-color:rgba(255,255,255,.42);transform:translateY(-1px)}
+button:active{transform:translateY(0)}
+
+/* hero stats panel */
+.kpi{position:relative;z-index:1;display:grid;gap:14px;padding:22px;border-radius:var(--radius);background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(6px)}
+.kpi-item{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:baseline;padding:6px 0;border-bottom:1px dashed rgba(255,235,194,.18)}
+.kpi-item:last-child{border-bottom:0}
+.kpi-num{font-family:var(--font-serif);font-size:34px;font-weight:700;line-height:1;color:#facc8e;letter-spacing:-.02em}
+.kpi-label{font-size:13px;color:rgba(248,243,230,.78);letter-spacing:.04em}
+.kpi-label b{display:block;color:#fff;font-weight:600;margin-bottom:2px}
+
+/* main paper */
+main{margin-top:30px;padding:clamp(28px,4vw,68px);border:1px solid var(--line);border-radius:var(--radius-lg);background:var(--paper);box-shadow:var(--shadow-md);counter-reset:section}
+main > blockquote:first-child{
+  margin:0 0 30px;padding:24px 30px 24px 56px;
+  border:0;border-left:5px solid var(--accent);
+  border-radius:0 var(--radius) var(--radius) 0;
+  background:linear-gradient(90deg,var(--accent-soft) 0%, rgba(251,233,212,0) 95%);
+  font-family:var(--font-serif);font-size:19px;font-style:italic;line-height:1.65;color:var(--ink-2);font-weight:500;
+  position:relative;
+}
+main > blockquote:first-child::before{
+  content:"\201C";position:absolute;left:18px;top:0px;font-family:var(--font-serif);font-size:62px;line-height:1;color:var(--accent);opacity:.65
+}
+
+/* Part divider — chapter break */
+.part{
+  position:relative;margin:64px 0 24px;padding:36px 0 24px;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:22px;
+  background:linear-gradient(180deg,rgba(243,237,224,.42),rgba(243,237,224,0));
+}
+.part:first-of-type,main > .part:first-child{margin-top:8px;padding-top:24px;border-top:0;background:none}
+.part-roman{
+  font-family:var(--font-serif);font-style:italic;font-weight:700;
+  font-size:46px;line-height:1;color:var(--accent);letter-spacing:-.02em;
+  padding:0 4px;border-bottom:3px solid var(--accent);
+}
+.part-body{display:grid;gap:6px}
+.part-en{font-family:var(--font-mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.20em;color:var(--muted);font-weight:600}
+.part-cn{font-family:var(--font-serif);font-size:26px;font-weight:700;color:var(--ink);line-height:1.2;letter-spacing:-.005em}
+.part-count{font-family:var(--font-mono);font-size:11.5px;color:var(--muted);letter-spacing:.04em;text-align:right;white-space:nowrap}
+
+/* sections */
+section{padding:36px 0 48px;border-bottom:1px solid var(--line);counter-increment:section;position:relative;scroll-margin-top:20px}
+section:last-child{border-bottom:0}
+@media (prefers-reduced-motion: no-preference){
+  section{animation:fadeUp .5s ease-out both}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+}
+
+h2{margin:0 0 18px;font-family:var(--font-serif);font-size:clamp(26px,3.2vw,36px);line-height:1.22;letter-spacing:-.01em;color:var(--ink);font-weight:700;position:relative;padding-left:0;text-wrap:balance}
+h2 .num{display:inline-flex;justify-content:center;align-items:center;min-width:40px;height:40px;padding:0 12px;margin-right:14px;font-family:var(--font-mono);font-size:14px;font-weight:600;letter-spacing:.04em;color:var(--accent-dark);background:var(--accent-soft);border-radius:999px;vertical-align:6%;transform:translateY(-3px)}
+
+h3{margin:32px 0 14px;font-family:var(--font-serif);font-size:21px;line-height:1.35;color:var(--ink-2);font-weight:700;letter-spacing:0}
+h3::before{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--primary);margin-right:10px;vertical-align:14%;transform:rotate(45deg)}
+
+p{margin:0 0 16px;color:var(--ink-2)}
+p strong{color:var(--ink);font-weight:700}
+a{color:var(--primary-dark);text-decoration:underline;text-decoration-color:rgba(11,91,78,.35);text-underline-offset:3px;transition:all .15s ease}
+a:hover{color:var(--accent-dark);text-decoration-color:var(--accent)}
+
+/* Takeaway box (本节要点) — placed right after section h2 */
+.takeaway{
+  position:relative;
+  display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:start;
+  margin:0 0 32px;padding:18px 22px 18px 22px;
+  background:linear-gradient(180deg,var(--primary-mint) 0%, rgba(236,246,242,.35) 100%);
+  border:1px solid var(--primary-soft);border-left:4px solid var(--primary);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow-sm);
+}
+.takeaway-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:4px 11px 4px 8px;
+  background:var(--primary);color:#fff;
+  border-radius:999px;font-size:11.5px;font-weight:700;letter-spacing:.06em;
+  align-self:flex-start;
+  white-space:nowrap;
+  margin-top:2px;
+}
+.takeaway-badge::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#facc8e}
+.takeaway-text{font-family:var(--font-serif);font-size:16.5px;line-height:1.6;color:var(--primary-dark);font-weight:500}
+
+/* lead — editorial pull-quote */
+.lead{
+  position:relative;
+  margin:24px 0 28px;padding:26px 32px 26px 64px;
+  border:1px solid var(--primary-soft);
+  border-left:4px solid var(--primary);
+  border-radius:var(--radius);
+  background:linear-gradient(180deg,#f0faf6 0%, rgba(220,238,233,.4) 100%);
+  font-family:var(--font-serif);font-size:19px;font-weight:600;line-height:1.65;color:var(--primary-dark);
+  box-shadow:var(--shadow-sm);
+}
+.lead::before{content:"\201C";position:absolute;left:18px;top:-8px;font-family:var(--font-serif);font-size:64px;line-height:1;color:var(--primary);opacity:.75}
+.lead strong{color:var(--primary-dark);font-weight:700}
+
+/* inline blockquote in mid-doc */
+section blockquote{margin:18px 0 24px;padding:16px 22px;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 var(--radius-sm) var(--radius-sm) 0;color:var(--accent-dark);font-weight:600;font-family:var(--font-serif);font-style:italic}
+
+/* tables */
+.table-wrap{width:100%;overflow-x:auto;margin:18px 0 28px;border:1px solid var(--line);border-radius:var(--radius);background:var(--paper);box-shadow:var(--shadow-sm)}
+.table-wrap::-webkit-scrollbar{height:8px}
+.table-wrap::-webkit-scrollbar-thumb{background:var(--line);border-radius:6px}
+table{width:100%;min-width:720px;border-collapse:separate;border-spacing:0;background:transparent;font-size:14px}
+th,td{padding:13px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line-soft)}
+thead th{background:linear-gradient(180deg,#fbf6eb,#f3ede0);color:var(--ink);font-weight:700;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;border-bottom:1px solid var(--line);white-space:nowrap;position:sticky;top:0}
+tbody tr{transition:background .15s ease}
+tbody tr:nth-child(odd){background:rgba(243,237,224,.32)}
+tbody tr:hover{background:var(--primary-soft)}
+tbody tr:last-child td{border-bottom:0}
+table strong{color:var(--ink)}
+
+/* lists */
+section ul,section ol{padding-left:0;margin:14px 0 20px;list-style:none}
+section ul > li,section ol > li{position:relative;padding-left:30px;margin:8px 0;color:var(--ink-2)}
+section ul > li::before{content:"";position:absolute;left:6px;top:14px;width:8px;height:8px;border-radius:50%;background:var(--primary);box-shadow:0 0 0 4px var(--primary-soft);transform:translateY(-50%)}
+section ol{counter-reset:olist}
+section ol > li{counter-increment:olist}
+section ol > li::before{
+  content:counter(olist);
+  position:absolute;left:0;top:3px;
+  width:22px;height:22px;
+  display:inline-flex;justify-content:center;align-items:center;
+  font-family:var(--font-mono);font-size:11px;font-weight:700;
+  color:var(--accent-dark);background:var(--accent-soft);border-radius:50%;
+}
+section li ul, section li ol{margin:6px 0 6px 0}
+section li ul > li::before{width:6px;height:6px;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+
+/* inline code & code blocks */
+code{padding:2px 7px;border-radius:5px;background:var(--soft);color:var(--accent-dark);font-family:var(--font-mono);font-size:.88em;font-weight:500;border:1px solid var(--line-soft)}
+pre{margin:18px 0 26px;padding:20px 22px;overflow-x:auto;border-radius:var(--radius);background:var(--code-bg);color:var(--code-ink);line-height:1.62;font-size:13.5px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04), 0 8px 20px rgba(17,35,31,.18);position:relative}
+pre::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:var(--radius) var(--radius) 0 0;opacity:.85}
+pre code{padding:0;background:transparent;color:inherit;border:0;font-weight:400;font-size:inherit}
+
+/* hr */
+hr{border:0;height:1px;margin:36px 0;background:linear-gradient(90deg,transparent,var(--line),transparent)}
+section > hr{display:none}  /* avoid double divider with section border-bottom */
+
+/* footer note */
+.source-note{margin-top:36px;padding-top:18px;border-top:1px dashed var(--line);color:var(--muted);font-size:12.5px;text-align:center;letter-spacing:.02em}
+
+/* responsive */
+@media(max-width:1080px){
+  .page{grid-template-columns:1fr;padding:18px}
+  .sidebar{position:static;max-height:none}
+  .toc{grid-template-columns:1fr}
+  .hero{grid-template-columns:1fr;padding:60px 28px 44px;gap:32px}
+  .part{grid-template-columns:auto 1fr;gap:18px}
+  .part-count{grid-column:1/-1;text-align:left}
+  .takeaway{grid-template-columns:1fr;gap:10px}
+}
+@media(max-width:640px){
+  body{font-size:15.5px}
+  .hero{min-height:auto;padding:44px 20px 32px;border-radius:var(--radius)}
+  h1{font-size:30px}
+  .hero .summary{font-size:15px}
+  main{padding:24px 20px;border-radius:var(--radius)}
+  table{min-width:560px}
+  h2{font-size:24px}
+  h2 .num{min-width:32px;height:32px;font-size:12px;margin-right:10px}
+  .part-roman{font-size:36px}
+  .part-cn{font-size:22px}
+}
+@media print{
+  body{background:#fff;font-size:11.5pt}
+  .page{display:block;width:100%;padding:0;max-width:none}
+  .sidebar,.toolbar,.hero::before,.hero::after{display:none}
+  .hero,main{box-shadow:none;border-radius:0;border:0}
+  .hero{padding:24px;color:#1a1612;background:none}
+  .hero h1,.eyebrow,.hero .summary,.kpi-num,.kpi-label,.kpi-label b{color:#1a1612!important;border-color:#999!important;background:transparent!important}
+  .kpi{background:#f6f3ea!important;border:1px solid #ccc}
+  section{break-inside:avoid;animation:none;padding:20px 0}
+  .part{break-after:avoid;page-break-after:avoid}
+  a{color:inherit;text-decoration:none}
+  pre{background:#f3ede0;color:#1a1612;box-shadow:none}
+  pre::before{display:none}
+  .takeaway{background:#f3ede0!important;break-inside:avoid}
+}
+</style>
 </head>
 <body>
   <div class="page">
     <aside class="sidebar" aria-label="目录">
-      <p class="sidebar-title">分享目录</p>
-      <ol class="toc"><li><a href='#0-先用-5-分钟讲清楚结论'>0. 先用 5 分钟讲清楚结论</a></li>
-<li><a href='#1-Skill-与-Agent一个是流程说明书一个是干活的人'>1. Skill 与 Agent：一个是流程说明书，一个是干活的人</a></li>
-<li><a href='#2-Harness为什么同一套流程换到底座会变差'>2. Harness：为什么同一套流程换到底座会变差</a></li>
-<li><a href='#3-Plan-Mode先锁边界再动手'>3. Plan Mode：先锁边界，再动手</a></li>
-<li><a href='#4-Agentic-Workflow把调研拆成流水线而不是一次性问答'>4. Agentic Workflow：把调研拆成流水线，而不是一次性问答</a></li>
-<li><a href='#5-并发与-Subagent吞吐提升但必须有契约'>5. 并发与 Subagent：吞吐提升，但必须有契约</a></li>
-<li><a href='#6-ReviewAI-调研最容易错在“口径”和“边界”'>6. Review：AI 调研最容易错在“口径”和“边界”</a></li>
-<li><a href='#7-JS-渲染与-AI-搜索-MCPWebFetch-不够退路链要提前设计'>7. JS 渲染与 AI 搜索 MCP：WebFetch 不够，退路链要提前设计</a></li>
-<li><a href='#8-最后沉淀成一套-SOP'>8. 最后沉淀成一套 SOP</a></li>
-<li><a href='#9-可以用作分享收尾的一句话'>9. 可以用作分享收尾的一句话</a></li></ol>
+      <p class="sidebar-eyebrow">Monday Share · 2026</p>
+      <p class="sidebar-title">基于 Claude Code<br/>搭建竞企调研工作流</p>
+      <ol class="toc"><li class="toc-part" aria-hidden="true"><span class="pn">Part I</span>锚定结论</li><li class="toc-item" data-num="0"><a href="#0-先用-5-分钟讲清楚结论">0. 先用 5 分钟讲清楚结论</a></li><li class="toc-part" aria-hidden="true"><span class="pn">Part II</span>三个核心抽象</li><li class="toc-item" data-num="1"><a href="#1-Skill-与-Agent先选对形态再写内容">1. Skill 与 Agent：先选对形态，再写内容</a></li><li class="toc-item" data-num="2"><a href="#2-Plan-Mode先锁边界再动手">2. Plan Mode：先锁边界，再动手</a></li><li class="toc-item" data-num="3"><a href="#3-Agentic-Workflow把调研拆成流水线而不是一次性问答">3. Agentic Workflow：把调研拆成流水线，而不是一次性问答</a></li><li class="toc-part" aria-hidden="true"><span class="pn">Part III</span>工程化与纠偏</li><li class="toc-item" data-num="4"><a href="#4-AI-搜索-MCP装上-Tavily-/-Jina-/-Firecrawl-之后">4. AI 搜索 MCP：装上 Tavily / Jina / Firecrawl 之后</a></li><li class="toc-item" data-num="5"><a href="#5-ReviewAI-调研最容易错在口径和边界">5. Review：AI 调研最容易错在&quot;口径&quot;和&quot;边界&quot;</a></li><li class="toc-part" aria-hidden="true"><span class="pn">Part IV</span>成果与教训</li><li class="toc-item" data-num="6"><a href="#6-最终调研结果">6. 最终调研结果</a></li><li class="toc-item" data-num="7"><a href="#7-局限性与下次改进">7. 局限性与下次改进</a></li><li class="toc-part" aria-hidden="true"><span class="pn">Part V</span>沉淀与收尾</li><li class="toc-item" data-num="8"><a href="#8-最后沉淀成一套-SOP">8. 最后沉淀成一套 SOP</a></li><li class="toc-item" data-num="9"><a href="#9-可以用作分享收尾的一句话">9. 可以用作分享收尾的一句话</a></li></ol>
     </aside>
     <div class="doc">
       <header class="hero">
-        <p class="eyebrow">周一分享 · 竞企调研工作流复盘</p>
-        <h1>周一分享：搭建基于 Claude Code 的竞企调研工作流</h1>
-        <p class="summary">把 Claude Code 从聊天工具用成一套可复用、可并行、可审查、能交付 Excel 的竞企/产品调研流水线。</p>
-        <div class="toolbar" aria-label="页面操作">
-          <button type="button" onclick="window.print()">打印 / 导出 PDF</button>
-          <button type="button" onclick="navigator.clipboard && navigator.clipboard.writeText(location.href)">复制页面链接</button>
+        <div class="hero-text">
+          <p class="eyebrow">周一分享 · 竞企调研工作流复盘</p>
+          <h1>周一分享：搭建基于 Claude Code 的竞企调研工作流</h1>
+          <p class="summary">把 Claude Code 从聊天工具用成一套可复用、可并行、可审查、能交付 Excel 的竞企 / 产品调研流水线。</p>
+          <div class="toolbar" aria-label="页面操作">
+            <button type="button" onclick="window.print()">打印 / 导出 PDF</button>
+            <button type="button" onclick="navigator.clipboard && navigator.clipboard.writeText(location.href)">复制页面链接</button>
+          </div>
         </div>
+        <aside class="kpi" aria-label="关键数字"><div class="kpi-item"><div class="kpi-num">7</div><div class="kpi-label"><b>研发岗位</b>植物基绝缘油 / 热处理 / 三防漆 / 润滑脂 / 浮选 / 灌封胶 / 助焊剂</div></div><div class="kpi-item"><div class="kpi-num">248</div><div class="kpi-label"><b>命中公司</b>summary.xlsx 汇总 sheet 公司行（去重后）</div></div><div class="kpi-item"><div class="kpi-num">9 086</div><div class="kpi-label"><b>涂料 SKU</b>104 家公司 × 53 列，含 47 个行业列</div></div></aside>
       </header>
-      <main><blockquote>分享目标：不是介绍“AI 很强”，而是复盘两个真实项目里，如何把 Claude Code 从聊天工具用成一套可复用、可并行、可审查的竞企/产品调研流水线。</blockquote>
-<section id='0-先用-5-分钟讲清楚结论'><h2>0. 先用 5 分钟讲清楚结论</h2>
+      <main><blockquote>分享目标：不是介绍&quot;AI 很强&quot;，而是复盘两个真实项目里，如何把 Claude Code 从聊天工具用成一套可复用、可并行、可审查的竞企/产品调研流水线。</blockquote>
+<div class="part" id="part-I"><div class="part-roman">I</div><div class="part-body"><div class="part-en">Part I · Anchor</div><div class="part-cn">锚定结论</div></div><div class="part-count">1 节</div></div>
+<section id='0-先用-5-分钟讲清楚结论'><h2><span class="num">0</span>先用 5 分钟讲清楚结论</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">竞企调研的难点不在搜资料，而在把不确定的输入变成可复用、可追溯、可交付的工程流程。</span></aside>
 <p>这次分享可以从一句话开始：</p>
-<p class="lead"><strong>竞企调研的难点不在“让 AI 搜资料”，而在把不确定的网页、图片、PDF、公司边界、品类边界，变成一套能反复跑、能追溯、能人审、最后能交付 Excel 的工程流程。</strong></p>
+<p class="lead"><strong>竞企调研的难点不在"让 AI 搜资料"，而在把不确定的网页、图片、PDF、公司边界、品类边界，变成一套能反复跑、能追溯、能人审、最后能交付 Excel 的工程流程。</strong></p>
 <p>我这周主要验证了两类项目：</p>
 <div class="table-wrap"><table>
-<thead><tr><th>项目</th><th>目标</th><th>输入</th><th>输出</th><th>Claude Code 的角色</th></tr>
+<thead>
+<tr>
+<th>项目</th>
+<th>目标</th>
+<th>输入</th>
+<th>输出</th>
+<th>Claude Code 的角色</th>
+</tr>
 </thead>
-<tbody><tr><td>研发岗竞企图谱</td><td>为 7 个研发岗找可挖人的竞争企业</td><td>展会图片、展商名单、岗位品类</td><td>公司 &#215; 岗位的 xlsx</td><td>找展会、识别公司、验证品类、处理边界</td></tr>
-<tr><td>涂料行业产品调研</td><td>把同行产品按三级结构和行业列汇总</td><td>同行公司官网、产品页、图片/PDF</td><td>公司 &#215; 产品 &#215; 行业的 xlsx</td><td>拆产品树、识别型号、找证据 URL、并行调研</td></tr>
+<tbody>
+<tr>
+<td>研发岗竞企图谱</td>
+<td>为 7 个研发岗找可挖人的竞争企业</td>
+<td>展会图片、展商名单、岗位品类</td>
+<td>公司 × 岗位的 xlsx</td>
+<td>找展会、识别公司、验证品类、处理边界</td>
+</tr>
+<tr>
+<td>涂料行业产品调研</td>
+<td>把同行产品按三级结构和行业列汇总</td>
+<td>同行公司官网、产品页、图片/PDF</td>
+<td>公司 × 产品 × 行业的 xlsx</td>
+<td>拆产品树、识别型号、找证据 URL、并行调研</td>
+</tr>
 </tbody>
 </table></div>
 <p>两个项目的共同方法论是：</p>
@@ -52,97 +343,259 @@
 <li><strong>用 skill / agent / command 固化流程</strong>：不是每次从头 prompt，而是沉淀成项目资产。</li>
 <li><strong>用 review 纠偏</strong>：AI 第一次跑出来的结果一定有口径问题，必须留审查与回滚通道。</li>
 </ol>
+<p>接下来 9 节按这个结构展开：先讲 3 个核心抽象（§1-3），再讲 2 个工程化抓手（§4-5），最后看成果、教训和 SOP（§6-9）。</p>
 </section>
-<section id='1-Skill-与-Agent一个是流程说明书一个是干活的人'><h2>1. Skill 与 Agent：一个是流程说明书，一个是干活的人</h2>
+<div class="part" id="part-II"><div class="part-roman">II</div><div class="part-body"><div class="part-en">Part II · Foundations</div><div class="part-cn">三个核心抽象</div></div><div class="part-count">3 节</div></div>
+<section id='1-Skill-与-Agent先选对形态再写内容'><h2><span class="num">1</span>Skill 与 Agent：先选对形态，再写内容</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">干活外包用 agent，改变姿态用 skill，项目级总入口用 command；这个项目 0 个 skill 是合理的。</span></aside>
 <h3>1.1 三个概念要分清</h3>
 <div class="table-wrap"><table>
-<thead><tr><th>类型</th><th>放在哪里</th><th>作用</th><th>是否开新上下文</th><th>适合做什么</th></tr>
+<thead>
+<tr>
+<th>类型</th>
+<th>放在哪里</th>
+<th>作用</th>
+<th>是否开新上下文</th>
+<th>适合做什么</th>
+</tr>
 </thead>
-<tbody><tr><td>Agent / subagent</td><td><code>.claude/agents/*.md</code></td><td>定义一个子代理</td><td>是</td><td>长任务、并行任务、隔离上下文</td></tr>
-<tr><td>Slash command</td><td><code>.claude/commands/*.md</code></td><td>一键注入主流程 prompt</td><td>否</td><td><code>/run-position P01</code> 这种总控入口</td></tr>
-<tr><td>Skill</td><td><code>.claude/skills/*/SKILL.md</code> 或全局 skill</td><td>可复用流程说明</td><td>通常否</td><td>单家公司调研、某类网页处理 SOP</td></tr>
+<tbody>
+<tr>
+<td>Agent / subagent</td>
+<td><code>.claude/agents/*.md</code></td>
+<td>定义一个子代理</td>
+<td>是</td>
+<td>长任务、并行任务、隔离上下文</td>
+</tr>
+<tr>
+<td>Slash command</td>
+<td><code>.claude/commands/*.md</code></td>
+<td>一键注入主流程 prompt</td>
+<td>否</td>
+<td><code>/run-position P01</code> 这种总控入口</td>
+</tr>
+<tr>
+<td>Skill</td>
+<td><code>.claude/skills/*/SKILL.md</code> 或全局 skill</td>
+<td>可复用流程说明</td>
+<td>通常否</td>
+<td>改变对话姿态（grill-me）、跨项目通用能力</td>
+</tr>
 </tbody>
 </table></div>
 <p>我的理解：</p>
 <ul>
 <li><strong>Agent 是执行单元</strong>：可以派出去跑一家公司、一批展商、一次 review。</li>
-<li><strong>Skill 是流程资产</strong>：告诉 agent 按哪些 phase 做，遇到边界怎么处理，输出 schema 是什么。</li>
+<li><strong>Skill 是流程资产 / 姿态切换</strong>：改变我处理对话的方式（例如 <code>/grill-me</code> 让我变成审问者）。</li>
 <li><strong>Command 是总入口</strong>：让主会话按固定剧本调度 agent 和 Python 脚本。</li>
 </ul>
-<h3>1.2 在两个项目里的实际差别</h3>
-<p>研发岗竞企图谱一开始更像主会话顺序跑：找展会、抓展商、验证公司、写 xlsx。后来才抽象出 <code>/run-position P0X</code> 和几个 subagent。</p>
-<p>涂料产品调研则更适合 skill：每家公司都要做类似的事，读官网、找产品树、拆型号、判断行业列、输出 JSON。所以沉淀成了 <code>research-one-company/SKILL.md</code>，让每个 subagent 先 Read 这个文件，再按 Phase 0 到 Phase 9 执行。</p>
-<p>一个关键教训是：<strong>项目级 skill 不一定会被 subagent 自动继承。</strong> 实测 subagent 可以 Read 项目文件，但不一定能直接通过 Skill 工具调用项目 skill。所以最终采用的稳妥方案是：</p>
-<pre><code>subagent 开工前先 Read：
-- CLAUDE.md
-- .claude/skills/research-one-company/SKILL.md
-- 关键 reference / METHOD.md</code></pre>
-<p>这比在 prompt 里复制 200 行规则更稳，也避免规则双写。</p>
-</section>
-<section id='2-Harness为什么同一套流程换到底座会变差'><h2>2. Harness：为什么同一套流程换到底座会变差</h2>
-<p>Harness 可以理解为 Claude Code 这个运行时本体：它负责加载 CLAUDE.md、识别 <code>.claude/agents</code>、注册 slash command、管理工具、调度 subagent、接 MCP。</p>
-<p>这里要区分两层：</p>
+<h3>1.2 涂料项目其实更适合写成 agent</h3>
+<p>涂料项目历史上写成了 <code>research-one-company/SKILL.md</code>，但从"该用哪种形态"的角度复盘，更应该是 agent。真正的判断标准是这张表：</p>
 <div class="table-wrap"><table>
-<thead><tr><th>层</th><th>例子</th><th>属于谁</th></tr>
+<thead>
+<tr>
+<th>任务特征</th>
+<th>倾向</th>
+</tr>
 </thead>
-<tbody><tr><td>机制层</td><td>Claude Code 怎么扫描 agents/commands/skills，怎么调工具</td><td>harness</td></tr>
-<tr><td>内容层</td><td>我们写的 agent prompt、SKILL.md、CLAUDE.md</td><td>项目资产</td></tr>
+<tbody>
+<tr>
+<td>大量 web fetch / OCR / 解析 HTML</td>
+<td>→ agent（隔离 token）</td>
+</tr>
+<tr>
+<td>文档篇幅长（&gt;200 行 Phase 指令）</td>
+<td>→ agent（不进主会话）</td>
+</tr>
+<tr>
+<td>输出是文件 / 结构化 JSON</td>
+<td>→ agent（只回 summary 就够）</td>
+</tr>
+<tr>
+<td>可能批量并行（10+ 家）</td>
+<td>→ agent（必须）</td>
+</tr>
+<tr>
+<td>单次调用即结束，不需要继续对话</td>
+<td>→ agent</td>
+</tr>
 </tbody>
 </table></div>
-<p>为什么这套流程给 Codex 或其它工具直接跑效果会差？主要不是模型单点能力，而是整个 workflow 依赖了 Claude Code harness 的几个特性：</p>
-<ol>
-<li><strong>subagent + 后台并行 + 通知回收</strong>：涂料项目里可以每家公司一个 subagent，主会话只收 JSON，不读 transcript。</li>
-<li><strong>多模态 Read 当 OCR 用</strong>：传美讯这种型号在图片里，直接 Read 图比传统 HTML 抓取强很多。</li>
-<li><strong>长流程指令跟随</strong>：SKILL.md 要求 Phase 0 到 Phase 9 严格执行，还要回传 <code>skill_trace</code>。</li>
-<li><strong>CLAUDE.md / memory / hooks 自动注入</strong>：很多踩坑经验不是临时 prompt，而是项目常驻上下文。</li>
-<li><strong>MCP 工具矩阵</strong>：chrome-devtools、browser-use、WebFetch、Read 的工具名和使用方式都写进了流程。</li>
-</ol>
-<p>所以这套东西不是“换个模型继续跑”，而是<strong>基于 Claude Code 工具矩阵和运行时能力组装出来的调研操作系统</strong>。</p>
+<p>涂料项目的"单家调研"<strong>5 条全中</strong>——648 行 Phase 文档 + 每家公司十几次 fetch_html + OCR + 详情页解析——本该从一开始就写成 agent。skill 形态最早跑通后没有动力重构，但作者自己在 SKILL.md 里也承认"批量调度（10+ 家并行）场景下不要直接调，那是主会话用 Agent 工具的活"。</p>
+<p><strong>记忆方法</strong>：</p>
+<blockquote>
+<p><strong>干活外包 → agent；改变我的姿态 → skill</strong>。</p>
+</blockquote>
+<ul>
+<li><code>research-one-company</code> 是典型"干活"：抓站、解析、写 JSON，跑完没我什么事 → 该用 agent。</li>
+<li><code>grill-me</code> 是典型"改姿态"：让我反复追问，整段对话都受它影响，必须在主会话里 → 该用 skill。</li>
+</ul>
+<h3>1.3 项目级 skill 不会被 subagent 自动继承</h3>
+<p>实测 subagent 可以 Read 项目里的 SKILL.md，但不一定能直接通过 Skill 工具调用项目 skill。最稳的做法是：</p>
+<pre><code class="language-text">subagent 开工前先 Read：
+- CLAUDE.md
+- .claude/skills/research-one-company/SKILL.md（如果还保留 skill 形态）
+- 关键 reference / METHOD.md
+</code></pre>
+<p>这比在 prompt 里复制 200 行规则更稳，也避免规则双写。</p>
+<h3>1.4 为什么这两个项目 0 个 skill 是合理设计</h3>
+<p>skill 的设计假设是 <strong>"改变我的对话姿态"</strong> 或 <strong>"短小通用能力"</strong>。这两个项目的特征恰好都不是：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>项目特征</th>
+<th>谁吃下了</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>工作流<strong>高度专业化</strong>（展会反搜 → 验证 → 评分 → xlsx）</td>
+<td><code>.claude/commands/run-position.md</code> 整份剧本</td>
+</tr>
+<tr>
+<td>重活全是<strong>长任务 + 重 IO</strong></td>
+<td><code>.claude/agents/</code> 下的 3 个 subagent（finder / verifier / merger）</td>
+</tr>
+<tr>
+<td>用户交互是<strong>多轮闸门</strong></td>
+<td>command 剧本里的"等用户回 'ok'"约束</td>
+</tr>
+</tbody>
+</table></div>
+<p>这三件事 <strong>commands + agents 已经吃满，skill 能填的缝很少</strong>。再回头看 skill 的甜区：</p>
+<blockquote>
+<p>skill 的甜区是<strong>"会反复用 + 描述足够具体让 LLM 主动触发"</strong>。这个项目大部分场景是<strong>一次性专业流程</strong>，写进文档让我读就行。</p>
+</blockquote>
+<p>所以社区 skill 帮不上不是 AI 选错工具，是这个 repo 根本不需要。</p>
+<h3>1.5 那 skill 的价值到底在哪</h3>
+<p>不在通用性，在<strong>可移植性</strong>：</p>
+<ul>
+<li>command / agent 锁死在单 repo</li>
+<li>skill 可以全局可用 / 跨项目复用 / 打包发布</li>
+</ul>
+<p>对一个深耕单领域 + 单 repo 跑到底的项目，skill 价值低。如果以后跨多项目（研发岗 + 涂料 + 客户尽调）有重复动作（"验证一家公司是不是真有官网"、"中文公司名归一"），再把这些抽出来沉淀成私人 skill 库。</p>
+<hr />
 </section>
-<section id='3-Plan-Mode先锁边界再动手'><h2>3. Plan Mode：先锁边界，再动手</h2>
-<p>Plan mode 最大价值不是“让 AI 写计划”，而是逼自己在动手前回答几个问题：</p>
+<section id='2-Plan-Mode先锁边界再动手'><h2><span class="num">2</span>Plan Mode：先锁边界，再动手</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">plan mode 不是默认开，已有详细 plan 时直接喂；它真正的价值是只读护栏 + 强制核对外部假设。</span></aside>
+<h3>2.1 不是每次都要进 plan mode</h3>
+<p>Plan mode 的核心价值有两个：</p>
 <ol>
-<li>输出长什么样？</li>
+<li><strong>生成计划</strong> — 让 AI 帮你写步骤。</li>
+<li><strong>只读安全护栏</strong> — 进入 plan mode 后我只能读不能写，强制走"先确认再动手"。</li>
+</ol>
+<p><strong>判断要不要进 plan mode</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>是否需要 plan mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>完全没想清楚要干啥</td>
+<td>✅ 让 AI 边读边帮你拟计划</td>
+</tr>
+<tr>
+<td>已经有详细 md 计划，但里面有外部假设需先核对（文件路径是否存在、字段是否还叫这个名、依赖版本对不对）</td>
+<td>✅ 进 plan mode 让我先验证再动手</td>
+</tr>
+<tr>
+<td>已经有详细计划，所有路径和依赖都拍板了</td>
+<td>❌ 直接喂 md 文件 + TaskCreate 拆任务执行，跳过 plan mode 更顺</td>
+</tr>
+</tbody>
+</table></div>
+<p>实战经验：当我把 <code>新plan，纯claude code.md</code> 那份 16K 字的 plan 喂过去后，AI 直接判断"不需要 plan mode 了，可以开干"——因为 6 个关键决策已经拍板、5 个 Phase + 闸门式人工 review、断点续传机制、目录结构、out-of-scope 全列清了。这种成熟度的 plan，进 plan mode 反而是浪费。</p>
+<h3>2.2 Plan mode 真正逼你回答的问题</h3>
+<p>不管进不进 plan mode，开工前都要先回答几个问题：</p>
+<ol>
+<li>输出长什么样？（样板 xlsx / JSON schema / 报告模板）</li>
 <li>输入是什么形态？图片、名单、关键词，还是官网 URL？</li>
 <li>什么算命中，什么算相邻，什么必须排除？</li>
 <li>是否需要 skill、MCP、subagent？</li>
 <li>哪些步骤可并行，哪些步骤必须人审？</li>
 </ol>
-<p>我后来给 plan mode 加了一个习惯：<strong>在 plan 里列出本次可见的能力扫描范围</strong>。</p>
+<p>这几个问题你自己心里有答案，AI 才能照着跑；否则 AI 会按它的"通用预设"填坑，跑出来不是你要的。</p>
+<h3>2.3 在 plan 里列扫描范围</h3>
+<p>我给 plan mode 加的一个习惯：<strong>在 plan 里列出本次可见的能力扫描范围</strong>。</p>
 <p>示例：</p>
-<pre><code>## 会用到的能力
+<pre><code class="language-markdown">## 会用到的能力
 
-扫描范围：
-- Skills: review, simplify, schedule, ...
-- MCP: chrome-devtools, browser-use, playwright
+扫描范围（本次会话可见）：
+- Skills (N): name1, name2, name3, ...
+- MCP namespaces (M): tavily, firecrawl, jina, chrome-devtools, ...
+- Agent: exhibition-finder, exhibition-verifier, cross-batch-merger
 
 会用：
-- chrome-devtools：处理 SPA 渲染和网络请求
-- review：跑完后审查边界错误
+- MCP firecrawl：抓 SPA 展会展商名单
+- Skill review：跑完后审查边界错误
+- Agent exhibition-verifier：批量验证公司品类
 
 考虑过但不用：
-- playwright：本次没有 UI 自动化测试</code></pre>
+- browser-use：内嵌 LLM 决策、与 evidence_quote 追溯链冲突，被 chrome-devtools 覆盖
+</code></pre>
 <p>这样做的好处是：如果某个 skill 或 MCP 没出现在扫描范围里，就知道不是 AI 忘了用，而是本次会话根本没注入。</p>
+<hr />
 </section>
-<section id='4-Agentic-Workflow把调研拆成流水线而不是一次性问答'><h2>4. Agentic Workflow：把调研拆成流水线，而不是一次性问答</h2>
+<section id='3-Agentic-Workflow把调研拆成流水线而不是一次性问答'><h2><span class="num">3</span>Agentic Workflow：把调研拆成流水线，而不是一次性问答</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">5 层模型 + 8 步流水线把 LLM、Python、人审分工清楚；研发岗项目就靠 3 个 agent + 1 个 command 跑完所有岗位。</span></aside>
+<h3>3.1 5 层模型 + 8 步流水线</h3>
 <p>我现在更倾向于把竞企调研拆成 5 层：</p>
-<pre><code>L4 交付层：xlsx / 报告 / README
+<pre><code class="language-text">L4 交付层：xlsx / 报告 / README
 L3 人审层：decisions/*.tsv、manual review、override
 L2 语义层：Claude 判断品类、产品、行业、证据
 L1 确定层：Python 抓取、归一化、URL 活检、去重、写表
-L0 原料层：图片、PDF、网页缓存、临时文件</code></pre>
+L0 原料层：图片、PDF、网页缓存、临时文件
+</code></pre>
 <p>对应到流水线就是：</p>
 <div class="table-wrap"><table>
-<thead><tr><th>步骤</th><th>做什么</th><th>产物</th></tr>
+<thead>
+<tr>
+<th>步骤</th>
+<th>做什么</th>
+<th>产物</th>
+</tr>
 </thead>
-<tbody><tr><td>1</td><td>种子采集</td><td>展会、图片、公司名单、关键词</td></tr>
-<tr><td>2</td><td>公司名归一和去重</td><td>candidates.jsonl</td></tr>
-<tr><td>3</td><td>URL 活检</td><td>live / dead / parking / blocked</td></tr>
-<tr><td>4</td><td>语义验证</td><td>verified.jsonl / findings.json</td></tr>
-<tr><td>5</td><td>规则匹配</td><td>matched / unmatched</td></tr>
-<tr><td>6</td><td>人审 override</td><td>decisions.tsv</td></tr>
-<tr><td>7</td><td>出 xlsx</td><td>result.xlsx</td></tr>
-<tr><td>8</td><td>review / diff</td><td>修正报告、版本差异</td></tr>
+<tbody>
+<tr>
+<td>1</td>
+<td>种子采集</td>
+<td>展会、图片、公司名单、关键词</td>
+</tr>
+<tr>
+<td>2</td>
+<td>公司名归一和去重</td>
+<td>candidates.jsonl</td>
+</tr>
+<tr>
+<td>3</td>
+<td>URL 活检</td>
+<td>live / dead / parking / blocked</td>
+</tr>
+<tr>
+<td>4</td>
+<td>语义验证</td>
+<td>verified.jsonl / findings.json</td>
+</tr>
+<tr>
+<td>5</td>
+<td>规则匹配</td>
+<td>matched / unmatched</td>
+</tr>
+<tr>
+<td>6</td>
+<td>人审 override</td>
+<td>decisions.tsv</td>
+</tr>
+<tr>
+<td>7</td>
+<td>出 xlsx</td>
+<td>result.xlsx</td>
+</tr>
+<tr>
+<td>8</td>
+<td>review / diff</td>
+<td>修正报告、版本差异</td>
+</tr>
 </tbody>
 </table></div>
 <p>这里有两条原则很重要：</p>
@@ -150,44 +603,237 @@ L0 原料层：图片、PDF、网页缓存、临时文件</code></pre>
 <li><strong>Python 不调 LLM SDK</strong>：Python 只做确定性工作，语义判断交给 Claude 主会话或 subagent。</li>
 <li><strong>blocked 不等于 unmatched</strong>：打不开、反爬、PDF 解析失败，是 blocked；业务不匹配才是 unmatched。</li>
 </ul>
-</section>
-<section id='5-并发与-Subagent吞吐提升但必须有契约'><h2>5. 并发与 Subagent：吞吐提升，但必须有契约</h2>
-<p>并发不是简单地“多开几个 AI”。如果没有返回契约，主会话会被几十个 transcript 淹没。</p>
-<p>涂料项目里更稳定的做法是：</p>
-<pre><code>{
-  &quot;company_short&quot;: &quot;chuanmeixun&quot;,
-  &quot;status&quot;: &quot;ok&quot;,
-  &quot;findings_path&quot;: &quot;findings/batch/company.json&quot;,
-  &quot;product_count&quot;: 168,
-  &quot;blockers&quot;: [],
-  &quot;skill_trace&quot;: &quot;SKILL-RESEARCH-ONE-COMPANY-v11&quot;
-}</code></pre>
-<p>主会话只关心：</p>
+<h3>3.2 研发岗项目的三个 Agent</h3>
+<p>研发岗项目实际落地的就是 <code>.claude/agents/</code> 下的三个 subagent，每个都对应流水线的一段：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Agent</th>
+<th>触发步骤</th>
+<th>输入</th>
+<th>输出</th>
+<th>干啥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>exhibition-finder</strong></td>
+<td>Step 1</td>
+<td><code>position_id</code></td>
+<td><code>exhibitions.csv</code>（15 列，含 density/priority/exhibitor_list_access）</td>
+<td>给岗位反搜展会，用 MCP search 跑 query 模板，估算密度优先级</td>
+</tr>
+<tr>
+<td><strong>exhibition-verifier</strong></td>
+<td>Step 5</td>
+<td>公司清单 + 岗位 ID + 展会 tag</td>
+<td><code>verify_batch&lt;N&gt;.jsonl</code></td>
+<td>品牌简称搜索 → 找官网 → url_check → 评估品类命中 → 写 JSONL</td>
+</tr>
+<tr>
+<td><strong>cross-batch-merger</strong></td>
+<td>Step 6</td>
+<td>多份 verify_batch.jsonl + 已有 verified.jsonl</td>
+<td><code>merge_suspects.tsv</code>（5 列 + 用户审第 6 列）</td>
+<td>rapidfuzz 跨批 fuzzy dedup，每对给 MERGE/LINK/SEPARATE 建议</td>
+</tr>
+</tbody>
+</table></div>
+<p>每个 agent 都有：</p>
 <ul>
-<li>文件写到哪里；</li>
-<li>是否完成；</li>
-<li>多少产品；</li>
-<li>有无 blocker；</li>
-<li>skill_trace 是否匹配。</li>
+<li><strong>frontmatter 里写 description + tools + model + trace_token</strong>：description 决定我会不会主动选它；trace_token 写进每次输出，主会话校验版本不漂移。</li>
+<li><strong>Phase 0 必读清单</strong>：包括 <code>CLAUDE.md</code>、<code>docs/conventions.md</code>、<code>config/categories.yaml</code>，避免主会话每次重复在 prompt 里复制规则。</li>
+<li><strong>Final message 5 行总结</strong>：主会话只读 summary 不读 transcript，token 占用极小。</li>
 </ul>
-<h3>5.1 并发的收益</h3>
-<p>传美讯和长兴光电的实战里，两家公司可以同时跑：</p>
-<ul>
-<li>长兴光电：Cloudflare 站点，用 <code>curl_cffi</code> 过反爬，得到 420 SKU。</li>
-<li>传美讯：凡科站点，型号藏在图片里，先 OCR 得到 80 行，review 后修正到 168 行。</li>
-</ul>
-<p>并发让主会话可以一边等 subagent，一边准备 build xlsx 脚本。</p>
-<h3>5.2 并发的风险</h3>
-<ol>
-<li><strong>工具配额冲突</strong>：多个会话同时 WebSearch/WebFetch/subagent，会撞 rate limit。</li>
-<li><strong>共享文件冲突</strong>：不同岗位目录可以并行，但共同索引文件如 <code>docs/positions-index.md</code> 可能冲突。</li>
-<li><strong>规则版本漂移</strong>：subagent 没读到新版 SKILL.md，旧规则继续跑。</li>
-</ol>
-<p>所以必须加 <code>skill_trace</code>，主会话发现不匹配就重派或停止。</p>
+<h3>3.3 三个 agent 协作的关键设计</h3>
+<p><strong>1. orchestrator 是 markdown，不是程序</strong></p>
+<p><code>.claude/commands/run-position.md</code> 整份文档就是写给我看的 8 步剧本。slash command 没有解释器、没有 runtime——我读完按剧本走。</p>
+<p><strong>2. 闸门 = prompt 约束</strong></p>
+<p>剧本里写"等用户回 'ok' 才能继续"，是纯 prompt 约束，不是程序里的 <code>input()</code>。这让每步都可中断、可 <code>--redo stepN</code>、能跨会话续跑。</p>
+<p><strong>3. 重活塞进 subagent 隔离上下文</strong></p>
+<p>一个 verifier 要消化 30 家公司的 web 搜索 + 官网验证结果。如果在主会话跑，几个 batch 下来 token 就爆了。子 agent 跑完只返回 5 行 summary，主会话 token 几乎不变。</p>
+<p><strong>4. 决策落 TSV 让用户人审</strong></p>
+<p>merge_suspects.tsv 第 6 列留空给用户填决策（MERGE/LINK/SEPARATE/SKIP）。这种判断 LLM 不靠谱，留人审，决策落盘可复现。</p>
+<p><strong>5. Python 做确定性逻辑</strong></p>
+<p>凡是"算分 / 写 xlsx / 合并 jsonl"这种<strong>不需要判断</strong>的事，全交 Python：</p>
+<pre><code class="language-bash">python -m pipeline.merge_batches --position P0X
+python -m pipeline.apply_decisions --position P0X
+python -m pipeline.assign --position P0X
+python -m pipeline.build_xlsx --position P0X
+</code></pre>
+<p>评分公式 / xlsx 格式不能漂移，必须可测，所以用 Python 而不是让 LLM 算。</p>
+<hr />
 </section>
-<section id='6-ReviewAI-调研最容易错在“口径”和“边界”'><h2>6. Review：AI 调研最容易错在“口径”和“边界”</h2>
+<div class="part" id="part-III"><div class="part-roman">III</div><div class="part-body"><div class="part-en">Part III · Engineering</div><div class="part-cn">工程化与纠偏</div></div><div class="part-count">2 节</div></div>
+<section id='4-AI-搜索-MCP装上-Tavily-/-Jina-/-Firecrawl-之后'><h2><span class="num">4</span>AI 搜索 MCP：装上 Tavily / Jina / Firecrawl 之后</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">裸 WebFetch 抓不动 SPA；Tavily 找官网 + Jina Reader 拿干净 Markdown + Firecrawl 整站爬，三件套覆盖 95% 场景。</span></aside>
+<h3>4.1 为什么 WebFetch 不够</h3>
+<p>很多企业官网现在是 SPA：服务器只返回一个空壳 HTML，真正内容靠浏览器执行 JavaScript 后才出现。</p>
+<p>Claude Code 内置 <code>WebFetch</code> 本质上是一次性 HTTP GET + HTML 解析（类似 <code>curl</code> + 文本提取），<strong>不执行 JavaScript</strong>。所以裸 WebFetch 经常只能抓到：</p>
+<pre><code class="language-html">&lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;bundle.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>这对竞企调研很致命，因为产品列表、型号、应用行业都可能是 JS 渲染出来的。</p>
+<h3>4.2 三个 MCP 的定位</h3>
+<p>我后来给项目装了三个 MCP，定位互补：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>工具</th>
+<th>本质</th>
+<th>处理 SPA</th>
+<th>免费额度</th>
+<th>项目里干啥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tavily</strong></td>
+<td>AI 优化的搜索 API，替代 WebSearch</td>
+<td>❌（本身是搜索）</td>
+<td>1000 次/月</td>
+<td>"找官网" / 找展商目录源头</td>
+</tr>
+<tr>
+<td><strong>Jina Reader</strong></td>
+<td>URL → LLM-friendly Markdown</td>
+<td>✅（后端渲染）</td>
+<td>1M tokens（带 key 2000 RPM）</td>
+<td>SPA 站抓正文、绕反爬、产品页拿干净 Markdown</td>
+</tr>
+<tr>
+<td><strong>Firecrawl</strong></td>
+<td>托管爬虫（Playwright 集群）</td>
+<td>✅（后端 Chromium）</td>
+<td>500 credits/月</td>
+<td>整站 map/crawl/extract、批量抓产品页、SPA waitFor</td>
+</tr>
+</tbody>
+</table></div>
+<p>接入方式：</p>
+<ul>
+<li><strong>Tavily</strong> / <strong>Firecrawl</strong> 走本地 stdio（<code>npx</code>）</li>
+<li><strong>Jina</strong> 用官方 Remote HTTP（<code>https://mcp.jina.ai/v1</code>），无需安装</li>
+</ul>
+<p>三家都 GitHub/Google 一键登录拿 key，无需绑卡。<code>.mcp.json</code> 用 <code>${VAR}</code> 引环境变量，可放心 commit；<code>.env</code> 走 <code>.gitignore</code>。</p>
+<h3>4.3 装 MCP 前 vs 装 MCP 后（实测对比）</h3>
+<p><strong>研发岗项目 P01 redo 对比</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>v1（无 MCP）</th>
+<th>v2（Tavily + Jina + Firecrawl）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>候选展会</td>
+<td>17</td>
+<td><strong>23</strong>（+PW09 沈阳变压器展含天然酯油 / +6 国内外展）</td>
+</tr>
+<tr>
+<td>展商抓取</td>
+<td>EP Shanghai 5 家样本 / 旧版 EPOWER 5 家</td>
+<td><strong>EPOWER 230 家 N3-N4 馆完整名单</strong>（Firecrawl GBK 编码）+ xfmr.show 30 家 + CEEIA 议程 25 家</td>
+</tr>
+<tr>
+<td>verified 池</td>
+<td>69</td>
+<td><strong>235</strong>（×3.4）</td>
+</tr>
+<tr>
+<td>命中</td>
+<td>7</td>
+<td><strong>8</strong>（+Nynas / +Raj Petro，−壳牌中国误命中）</td>
+</tr>
+<tr>
+<td>关键改善</td>
+<td>—</td>
+<td>Firecrawl 拿到 EPOWER 完整名单；Jina 绕过 jina.ai 422 + TLS 错误；Tavily 找到 PW09 沈阳展（v1 完全没发现）</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>研发岗项目 P02 redo 对比</strong>：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>维度</th>
+<th>v1</th>
+<th>v2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>展会来源</td>
+<td>HT02 巨浪 1 个</td>
+<td>HT01 北京专展 OCR（v1 漏抓） + HT02 + HT08/HT09 sample</td>
+</tr>
+<tr>
+<td>HT01 抓取</td>
+<td>标"TLS 错 + SPA 框架，不可抓"，跳过</td>
+<td><strong>5 张 jpg vision OCR 拿到 162 家</strong>（高分辨率 2022×3027）</td>
+</tr>
+<tr>
+<td>verified</td>
+<td>298</td>
+<td>284</td>
+</tr>
+<tr>
+<td>命中</td>
+<td>11</td>
+<td><strong>15</strong>（+ALD HTS / +湖北天舒 / +天津/江苏丰东热处理设备）</td>
+</tr>
+<tr>
+<td>命中率</td>
+<td>3.7%</td>
+<td><strong>5.3%</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>P02 HT01 是 MCP 改善最大的案例：v1 finder 看到第一次 TLS 错就放弃 + JS 动画框架（ScrollReveal/AOS）误判为 SPA → 标"不可抓"。v2 加了"页面框架 vs 名单载体"二维探查后，发现实际是 <strong>SSR HTML 外壳 + 图片扫描件载体</strong>（CDN 图床 file2.123hl.cn），用 <code>curl -k</code> + Read 多模态 vision OCR 一举拿到 162 家展商。</p>
+<p>涂料项目的 SPA 大厂站点（陶氏、巴斯夫、PPG）则是 Jina Reader 替代裸 WebFetch 的甜区——产品详情页（Hybris / AEM / Sitecore SPA 前端）以前 fetch 回来一半是空的，换 <code>r.jina.ai/&lt;url&gt;</code> 前缀立刻能拿正文 + 表格，token 还省一大半。</p>
+<h3>4.4 推荐退路链</h3>
+<p>从轻到重：</p>
+<pre><code class="language-text">1. 普通 WebFetch / curl                       ← 90% 静态站
+2. Jina Reader：r.jina.ai/&lt;url&gt; → Markdown    ← SPA + 反爬 + 干净输出
+3. Tavily search                              ← 找官网 / 找展商目录入口
+4. 找 SPA 的真实 API：chrome-devtools 看 network
+5. Firecrawl：批量 map / crawl / extract      ← 整站 / 批量
+6. chrome-devtools / browser-use：真实浏览器交互
+7. 仍失败：blocked，进入人工决策
+</code></pre>
+<h3>4.5 工具准入第一原则（踩过 browser-use 的坑后定的）</h3>
+<p><strong>任何在抓数据 / 找证据链路里"自己有自主决策权"的工具，都要先怀疑它能不能塞进 evidence_quote 追溯链；过不了这关，技术再强也不进 <code>.mcp.json</code></strong>。</p>
+<p>browser-use 是反例：<code>retry_with_browser_use_agent</code> 把决策权让出去，回来只有结论没有路径，对 <code>evidence_quote / source_url / is_inferred</code> 三层硬规则就是结构性冲突。性能问题可以升 plan 修，audit 黑盒是设计决定的——补一层校验等于干两遍活，那直接用 chrome-devtools 就行。</p>
+<p>Tavily / Jina / Firecrawl 都是"透明手术刀"：你让它干啥它干啥，过程数据全留下，可以反查。</p>
+<h3>4.6 对两个项目的适配</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>更适合的工具</th>
+<th>原因</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>研发岗竞企图谱</td>
+<td>Jina Reader + Tavily（主力）+ Firecrawl（SPA 站偶尔用）</td>
+<td>多是找官网和验证品类，不需要深爬整站</td>
+</tr>
+<tr>
+<td>涂料产品调研</td>
+<td>Jina Reader + Firecrawl（map/extract）+ chrome-devtools</td>
+<td>要深入产品详情页、产品树、SPA、PDF、图片 OCR</td>
+</tr>
+</tbody>
+</table></div>
+<p>两个项目都可以优先把 <code>r.jina.ai/</code> 作为 WebFetch 失败后的第一退路；涂料项目遇到大厂站点优先评估 Firecrawl 的 map/extract，减少 subagent 逐页点菜单的 token 消耗；chrome-devtools 保留给复杂交互、登录、弹窗、地区选择、网络请求分析。</p>
+<hr />
+</section>
+<section id='5-ReviewAI-调研最容易错在口径和边界'><h2><span class="num">5</span>Review：AI 调研最容易错在&quot;口径&quot;和&quot;边界&quot;</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">第一次跑出来的结果一定有口径问题；review 是必经环节，要看历史知识、URL 硬规则、设备厂误命中、OCR 拆 SKU 这四类。</span></aside>
 <p>Review 不是可选项。两个项目里最有价值的修正都来自 review。</p>
-<h3>6.1 P01 的 ABB / 日立能源案例</h3>
+<h3>5.1 P01 的 ABB / 日立能源案例（过时行业知识）</h3>
 <p>最开始 ABB 被判为植物基绝缘油命中，因为历史上 ABB 有 BIOTEMP 技术线。但 review 后发现：</p>
 <ul>
 <li>ABB Power Grids 业务已转给 Hitachi Energy；</li>
@@ -197,65 +843,204 @@ L0 原料层：图片、PDF、网页缓存、临时文件</code></pre>
 <p>这暴露了两个问题：</p>
 <ol>
 <li>AI 会把过时行业知识当当前事实；</li>
-<li>如果 <code>product_text</code> 里出现“植物基绝缘油”等关键词，会被 assign 规则误命中。</li>
+<li>如果 <code>product_text</code> 里出现"植物基绝缘油"等关键词，会被 assign 规则误命中。</li>
 </ol>
-<p>修正方式：</p>
-<ul>
-<li>ABB 改为 unmatched / adjacent；</li>
-<li>日立能源改为 matched；</li>
-<li>evidence_sources 补真实可验 URL；</li>
-<li>重跑 assign 和 build_xlsx。</li>
-</ul>
-<h3>6.2 P02 的 TAV 502 案例</h3>
-<p>原规则把 HTTP 502 也视为 live，因为“站点存在”。但用户实际打开不了，HR 交付场景里这不该算可用官网。</p>
+<p>修正方式：ABB 改 unmatched / 日立能源改 matched / evidence_sources 补真实可验 URL / 重跑 assign 和 build_xlsx。</p>
+<h3>5.2 P02 的 TAV 502 案例（URL 硬规则）</h3>
+<p>原规则把 HTTP 502 也视为 live，因为"站点存在"。但用户实际打开不了，HR 交付场景里这不该算可用官网。</p>
 <p>后来规则收紧为：<strong>只有 HTTP 200 才算 live，其它 3xx/4xx/5xx 都按 dead 或待人工 override。</strong></p>
-<p>这说明：技术上“域名存在”和业务上“可作为证据链接”不是一回事。</p>
-<h3>6.3 传美讯 OCR 案例</h3>
+<p>这说明：技术上"域名存在"和业务上"可作为证据链接"不是一回事。</p>
+<h3>5.3 P07 的设备厂 / 服务商误命中（字面子串）</h3>
+<p>review P07 时发现 22 家 P07 命中里至少 4 家是误命中：</p>
+<ul>
+<li><strong>深圳明锐理想</strong>：主营 AOI/SPI/AXI 光学<strong>检测设备</strong>，product_text 写"锡膏<strong>检查机</strong> SPI"，被 <code>_hit("锡膏", ...)</code> 字面子串命中——其实是检测锡膏的设备厂。</li>
+<li><strong>深圳市凯泰新能源</strong>：国际品牌<strong>分销贸易商</strong>，不是研发企业。</li>
+<li><strong>云锡新材料 / 田村化研东莞</strong>：没有独立官网（链向集团母站），按 CLAUDE.md 决策 4「无可用官网 → unmatched」应该降级。</li>
+</ul>
+<p>修正路径：</p>
+<ol>
+<li>写 <code>decisions/p07_force_unmatched.tsv</code>，把这些手动 force_unmatched + 标 reason_tag（equipment_vendor / service_provider / no_independent_url / adjacent_category）。</li>
+<li>修复 <code>pipeline/assign.py::_hit_positive</code> 的 2 个 false-negative bug：多次出现取最早 negative + 单字 neg_word（"无"/"非"/"不"）误触负向。</li>
+<li>顺手对 7 个岗位全部 audit 一遍，最终：P01 -1 / P02 0 / P03 0 / P04 0 / P05 +2 / P06 -2 / P07 -1。</li>
+</ol>
+<p>核心经验是：<strong>工具能力上线之后，必须同步补流程规则。否则 AI 能抓到信息，但会用错。</strong></p>
+<h3>5.4 传美讯 OCR 案例（涂料项目）</h3>
 <p>第一次传美讯只得到 80 行，review 后发现：</p>
 <ul>
 <li>ECOTANK 一张图里有 18 个型号，不能只取第一个；</li>
 <li>墨水瓶、包装盒不是涂料行业产品，要剔除；</li>
 <li>OCR 479 张图太慢，应该先 triage 再 crop。</li>
 </ul>
-<p>修正后：</p>
-<ul>
-<li>传美讯从 80 行变成 168 行；</li>
-<li>包装/容器产品全部剔除；</li>
-<li>OCR 时间从约 34 分钟降到约 7.5 分钟；</li>
-<li>多 code 拆行规则写回 SKILL.md。</li>
-</ul>
-<p>这里的核心经验是：<strong>工具能力上线之后，必须同步补流程规则。否则 AI 能抓到信息，但会用错。</strong></p>
+<p>修正后传美讯从 80 行变成 168 行；OCR 时间从约 34 分钟降到约 7.5 分钟；多 code 拆行规则写回 SKILL.md。</p>
+<hr />
 </section>
-<section id='7-JS-渲染与-AI-搜索-MCPWebFetch-不够退路链要提前设计'><h2>7. JS 渲染与 AI 搜索 MCP：WebFetch 不够，退路链要提前设计</h2>
-<p>很多企业官网现在是 SPA：服务器只返回一个空壳 HTML，真正内容靠浏览器执行 JavaScript 后才出现。</p>
-<p>所以裸 WebFetch 经常只能抓到：</p>
-<pre><code>&lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;bundle.js&quot;&gt;&lt;/script&gt;</code></pre>
-<p>这对竞企调研很致命，因为产品列表、型号、应用行业都可能是 JS 渲染出来的。</p>
-<h3>7.1 推荐退路链</h3>
-<p>从轻到重：</p>
-<pre><code>1. 普通 WebFetch / curl
-2. Jina Reader：r.jina.ai/&lt;url&gt;，把页面转 Markdown
-3. 找 SPA 的真实 API：用 chrome-devtools 看 network
-4. Firecrawl：批量 map / crawl / extract
-5. chrome-devtools / browser-use：真实浏览器交互
-6. 仍失败：blocked，进入人工决策</code></pre>
-<h3>7.2 对两个项目的适配</h3>
+<div class="part" id="part-IV"><div class="part-roman">IV</div><div class="part-body"><div class="part-en">Part IV · Outcomes</div><div class="part-cn">成果与教训</div></div><div class="part-count">2 节</div></div>
+<section id='6-最终调研结果'><h2><span class="num">6</span>最终调研结果</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">研发岗 7 个跑通，215 家命中合并成 248 公司 × 213 明细的 summary.xlsx；涂料 104 家 9086 SKU × 53 列。</span></aside>
+<h3>6.1 研发岗竞企图谱（7 岗位）</h3>
+<p><strong><code>positions/P0X/result.xlsx</code> × 7 + 合并 <code>summary.xlsx</code></strong></p>
+<p>每个岗位单独的 result.xlsx 都有「汇总 + 明细」双 sheet，明细 20 列（对齐手工 v1 格式）：包含官网（hyperlink）、主品类、命中岗位、来源展会、参展依据 / evidence_quote、vision_confidence、url_confidence、公司类型、相关品类、产品业务判断、命中理由、命中评分、命中关键词、官网复核结论、处理建议、官网复核依据等。</p>
+<p>经 P07 review + bug fix + 全岗位 audit 后的最终命中数：</p>
 <div class="table-wrap"><table>
-<thead><tr><th>项目</th><th>更适合的工具</th><th>原因</th></tr>
+<thead>
+<tr>
+<th>岗位</th>
+<th>命中</th>
+</tr>
 </thead>
-<tbody><tr><td>研发岗竞企图谱</td><td>Jina Reader + Tavily 可选</td><td>多是找官网和验证品类，不需要深爬整站</td></tr>
-<tr><td>涂料产品调研</td><td>Jina Reader + Firecrawl + chrome-devtools</td><td>要深入产品详情页、产品树、SPA、PDF、图片 OCR</td></tr>
+<tbody>
+<tr>
+<td>P01 植物基绝缘油</td>
+<td>8</td>
+</tr>
+<tr>
+<td>P02 热处理工艺</td>
+<td>15</td>
+</tr>
+<tr>
+<td>P03 三防漆</td>
+<td>20</td>
+</tr>
+<tr>
+<td>P04 特种润滑脂</td>
+<td>28</td>
+</tr>
+<tr>
+<td>P05 矿产浮选药剂</td>
+<td>54</td>
+</tr>
+<tr>
+<td>P06 灌封胶 / 导热胶</td>
+<td>69</td>
+</tr>
+<tr>
+<td>P07 助焊剂</td>
+<td>21</td>
+</tr>
+<tr>
+<td><strong>合计</strong></td>
+<td><strong>215</strong></td>
+</tr>
 </tbody>
 </table></div>
-<p>我的建议是：</p>
+<p><code>summary.xlsx</code> 把 7 个 <code>result.xlsx</code> + 旧 <code>results_photo.xlsx</code> 合并：</p>
 <ul>
-<li>两个项目都可以优先把 <code>r.jina.ai/</code> 作为 WebFetch 失败后的第一退路。</li>
-<li>涂料项目如果遇到大厂站点，可以评估 Firecrawl 的 map/extract，减少 subagent 逐页点菜单的 token 消耗。</li>
-<li>chrome-devtools 和 browser-use 保留给复杂交互、登录、弹窗、地区选择、网络请求分析。</li>
+<li><strong>汇总 sheet</strong>：7 行岗位 × 横向公司，每个 cell 都有真实 hyperlink + 蓝下划线字体，冻结 A2 → <strong>248 公司行</strong>。</li>
+<li><strong>明细 sheet</strong>：213 行 × 20 列，官网列 hyperlink 完整。跨岗位的公司"命中岗位"列已合并（如"上海拜高高分子"同时命中三防漆 + 润滑脂 + 灌封胶）。</li>
 </ul>
+<p>去重设计：策略 A（URL 优先 + 名字兜底），处理同公司不同写法（3M 中国 / WEVO-CHEMIE / 壳牌中国 / Dow Inc. ↔ 陶氏化学 / 汉高 ↔ Henkel）。脚本固化在 <code>pipeline/build_summary.py</code>，重跑用 <code>python3 -m pipeline.build_summary</code>，alias 表（<code>COMPANY_ALIASES</code>）以后再遇到新写法直接加一条。</p>
+<h3>6.2 涂料行业产品调研</h3>
+<p><strong><code>涂料同行调研_绿色筛选.xlsx</code></strong>（位于 <code>E:\coatings_industry_competitor_research\save_files_green\</code>）</p>
+<ul>
+<li><strong>同行产品 sheet</strong>：<strong>9086 行</strong> SKU × <strong>53 列</strong><ul>
+<li>基础列：序号、公司名、大类、细类、产品、产品网址（hyperlink）</li>
+<li><strong>47 个行业列</strong>（√ 标记）：包装印刷 / 电子电器 / 建筑 / 汽车 / 3C 电子 / 风电防腐 / 纺织印染 / 造纸 / 锂电池 / 家具 / 木器 / 钢结构 / 地坪 / 船舶防腐 等</li>
+</ul>
+</li>
+<li><strong>调研概况 sheet</strong>：<strong>104 家</strong>公司 × 6 列（序号 / 公司名 / 网址 / 状态 / 备注）</li>
+</ul>
+<p>典型公司产品规模（备注列保留了关键 audit 信息）：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>公司</th>
+<th>产出 SKU</th>
+<th>关键路径</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>洋紫荆油墨（中山）</td>
+<td>748 行</td>
+<td>PDF 手册重做（旧 96 → 新 748），4 大类（包装 558 + 装饰 99 + 电子 85 + 环保 6）</td>
+</tr>
+<tr>
+<td>传美讯</td>
+<td>168 行</td>
+<td>凡科站型号藏图片里，OCR 拆 SKU（80 → 168）</td>
+</tr>
+<tr>
+<td>长兴光电</td>
+<td>420 SKU</td>
+<td>Cloudflare 站，<code>curl_cffi</code> 过反爬</td>
+</tr>
+<tr>
+<td>珠海东洋色材</td>
+<td>110 行</td>
+<td>4 大类，portfolio-item 静态详情，SKU 在图里 → Read OCR</td>
+</tr>
+<tr>
+<td>广东欧利雅</td>
+<td>85 行</td>
+<td>JZ 模板 h-pr--0_578_X.html 真详情（h-pd 是空壳）</td>
+</tr>
+<tr>
+<td>巴德士</td>
+<td>BLOCKED</td>
+<td>站点 curl/WebFetch 全部超时（沙箱出口屏蔽），待网络恢复后单跑</td>
+</tr>
+</tbody>
+</table></div>
+<h3>6.3 交付要点</h3>
+<p>不管哪个项目，最终交付给 HR 的 xlsx 都遵守以下硬规则：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>规则</th>
+<th>具体</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>官网必活</strong></td>
+<td><code>url_check_status == live</code>（仅 HTTP 200）。dead/parking → unmatched 或 url_overrides.tsv 手动 patch</td>
+</tr>
+<tr>
+<td><strong>超链接到官网</strong></td>
+<td><code>=HYPERLINK("url","公司全称")</code> 公式法。cell 显示公司全称，点击跳官网</td>
+</tr>
+<tr>
+<td><strong>证据可追溯</strong></td>
+<td>每条命中带 <code>evidence_quote</code>（展商目录原文）+ <code>source_url</code>。HR 可打开 URL 用 Ctrl+F 复核</td>
+</tr>
+<tr>
+<td><strong>品类严格边界</strong></td>
+<td>邻近业务（如絮凝剂/消泡剂不命中 P05、检测设备厂不命中 P07）走 <code>force_unmatched.tsv</code> 显式声明</td>
+</tr>
+<tr>
+<td><strong>blocked ≠ unmatched</strong></td>
+<td>打不开是 blocked（technical），业务不匹配才是 unmatched（business）</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
 </section>
-<section id='8-最后沉淀成一套-SOP'><h2>8. 最后沉淀成一套 SOP</h2>
+<section id='7-局限性与下次改进'><h2><span class="num">7</span>局限性与下次改进</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">核心断层在"verifier 写人类语义 ↔ pipeline 做字面匹配"；下次让 verifier 出枚举决策、不让 pipeline 猜 prose，80% 的局限自动消失。</span></aside>
+<p>跑完两个项目，回头看有 7 条"开局就该想到"的事情。本质上都指向同一个根因：<strong>verifier 写的"人类语义"和 pipeline 做的"字面匹配"之间存在断层</strong>——从 day 1 把这两件事隔离开，后面 80% 的局限都不会出现。</p>
+<h3>7.1 结构化字段 vs 人类 prose 的边界，开局就要画好</h3>
+<p>最大的坑：<code>product_text</code> 同时给 HR 看（含"无 X 业务" / "非 X 厂" / "应用于 Y" 等叙述性句式）也给 pipeline 看（字面子串匹配）。两个目的对 prose 的要求是冲突的。</p>
+<p><strong>下次</strong>：verifier 输出的 JSON 里 prose 字段（给人看的）不参与评分。打分只看 <code>main_categories[]</code>、<code>related_categories[]</code>、<code>negative_categories[]</code>、<code>company_type</code> 这些枚举字段。prose 是 audit trail，不是 truth source。</p>
+<h3>7.2 中文做子串匹配前，先列"歧义清单"</h3>
+<p><code>锡膏</code> ⊂ <code>锡膏检查机</code>、<code>助焊剂</code> ⊂ <code>助焊剂清洗剂</code>、<code>硅脂</code> ⊂ <code>导热硅脂</code>、<code>焊膏</code> ⊂ <code>烧结银焊膏</code>、<code>无</code> ⊂ <code>无铅</code> / <code>无尘</code> / <code>无关</code>、<code>非</code> ⊂ <code>非晶</code>。这些不是边角，是核心评分准确性的来源。</p>
+<p><strong>下次</strong>：<code>categories.yaml</code> 定稿前过一遍"这些词作为子串出现在 reject 类目里多常见"。每条 main_category 列 3-5 个"看上去像但其实不是"的对照词，写进 <code>negative_keywords</code>。assign 跑通前先用 50 条人工标注样本验证。</p>
+<h3>7.3 company_type 这种硬标签，放在评分循环之前</h3>
+<p><code>company_type ∈ {设备厂, 贸易商, 服务商, 矿山客户}</code> 是个 strong prior，但 <code>assign.py</code> 只在 score=0 时才拿去归类。结果"锡膏检查机"这种字面命中分数 1.0 的设备厂被归到 matched。</p>
+<p><strong>下次</strong>：assign 第一行就先看硬标签。决策顺序应该是 <strong>force_unmatched &gt; company_type 黑名单 &gt; URL 硬规则 &gt; 评分</strong>，不是反过来。</p>
+<h3>7.4 否定语义不要交给 regex</h3>
+<p><code>无 X 业务</code> / <code>代理 X</code> / <code>非 X 厂</code> / <code>主营并非 X</code> / <code>X 应用于 Y</code> / <code>不生产 X</code> / <code>X 不生产 Y</code>——我们花两轮把这些 idiom 一个个塞进 <code>neg_pattern</code>，但 <code>X 不生产 Y</code> 当 X、Y 都在窗口内的语义级 case，regex 怎么调都解决不了（WEVO 例）。</p>
+<p><strong>下次</strong>：与其在 regex 里堆 alias，不如让 verifier 直接写 <code>excluded_for_position: [P07]</code> 这种显式字段。"我看了官网，结论是不命中 P07"比"我写一段 prose 让 pipeline 猜结论"靠谱得多。</p>
+<h3>7.5 Day-1 就建 audit-diff 工具</h3>
+<p>这次是为了对比 bug-fix 前后才临时写的 <code>/tmp/audit_diff.py</code>。如果一开始就有这工具，每次跑完 assign 就 print "+N -M 岗位变化 K"，bug 和 regression 当天就能发现，不会等到月后人审才暴露。</p>
+<p><strong>下次</strong>：<code>pipeline/assign.py</code> 自带 <code>--diff &lt;previous&gt;</code> 模式，输出新增 / 失配 / 岗位变化清单。每次重跑前自动 backup 旧 <code>assignments.jsonl</code>。</p>
+<h3>7.6 守住"deterministic pipeline → xlsx"的链路</h3>
+<p>最坑的是发现：原 P07 result.xlsx 的 22 家公司不能从当前 verified.jsonl 跑 assign 复现。中间有手动 patch 但没记入 <code>decisions/</code>。结果每次重跑都跟"原版"对不上，要逆推哪里 diverge 了。</p>
+<p><strong>下次</strong>：xlsx 必须是 <code>assign → build_xlsx</code> 的纯函数输出。所有人审决策都进 <code>decisions/*.tsv</code>，不允许直接编辑 xlsx 或 <code>assignments.jsonl</code>。build 之前自动 <code>git status</code> 检查 verified / assignments 干净；不干净就拒绝 build。</p>
+<h3>7.7 命中阈值 0.6 是个 magic number，要有 sanity check</h3>
+<p><code>SCORE_THRESHOLD = 0.6</code> + 各项权重（1.0 / 0.6 / 0.3 / 0.2 / -0.5）是拍脑袋的。本次出现的"分数刚好 0.3"失配（卡夫特、翰华锡业一度）就是阈值附近的灰带。</p>
+<p><strong>下次</strong>：预先准备约 30 条人工 ground truth（10 强匹配 + 10 弱匹配 + 10 边缘 unmatched），跑出来看 precision / recall。阈值 + 权重根据这组样本调，不是凭感觉。</p>
+<hr />
+</section>
+<div class="part" id="part-V"><div class="part-roman">V</div><div class="part-body"><div class="part-en">Part V · Wrap-up</div><div class="part-cn">沉淀与收尾</div></div><div class="part-count">2 节</div></div>
+<section id='8-最后沉淀成一套-SOP'><h2><span class="num">8</span>最后沉淀成一套 SOP</h2><aside class="takeaway"><span class="takeaway-badge">本节要点</span><span class="takeaway-text">六步法——定契约 → 建骨架 → 跑样本 → 写规则 → 上并发 → 跑 review。</span></aside>
 <p>如果以后从零搭一个新的竞企调研项目，我会按这个顺序做：</p>
 <h3>第一步：先定业务契约</h3>
 <ul>
@@ -266,35 +1051,31 @@ L0 原料层：图片、PDF、网页缓存、临时文件</code></pre>
 <li>unmatched reason_tag 枚举。</li>
 </ul>
 <h3>第二步：建立项目骨架</h3>
-<pre><code>CLAUDE.md
+<pre><code class="language-text">CLAUDE.md
 .claude/agents/
 .claude/commands/
-.claude/skills/&lt;workflow&gt;/SKILL.md
+.claude/skills/&lt;workflow&gt;/SKILL.md   ← 仅当真有&quot;姿态切换&quot;需求
+.mcp.json + .env.example             ← MCP 配置
 config/*.yaml
 pipeline/*.py
 positions/ 或 findings/
 decisions/*.tsv
-docs/workflow.md</code></pre>
+docs/workflow.md + docs/conventions.md
+</code></pre>
 <h3>第三步：先用 alpha 模式跑 3-5 个样本</h3>
 <p>不要一上来就并发 100 家。先让主会话完整跑几个样本，把边界问题暴露出来。</p>
-<h3>第四步：把踩坑写进 SKILL.md</h3>
+<h3>第四步：把踩坑写进 SKILL.md / agent prompt</h3>
 <p>例如：</p>
 <ul>
 <li>包装/容器不算涂料产品；</li>
 <li>一张图多个型号要拆多行；</li>
 <li>树脂类产品不标行业列；</li>
 <li>HTTP 200 才算 live；</li>
-<li>blocked 和 unmatched 分开。</li>
+<li>blocked 和 unmatched 分开；</li>
+<li>页面框架 vs 名单载体（v1 HT01 漏抓 162 家的教训）。</li>
 </ul>
 <h3>第五步：再上 subagent 并发</h3>
-<p>并发前必须有：</p>
-<ul>
-<li>输入清单；</li>
-<li>输出 JSON schema；</li>
-<li>skill_trace；</li>
-<li>blocker 处理策略；</li>
-<li>主会话不读 transcript，只读结果文件。</li>
-</ul>
+<p>并发前必须有：输入清单 / 输出 JSON schema / skill_trace / blocker 处理策略 / 主会话不读 transcript 只读结果文件。</p>
 <h3>第六步：跑 review 和 diff</h3>
 <p>每次出表后至少做三类检查：</p>
 <ol>
@@ -302,15 +1083,13 @@ docs/workflow.md</code></pre>
 <li>unmatched 是否有误杀；</li>
 <li>证据链接是否能打开，是否支持当前判断。</li>
 </ol>
+<p>发现规则 bug（比如 P07 review 中暴露的 <code>_hit_positive</code> 两个 false-negative）→ 修 pipeline + 加单测 + 全岗位 audit 一遍差异。</p>
+<hr />
 </section>
-<section id='9-可以用作分享收尾的一句话'><h2>9. 可以用作分享收尾的一句话</h2>
-<p class="lead"><strong>Claude Code 真正有价值的地方，不是一次回答得多聪明，而是它可以被工程化：把人的判断口径写进 CLAUDE.md，把重复流程写进 SKILL.md，把重活派给 subagent，把确定性步骤交给 Python，把争议留给 review。这样，竞企调研才从一次性搜索，变成可复用的组织能力。</strong></p>
-</section>
-<p class="source-note">由同目录 Markdown 文档转换生成，内容与原文保持一致，样式已内嵌，适合直接分享。</p></main>
+<section id='9-可以用作分享收尾的一句话'><h2><span class="num">9</span>可以用作分享收尾的一句话</h2>
+<p class="lead"><strong>Claude Code 真正有价值的地方，不是一次回答得多聪明，而是它可以被工程化：把人的判断口径写进 CLAUDE.md，把重复流程写进 agent / SKILL.md，把重活派给 subagent，把确定性步骤交给 Python，把搜索 / 抓取交给透明可追溯的 MCP（Tavily / Jina / Firecrawl），把争议留给 review。这样，竞企调研才从一次性搜索，变成可复用的组织能力。</strong></p></section>
+<p class="source-note">由同目录 Markdown 文档自动转换 · 样式已内嵌，离线即可分享</p></main>
     </div>
   </div>
 </body>
 </html>
-
-
-
