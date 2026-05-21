@@ -1,439 +1,131 @@
 {
   "main": {
-    "id": "559fbb77e69bcccb",
+    "id": "eb30899e348b5e5e",
     "type": "split",
     "children": [
       {
-        "id": "2452709ce6c5800f",
+        "id": "c14b06bb6be18838",
         "type": "tabs",
         "children": [
           {
-            "id": "9f53648f28918d56",
+            "id": "49a4c3dbb2bfb96d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/claude 与 codex 评审.md",
+                "file": "学习/其他/护肤方案与饮食.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude 与 codex 评审"
+              "title": "护肤方案与饮食"
             }
           },
           {
-            "id": "64d16dbe78d04ab0",
+            "id": "81d1faf4e81ee4be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260615/每天的工作日志.md",
+                "file": "学习/其他/肤质.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天的工作日志"
+              "title": "肤质"
             }
           },
           {
-            "id": "7726800a34672ba0",
+            "id": "8d9e2391e6beef3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/宿主机端口和容器端口的区别与联系.md",
+                "file": "学习/其他/冬天护肤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "宿主机端口和容器端口的区别与联系"
+              "title": "冬天护肤"
             }
           },
           {
-            "id": "da292728646e0c86",
+            "id": "d41ddd6f2d4c9994",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/plan action ai推荐理由话术改进.md",
+                "file": "学习/其他/中午防晒.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan action ai推荐理由话术改进"
+              "title": "中午防晒"
             }
           },
           {
-            "id": "660b85e2f64c059c",
+            "id": "c97b626a7658c3ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/候选客户触发上限1003，Redis db2缓存内存计算.md",
+                "file": "学习/其他/整理一天的护肤流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "候选客户触发上限1003，Redis db2缓存内存计算"
+              "title": "整理一天的护肤流程"
             }
           },
           {
-            "id": "c2c985e2c5c452d6",
+            "id": "77e55f986371bf85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "企微机器人桥接到滴普智能体/部署服务器的运维问题（ip白名单）.md",
+                "file": "学习/其他/洗头水沐浴露.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "部署服务器的运维问题（ip白名单）"
+              "title": "洗头水沐浴露"
             }
           },
           {
-            "id": "8fe78b26604bdae6",
+            "id": "083854aed778d584",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/AI功能测试和sql查询性能优化.md",
+                "file": "1（env）/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI功能测试和sql查询性能优化"
-            }
-          },
-          {
-            "id": "a68a8464d2260a0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1（env）/项目部署凭据.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目部署凭据"
-            }
-          },
-          {
-            "id": "26d4529644ea8170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上的cost_ms改成亚微秒级，维护changelog.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "log表上的cost_ms改成亚微秒级，维护changelog"
-            }
-          },
-          {
-            "id": "4b192eef840d7b67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260615/待完成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待完成"
-            }
-          },
-          {
-            "id": "807966c66601ef5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "急着上线共享dify nginx与后续演进"
-            }
-          },
-          {
-            "id": "5e08152f9cd5c1f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/plan action 上线https域名和配置nginx.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan action 上线https域名和配置nginx"
-            }
-          },
-          {
-            "id": "b177dbdedd874f00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/plan ai review后的方案，待人工审查.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan ai review后的方案，待人工审查"
-            }
-          },
-          {
-            "id": "a26ca7f53bd0321d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/输出图片.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "输出图片"
-            }
-          },
-          {
-            "id": "03d27e77e1519a0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/http和https.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "http和https"
-            }
-          },
-          {
-            "id": "4746ebc760589949",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/企微端图片显示问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "企微端图片显示问题"
-            }
-          },
-          {
-            "id": "cf09d9d46646287f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/解决图片渲染问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "解决图片渲染问题"
-            }
-          },
-          {
-            "id": "eefe966035509da2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/人工耗时评估与项目评估.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "人工耗时评估与项目评估"
-            }
-          },
-          {
-            "id": "26bfa19350dd82d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/接口调用超时.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "接口调用超时"
-            }
-          },
-          {
-            "id": "bdbd532189b8635d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上异常日志.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "log表上异常日志"
-            }
-          },
-          {
-            "id": "db115cb8fd84268b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/解决streaming带来的错误.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "解决streaming带来的错误"
-            }
-          },
-          {
-            "id": "30abc2984a3ae353",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/上传文档的问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "上传文档的问题"
-            }
-          },
-          {
-            "id": "12e7f0436c67ee70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/评估并改进风险.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "评估并改进风险"
-            }
-          },
-          {
-            "id": "673441efcf0aa2e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/解决文档上传的问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "解决文档上传的问题"
-            }
-          },
-          {
-            "id": "f3017b106c12dc02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体/用dify测试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "用dify测试"
-            }
-          },
-          {
-            "id": "aa0f06dd82fa5831",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/服务器的内存使用情况.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "服务器的内存使用情况"
-            }
-          },
-          {
-            "id": "862f1422d7207e8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/sql迁移清单是否保留.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "sql迁移清单是否保留"
-            }
-          },
-          {
-            "id": "89bc5f0c24918b1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/仅按运行业务逻辑无bug为标准，无考虑运维安全.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "仅按运行业务逻辑无bug为标准，无考虑运维安全"
-            }
-          },
-          {
-            "id": "2ed0158c8e94f087",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/13.代码侧的运维安全/ai评审，缺运维安全相关兜底，与后续的改进方向.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ai评审，缺运维安全相关兜底，与后续的改进方向"
+              "title": "未命名"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8294936e20683c5a",
+    "id": "fab62346ea2f3e6a",
     "type": "split",
     "children": [
       {
-        "id": "c2bffd5feae63565",
+        "id": "9613163570fd7923",
         "type": "tabs",
         "children": [
           {
-            "id": "21881cfaa5d9d79f",
+            "id": "ed920acf6f3d8350",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -441,12 +133,12 @@
             }
           },
           {
-            "id": "d161aab7a903fee6",
+            "id": "1bb046e914ad6c79",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -458,7 +150,7 @@
             }
           },
           {
-            "id": "1a2673328738d6fe",
+            "id": "6600260384c768e0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -471,23 +163,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 300
   },
   "right": {
-    "id": "b89bc66d8472f7f7",
+    "id": "2cc1328aa6ba792d",
     "type": "split",
     "children": [
       {
-        "id": "78e33964331a50a3",
+        "id": "03d1545341a124de",
         "type": "tabs",
         "children": [
           {
-            "id": "9b0150e47b767ee8",
+            "id": "6ffdcea9e15d0969",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20260403/obsidian 2 github.md",
+                "file": "学习/其他/整理一天的护肤流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -497,24 +189,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "obsidian 2 github 的反向链接列表"
+              "title": "整理一天的护肤流程 的反向链接列表"
             }
           },
           {
-            "id": "3996641f4d82c5f5",
+            "id": "0a0968e2408624b7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "学习/其他/整理一天的护肤流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "整理一天的护肤流程 的出链列表"
             }
           },
           {
-            "id": "660683f2d0f3d1d4",
+            "id": "61b4051019d4ea33",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -529,7 +222,7 @@
             }
           },
           {
-            "id": "59f5abe572868721",
+            "id": "ac3e21511619d645",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -543,35 +236,26 @@
             }
           },
           {
-            "id": "3117d78f2dbf4f51",
+            "id": "7e8fb032a698d728",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "学习/其他/整理一天的护肤流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "a1965610c23e2829",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "整理一天的护肤流程 的大纲"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -585,56 +269,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64d16dbe78d04ab0",
+  "active": "083854aed778d584",
   "lastOpenFiles": [
-    "20260615/待完成.md",
-    "20260615/每天的工作日志.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/plan ai review后的方案，待人工审查.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/plan action 上线https域名和配置nginx.md",
-    "企微机器人桥接到滴普智能体/企微端图片显示问题.md",
-    "企微机器人桥接到滴普智能体/解决图片渲染问题.md",
-    "企微机器人桥接到滴普智能体/人工耗时评估与项目评估.md",
-    "企微机器人桥接到滴普智能体/接口调用超时.md",
-    "企微机器人桥接到滴普智能体/http和https.md",
-    "企微机器人桥接到滴普智能体/部署服务器的运维问题（ip白名单）.md",
-    "企微机器人桥接到滴普智能体/用dify测试.md",
-    "企微机器人桥接到滴普智能体/解决文档上传的问题.md",
-    "企微机器人桥接到滴普智能体/评估并改进风险.md",
-    "企微机器人桥接到滴普智能体/上传文档的问题.md",
-    "企微机器人桥接到滴普智能体/解决streaming带来的错误.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上异常日志.md",
-    "企微机器人桥接到滴普智能体/输出图片.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上的cost_ms改成亚微秒级，维护changelog.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
-    "1（env）/项目部署凭据.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/宿主机端口和容器端口的区别与联系.md",
-    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/claude 与 codex 评审.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/候选客户触发上限1003，Redis db2缓存内存计算.md",
-    "客户流失预警/走向生产级review/AI功能测试和sql查询性能优化.md",
+    "清理C盘的磁盘空间.md",
+    "智能拓客（第二阶段）/项目理解：铁律，脚手架.md",
+    "智能拓客（第二阶段）/9.删减流失预警冗余代码/重启docker.md",
+    "智能拓客（第二阶段）/9.删减流失预警冗余代码/删除job_id.md",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md",
     "智能拓客（第二阶段）/15.部署后发现并改进问题/服务器的内存使用情况.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/候选客户触发上限1003，Redis db2缓存内存计算.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/sql迁移清单是否保留.md",
     "智能拓客（第二阶段）/15.部署后发现并改进问题/plan action ai推荐理由话术改进.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上的cost_ms改成亚微秒级，维护changelog.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上异常日志.md",
     "智能拓客（第二阶段）/15.部署后发现并改进问题",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-3.png",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-1.png",
-    "企微机器人桥接到滴普智能体（第二阶段）/asset/image.png",
-    "企微机器人桥接到滴普智能体（第二阶段）/asset",
+    "企微机器人桥接到滴普智能体/asset/image-2.png",
     "企微机器人桥接到滴普智能体/asset/image.png",
     "企微机器人桥接到滴普智能体/asset/image-1.png",
-    "企微机器人桥接到滴普智能体/asset/image-2.png",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.af5480972924",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.fde48e56c9c3",
-    "20260615",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-2.png",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset",
-    "智能拓客（第二阶段）/13.代码侧的运维安全",
-    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review",
-    "20260608-13/本周工作日志_按项目.md.tmp.16714.184cfe6d6bed",
-    "查找研发岗对应的竞争企业/asset/image.png",
-    "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
-    "未命名.canvas",
-    "客探/客探1.2版本/未命名.canvas",
-    "客探一期dify代办和总结/未命名.canvas"
+    "企微机器人桥接到滴普智能体/部署服务器的运维问题（ip白名单）.md",
+    "企微机器人桥接到滴普智能体/通过接口上传文档.md",
+    "企微机器人桥接到滴普智能体/解决图片渲染问题.md",
+    "企微机器人桥接到滴普智能体/输出图片.md",
+    "企微机器人桥接到滴普智能体/评估并改进风险.md",
+    "企微机器人桥接到滴普智能体/解决文档上传的问题.md",
+    "企微机器人桥接到滴普智能体/解决streaming带来的错误.md",
+    "企微机器人桥接到滴普智能体/用dify测试.md",
+    "企微机器人桥接到滴普智能体/网站嵌入，token校验.md",
+    "企微机器人桥接到滴普智能体/签名生成规则.md",
+    "企微机器人桥接到滴普智能体/搭建工作流的skill.md",
+    "企微机器人桥接到滴普智能体/接口调用超时.md",
+    "企微机器人桥接到滴普智能体/图谱.md",
+    "企微机器人桥接到滴普智能体/对比dify.md",
+    "企微机器人桥接到滴普智能体/使用文档的知识.md",
+    "企微机器人桥接到滴普智能体/asset",
+    "企微机器人桥接到滴普智能体",
+    "20260615"
   ]
 }
