@@ -24,20 +24,20 @@
 
 ## 总览
 
-| 维度 | Claude Code | OpenClaw |
-|---|---|---|
-| 定位 | 专用编程 agent | 通用个人助理 / "life OS" |
-| 出身 | Anthropic 官方产品 | 个人开源项目,病毒式爆红 |
-| 入口 | 终端 CLI、IDE 插件、桌面/Web app | 微信/Telegram/Slack/Discord/iMessage 等 20+ 聊天渠道 + 语音 |
-| 进程模型 | 短生命周期:起→跑→退 | 常驻守护进程(Gateway daemon)+ WebSocket 长连接 |
-| 核心循环 | 单 async query loop | Gateway 路由 + per-session 队列 + 多 agent 委派 |
-| 模型 | 锁定 Claude(Opus/Sonnet/Haiku) | 模型无关:Claude/GPT/Gemini/本地 Ollama |
-| 扩展 | MCP / Skills / Hooks / Subagents,直接集成进 agent | manifest-first 插件 + ClawHub 注册表(5700+ 社区 skill) |
-| 记忆 | CLAUDE.md + 200K 窗口 + 自动压缩,**会话级** | MEMORY.md + 每日笔记 + 向量/关键词混检,**跨周持久** |
-| 安全 | 权限模式、SOC2、企业护栏 | 默认全主机权限;社区 skill 投毒 + 跨渠道注入风险;Docker 沙箱可选 |
-| 上手 | 即装即用,几分钟可用 | npm 装 + 守护进程 + 逐渠道配置 + 沙箱,门槛高 |
-| 价格 | Pro/Max 订阅(约 $20/月起)或 API 按量 | 软件免费(MIT);付模型 API 费,本地模型可零成本 |
-| 成熟度 / 体量 | 稳定,官方持续支持 | 年轻、争议多;GitHub 约 37 万 star(2026 年中,仍在涨) |
+| 维度       | Claude Code                                  | OpenClaw                                           |
+| -------- | -------------------------------------------- | -------------------------------------------------- |
+| 定位       | 专用编程 agent                                   | 通用个人助理 / "life OS"                                 |
+| 出身       | Anthropic 官方产品                               | 个人开源项目,病毒式爆红                                       |
+| 入口       | 终端 CLI、IDE 插件、桌面/Web app                     | 微信/Telegram/Slack/Discord/iMessage 等 20+ 聊天渠道 + 语音 |
+| 进程模型     | 短生命周期:起→跑→退                                  | 常驻守护进程(Gateway daemon)+ WebSocket 长连接              |
+| 核心循环     | 单 async query loop                           | Gateway 路由 + per-session 队列 + 多 agent 委派           |
+| 模型       | 锁定 Claude(Opus/Sonnet/Haiku)                 | 模型无关:Claude/GPT/Gemini/本地 Ollama                   |
+| 扩展       | MCP / Skills / Hooks / Subagents,直接集成进 agent | manifest-first 插件 + ClawHub 注册表(5700+ 社区 skill)    |
+| 记忆       | CLAUDE.md + 200K 窗口 + 自动压缩,**会话级**           | MEMORY.md + 每日笔记 + 向量/关键词混检,**跨周持久**               |
+| 安全       | 权限模式、SOC2、企业护栏                               | 默认全主机权限;社区 skill 投毒 + 跨渠道注入风险;Docker 沙箱可选          |
+| 上手       | 即装即用,几分钟可用                                   | npm 装 + 守护进程 + 逐渠道配置 + 沙箱,门槛高                      |
+| 价格       | Pro/Max 订阅(约 $20/月起)或 API 按量                 | 软件免费(MIT);付模型 API 费,本地模型可零成本                       |
+| 成熟度 / 体量 | 稳定,官方持续支持                                    | 年轻、争议多;GitHub 约 37 万 star(2026 年中,仍在涨)             |
 
 ## 架构:短命进程 vs 常驻守护进程
 
