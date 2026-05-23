@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f018201f44b5c52f",
+        "id": "90a23ebc795a6a9c",
         "type": "tabs",
         "children": [
           {
-            "id": "fd63e867e422b0a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/填入excel的理化性质.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "填入excel的理化性质"
-            }
-          },
-          {
-            "id": "c700986b52d08de1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/备忘录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "备忘录"
-            }
-          },
-          {
-            "id": "07afc0136b04442d",
+            "id": "add47e2a10412a7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,343 +22,35 @@
             }
           },
           {
-            "id": "98ae75daf8fda472",
+            "id": "a3967b97d4fa2a6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/AI infra.md",
+                "file": "学习/其他/整理一天的护肤流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI infra"
+              "title": "整理一天的护肤流程"
             }
           },
           {
-            "id": "12b99508c6dba28a",
+            "id": "889d54ac21705446",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/dict语法.md",
+                "file": "20260520-23/本周工作总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dict语法"
-            }
-          },
-          {
-            "id": "6339e21eae015556",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/备忘录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "备忘录"
-            }
-          },
-          {
-            "id": "885db607475a9c27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/claude code 和 openclaw.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "claude code 和 openclaw"
-            }
-          },
-          {
-            "id": "1850757bb0a65dd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/读研2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "读研2"
-            }
-          },
-          {
-            "id": "26cfbdda29a16575",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/护肤方案与饮食.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "护肤方案与饮食"
-            }
-          },
-          {
-            "id": "38b7d098edc3f8f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/中午防晒.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "中午防晒"
-            }
-          },
-          {
-            "id": "a511372d16daaa96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/新的护肤方案.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "新的护肤方案"
-            }
-          },
-          {
-            "id": "b7ce56da1f21415e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/桌面配置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "桌面配置"
-            }
-          },
-          {
-            "id": "1d5d32c0af5b8829",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/洗头水沐浴露.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "洗头水沐浴露"
-            }
-          },
-          {
-            "id": "928055f47f209a91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/CCA-F.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CCA-F"
-            }
-          },
-          {
-            "id": "6a2b20fdf1aba3cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/客探-查客户-扩大范围-改造思路.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "客探-查客户-扩大范围-改造思路"
-            }
-          },
-          {
-            "id": "878a823cf5da414a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/crm客户详请新接口情况.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "crm客户详请新接口情况"
-            }
-          },
-          {
-            "id": "5a5fc7466409fd56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/查客户dify workflow 改造方向.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "查客户dify workflow 改造方向"
-            }
-          },
-          {
-            "id": "43770dc6be7a654a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/爬虫mcp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "爬虫mcp"
-            }
-          },
-          {
-            "id": "051d71734b28c8ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260520/CCAF报名补充.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CCAF报名补充"
-            }
-          },
-          {
-            "id": "bbaa93472972815f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/review 比较运算符.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review 比较运算符"
-            }
-          },
-          {
-            "id": "fb11e1c16a11ded4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/review more.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review more"
-            }
-          },
-          {
-            "id": "cf5eb62be2a2f9a8",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260520/查客户改造方向.md、",
-                "bFile": "20260520/查客户改造方向.md、",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 查客户改造方向.md、  (Working Tree)"
-            }
-          },
-          {
-            "id": "b080a58febe5d1ab",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260520/查客户改造方向.md、",
-                "bFile": "20260520/查客户改造方向.md、",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 查客户改造方向.md、  (Working Tree)"
-            }
-          },
-          {
-            "id": "ff814efed3f7c3ba",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260520/查客户改造方向.md、",
-                "bFile": "20260520/查客户改造方向.md、",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 查客户改造方向.md、  (Working Tree)"
-            }
-          },
-          {
-            "id": "d130f538a8fe968f",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260520/查客户改造方向.md、",
-                "bFile": "20260520/查客户改造方向.md、",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 查客户改造方向.md、  (Working Tree)"
-            }
-          },
-          {
-            "id": "8cd68546d8ddd056",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/研究过程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "研究过程"
-            }
-          },
-          {
-            "id": "e1d48453d1883969",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/review 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "review 2"
+              "title": "本周工作总结"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -557,37 +221,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a511372d16daaa96",
+  "active": "889d54ac21705446",
   "lastOpenFiles": [
-    "学习/其他/中午防晒.md",
+    "学习/其他/整理一天的护肤流程.md",
+    "20260520-23/本周工作总结.md",
+    "学习/其他/冬天护肤.md",
+    "智能拓客/企知道的行业匹配.md",
+    "20260520-23/CCAF报名补充.md",
     "学习/其他/新的护肤方案.md",
+    "学习/其他/中午防晒.md",
     "学习/其他/护肤方案与饮食.md",
     "学习/其他/洗头水沐浴露.md",
     "写入竞品的理化性质/备忘录.md",
     "学习/dict语法.md",
     "学习/AI infra.md",
-    "智能拓客/企知道的行业匹配.md",
     "写入竞品的理化性质/review more.md",
     "写入竞品的理化性质/review 比较运算符.md",
-    "20260520/CCAF报名补充.md",
-    "20260520/爬虫mcp.md",
-    "20260520/查客户dify workflow 改造方向.md",
-    "20260520/CCA-F.md",
-    "20260520/claude code 和 openclaw.md",
-    "20260520/crm客户详请新接口情况.md",
+    "20260520-23/爬虫mcp.md",
+    "20260520-23/查客户dify workflow 改造方向.md",
+    "20260520-23/CCA-F.md",
+    "20260520-23/claude code 和 openclaw.md",
+    "20260520-23/crm客户详请新接口情况.md",
     "20260520/查客户改造方向.md、",
-    "20260520/客探-查客户-扩大范围-改造思路.md",
-    "20260520/备忘录.md",
+    "20260520-23/客探-查客户-扩大范围-改造思路.md",
+    "20260520-23/备忘录.md",
     "写入竞品的理化性质/review 2.md",
     "写入竞品的理化性质/研究过程.md",
     "学习/读研2.md",
     "写入竞品的理化性质/review.md",
     "学习/其他/桌面配置.md",
-    "写入竞品的理化性质/填入excel的理化性质.md",
-    "20260511-16/playwright,firecrawl.md",
     "写入竞品的理化性质",
-    "查找研发岗对应的竞争企业/review P06 by claude code.md",
-    "20260520",
+    "20260520-23",
     "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.06a95d4b1202",
     "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.7a4fbcc8b0c5",
     "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.5680a96b4a9e",
