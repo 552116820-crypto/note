@@ -87,13 +87,13 @@ CCA-F 这两个月信息已经比较全了,我整理一份**真实版**介绍。
 
 ## 五大考纲领域
 
-| 领域 | 占比 | 核心内容 |
-|---|---|---|
-| Agentic 架构与编排 | **27%** | 多 Agent 系统设计、任务拆解、hub-and-spoke 编排 |
-| Claude Code 配置与工作流 | 20% | CLAUDE.md 层级、自定义 slash 命令、CI/CD 集成 |
-| Prompt Engineering 与结构化输出 | 20% | JSON schema 约束、few-shot、校验重试环 |
-| 工具设计与 MCP 集成 | 18% | MCP server 设计、工具边界、避免推理过载 |
-| 上下文管理与可靠性 | 15% | 长上下文保持、handoff 模式、置信度校准 |
+| 领域                        | 占比      | 核心内容                               |
+| ------------------------- | ------- | ---------------------------------- |
+| Agentic 架构与编排             | **27%** | 多 Agent 系统设计、任务拆解、hub-and-spoke 编排 |
+| Claude Code 配置与工作流        | 20%     | CLAUDE.md 层级、自定义 slash 命令、CI/CD 集成 |
+| Prompt Engineering 与结构化输出 | 20%     | JSON schema 约束、few-shot、校验重试环      |
+| 工具设计与 MCP 集成              | 18%     | MCP server 设计、工具边界、避免推理过载          |
+| 上下文管理与可靠性                 | 15%     | 长上下文保持、handoff 模式、置信度校准            |
 
 (对比上一条:海报把 Prompt Engineering 这 20% 整个漏了,这才是官方真考纲。)
 
