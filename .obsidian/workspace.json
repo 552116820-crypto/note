@@ -4,11 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "942481b6ff343b39",
+        "id": "159fa7c077abc390",
         "type": "tabs",
         "children": [
           {
-            "id": "50c776621ff1f5ca",
+            "id": "b7b8622c4639768a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（数据准备）/行为时间轴方法需改进.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "行为时间轴方法需改进"
+            }
+          },
+          {
+            "id": "76513ba2f070c70c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/备忘录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "备忘录"
+            }
+          },
+          {
+            "id": "a2843ebcc69361f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/codex插件桥接（评估skill）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex插件桥接（评估skill）"
+            }
+          },
+          {
+            "id": "1cb23e8f3e746035",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,40 +64,40 @@
             }
           },
           {
-            "id": "308a5166277a5a3a",
+            "id": "6d024dbdcec9f907",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "客户流失预警/走向生产级review/项目部署凭据.md",
+                "file": "20260525-29/cc中的codex.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目部署凭据"
+              "title": "cc中的codex"
             }
           },
           {
-            "id": "03c7ade5f57247c6",
+            "id": "3d307f18292604df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（数据准备）/fix脚本.md",
+                "file": "20260525-29/codex-plugin-cc的原理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fix脚本"
+              "title": "codex-plugin-cc的原理"
             }
           },
           {
-            "id": "b6dfc7dc8020ca09",
+            "id": "dc73bb797e109400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525/ccaf 考察的相关概念.md",
+                "file": "20260525-29/ccaf 考察的相关概念.md",
                 "mode": "source",
                 "source": false
               },
@@ -64,91 +106,21 @@
             }
           },
           {
-            "id": "068dd7f320df4bcf",
+            "id": "2a21b95b17278187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客/需要确认的点.md",
+                "file": "20260525-29/经验萃取skill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "需要确认的点"
-            }
-          },
-          {
-            "id": "060dcc7eb58c51eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（数据准备）/企知道的行业匹配.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "企知道的行业匹配"
-            }
-          },
-          {
-            "id": "2fa6fd026f5bb42a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/洗头水沐浴露.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "洗头水沐浴露"
-            }
-          },
-          {
-            "id": "5d09ae04f7b7acc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（数据准备）/生成初版映射表.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "生成初版映射表"
-            }
-          },
-          {
-            "id": "ceb0fd3acafccb71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（数据准备）/复核并交付映射表.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "复核并交付映射表"
-            }
-          },
-          {
-            "id": "dba47efcb955e6a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（数据准备）/行业对齐脚本.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "行业对齐脚本"
+              "title": "经验萃取skill"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -319,36 +291,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d09ae04f7b7acc7",
+  "active": "76513ba2f070c70c",
   "lastOpenFiles": [
-    "智能拓客（数据准备）/复核并交付映射表.md",
-    "智能拓客（数据准备）/生成初版映射表.md",
+    "20260525-29/ccaf 考察的相关概念.md",
+    "20260525-29/codex-plugin-cc的原理.md",
+    "20260525-29/cc中的codex.md",
+    "20260520-23/CCA-F.md",
+    "20260525-29/codex插件桥接（评估skill）.md",
+    "20260525-29/备忘录.md",
+    "20260525-29/经验萃取skill.md",
+    "智能拓客（数据准备）/行为时间轴方法需改进.md",
+    "学习/其他/伤口和疤痕护理.md",
+    "智能拓客/需求文档拆解实现方案.md",
+    "学习/其他/丘疹性荨麻疹.md",
     "学习/其他/洗头水沐浴露.md",
-    "20260525/含税金额.md",
+    "智能拓客/需要确认的点.md",
+    "20260525-29/mattpocock skill.md",
+    "20260520-23/客探-查客户-扩大范围-改造思路.md",
+    "20260520-23/crm客户详请新接口情况.md",
+    "20260520-23/备忘录.md",
     "智能拓客（数据准备）/企知道的行业匹配.md",
     "智能拓客（数据准备）/行业对齐脚本.md",
-    "智能拓客/需要确认的点.md",
-    "20260525/ccaf 考察的相关概念.md",
-    "智能拓客（数据准备）/fix脚本.md",
-    "客户流失预警/走向生产级review/项目部署凭据.md",
-    "20260520-23/CCA-F.md",
-    "智能拓客（数据准备）",
-    "20260525/codex-plugin-cc的原理.md",
-    "20260525/cc中的codex.md",
-    "20260525/mattpocock skill.md",
-    "html复杂模板的提示词.md",
-    "20260525/备忘录.md",
-    "20260525",
-    "学习/其他/整理一天的护肤流程.md",
-    "20260520-23/CCAF报名补充.md",
+    "20260525-29/dify workflow 的维护skill.md",
     "20260520-23/本周工作总结.md",
-    "学习/其他/冬天护肤.md",
-    "学习/其他/新的护肤方案.md",
-    "学习/其他/中午防晒.md",
-    "学习/其他/护肤方案与饮食.md",
-    "写入竞品的理化性质/备忘录.md",
-    "学习/dict语法.md",
-    "学习/AI infra.md",
+    "20260520-23/CCAF报名补充.md",
+    "20260520-23/爬虫mcp.md",
+    "20260520-23/查客户dify workflow 改造方向.md",
+    "20260520-23/claude code 和 openclaw.md",
+    "智能拓客（数据准备）/行为时间轴信息收集.md",
+    "HR数字人",
+    "智能拓客（数据准备）",
+    "20260525-29",
     "20260520/查客户改造方向.md、",
     "写入竞品的理化性质",
     "20260520-23",
@@ -356,7 +329,6 @@
     "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.7a4fbcc8b0c5",
     "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.5680a96b4a9e",
     "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.139212f58551",
-    "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.e766c8f02fac",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "20260506/asset/image.png",
