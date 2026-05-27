@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "30562f6cc76bdbc2",
+        "id": "0ed8167b4bd9c534",
         "type": "tabs",
         "children": [
           {
-            "id": "719922108a4f1567",
+            "id": "c31f4697e4632c41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
+                "file": "智能拓客/需要确认的点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "企业标签和新行为时间轴的宏观结果"
+              "title": "需要确认的点"
             }
           },
           {
-            "id": "8c8ad5be87527530",
+            "id": "54750094305d4747",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（数据准备）/计算规则中不合理的点.md",
+                "file": "20260525-29/备忘录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计算规则中不合理的点"
+              "title": "备忘录"
             }
           },
           {
-            "id": "426ed7528393d029",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260525-29/skillopt推文.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "skillopt推文"
-            }
-          },
-          {
-            "id": "747609df91e064a2",
+            "id": "ad432b06a0c41163",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,93 +48,9 @@
               "icon": "lucide-file",
               "title": "skillopt价值探讨"
             }
-          },
-          {
-            "id": "113d964f62aa646d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/为什么人工复核还有错误.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "为什么人工复核还有错误"
-            }
-          },
-          {
-            "id": "5d62de1c4e67fe0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/洗头水.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "洗头水"
-            }
-          },
-          {
-            "id": "9273cd1bc084cc98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/中午防晒.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "中午防晒"
-            }
-          },
-          {
-            "id": "c915e73d5948f1a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/git的状态字母.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git的状态字母"
-            }
-          },
-          {
-            "id": "0477aa269f2c7525",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/Cloudflare相关/cloudflare技术护城河.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cloudflare技术护城河"
-            }
-          },
-          {
-            "id": "1eb6d373d4e9d230",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "写入竞品的理化性质/填入excel的理化性质.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "填入excel的理化性质"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -319,21 +221,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0477aa269f2c7525",
+  "active": "54750094305d4747",
   "lastOpenFiles": [
+    "20260525-29/skillopt价值探讨.md",
+    "20260525-29/备忘录.md",
+    "智能拓客/需要确认的点.md",
+    "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
+    "智能拓客（数据准备）/计算规则中不合理的点.md",
+    "学习/Cloudflare相关/cloudflare技术护城河.md",
     "学习/git的状态字母.md",
     "学习/其他/中午防晒.md",
     "学习/其他/洗头水.md",
     "写入竞品的理化性质/填入excel的理化性质.md",
     "学习/其他/hifi耳机 hd800s.md",
     "写入竞品的理化性质/为什么人工复核还有错误.md",
-    "20260525-29/skillopt价值探讨.md",
     "学习/金融现象（电竞比赛）.md",
     "20260525-29/skillopt推文.md",
-    "智能拓客（数据准备）/计算规则中不合理的点.md",
-    "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
     "智能拓客/需求文档拆解实现方案.md",
-    "智能拓客/需要确认的点.md",
     "智能拓客/数据库选型.md",
     "智能拓客/技术方案.md",
     "智能拓客/Python 对 PostgreSQL 支持.md",
@@ -345,8 +249,6 @@
     "学习/其他/伤口和疤痕护理.md",
     "智能拓客（数据准备）/行业匹配的宏观结果.md",
     "智能拓客（数据准备）/行为时间轴信息收集.md",
-    "20260525-29/备忘录.md",
-    "20260525-29/ccaf 考察的相关概念.md",
     "HR数字人",
     "智能拓客（数据准备）",
     "20260525-29",
