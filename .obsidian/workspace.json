@@ -4,67 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "159fa7c077abc390",
+        "id": "30562f6cc76bdbc2",
         "type": "tabs",
         "children": [
           {
-            "id": "b7b8622c4639768a",
+            "id": "719922108a4f1567",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（数据准备）/行为时间轴方法需改进.md",
+                "file": "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "行为时间轴方法需改进"
+              "title": "企业标签和新行为时间轴的宏观结果"
             }
           },
           {
-            "id": "76513ba2f070c70c",
+            "id": "8c8ad5be87527530",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/备忘录.md",
+                "file": "智能拓客（数据准备）/计算规则中不合理的点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "备忘录"
+              "title": "计算规则中不合理的点"
             }
           },
           {
-            "id": "a2053fa42dddbaea",
+            "id": "426ed7528393d029",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/金融现象（电竞比赛）.md",
+                "file": "20260525-29/skillopt推文.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "金融现象（电竞比赛）"
+              "title": "skillopt推文"
             }
           },
           {
-            "id": "a2843ebcc69361f1",
+            "id": "747609df91e064a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/codex插件桥接（评估skill）.md",
+                "file": "20260525-29/skillopt价值探讨.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "codex插件桥接（评估skill）"
+              "title": "skillopt价值探讨"
             }
           },
           {
-            "id": "01e7189004589c8c",
+            "id": "113d964f62aa646d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "写入竞品的理化性质/为什么人工复核还有错误.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "为什么人工复核还有错误"
+            }
+          },
+          {
+            "id": "5d62de1c4e67fe0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/其他/洗头水.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "洗头水"
+            }
+          },
+          {
+            "id": "9273cd1bc084cc98",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,77 +106,49 @@
             }
           },
           {
-            "id": "1cb23e8f3e746035",
+            "id": "c915e73d5948f1a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260520-23/CCA-F.md",
+                "file": "学习/git的状态字母.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CCA-F"
+              "title": "git的状态字母"
             }
           },
           {
-            "id": "6d024dbdcec9f907",
+            "id": "0477aa269f2c7525",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/cc中的codex.md",
+                "file": "学习/Cloudflare相关/cloudflare技术护城河.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cc中的codex"
+              "title": "cloudflare技术护城河"
             }
           },
           {
-            "id": "3d307f18292604df",
+            "id": "1eb6d373d4e9d230",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/codex-plugin-cc的原理.md",
+                "file": "写入竞品的理化性质/填入excel的理化性质.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "codex-plugin-cc的原理"
-            }
-          },
-          {
-            "id": "dc73bb797e109400",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260525-29/ccaf 考察的相关概念.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ccaf 考察的相关概念"
-            }
-          },
-          {
-            "id": "2a21b95b17278187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260525-29/经验萃取skill.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "经验萃取skill"
+              "title": "填入excel的理化性质"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -319,34 +319,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01e7189004589c8c",
+  "active": "0477aa269f2c7525",
   "lastOpenFiles": [
-    "学习/其他/未命名.md",
+    "学习/git的状态字母.md",
+    "学习/其他/中午防晒.md",
+    "学习/其他/洗头水.md",
+    "写入竞品的理化性质/填入excel的理化性质.md",
+    "学习/其他/hifi耳机 hd800s.md",
+    "写入竞品的理化性质/为什么人工复核还有错误.md",
+    "20260525-29/skillopt价值探讨.md",
     "学习/金融现象（电竞比赛）.md",
+    "20260525-29/skillopt推文.md",
+    "智能拓客（数据准备）/计算规则中不合理的点.md",
+    "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
+    "智能拓客/需求文档拆解实现方案.md",
+    "智能拓客/需要确认的点.md",
+    "智能拓客/数据库选型.md",
+    "智能拓客/技术方案.md",
+    "智能拓客/Python 对 PostgreSQL 支持.md",
+    "智能拓客/空间索引.md",
+    "智能拓客/百万级公海客户附近推荐方案.md",
+    "20260525-29/hermes，openclaw与claude code.md",
+    "学习/其他/洗头水沐浴露.md",
+    "学习/其他/丘疹性荨麻疹.md",
+    "学习/其他/伤口和疤痕护理.md",
+    "智能拓客（数据准备）/行业匹配的宏观结果.md",
+    "智能拓客（数据准备）/行为时间轴信息收集.md",
     "20260525-29/备忘录.md",
     "20260525-29/ccaf 考察的相关概念.md",
-    "20260525-29/codex-plugin-cc的原理.md",
-    "20260525-29/cc中的codex.md",
-    "20260520-23/CCA-F.md",
-    "20260525-29/codex插件桥接（评估skill）.md",
-    "20260525-29/经验萃取skill.md",
-    "智能拓客（数据准备）/行为时间轴方法需改进.md",
-    "学习/其他/伤口和疤痕护理.md",
-    "智能拓客/需求文档拆解实现方案.md",
-    "学习/其他/丘疹性荨麻疹.md",
-    "学习/其他/洗头水沐浴露.md",
-    "智能拓客/需要确认的点.md",
-    "20260525-29/mattpocock skill.md",
-    "20260520-23/客探-查客户-扩大范围-改造思路.md",
-    "20260520-23/crm客户详请新接口情况.md",
-    "20260520-23/备忘录.md",
-    "智能拓客（数据准备）/企知道的行业匹配.md",
-    "智能拓客（数据准备）/行业对齐脚本.md",
-    "20260525-29/dify workflow 的维护skill.md",
-    "20260520-23/本周工作总结.md",
-    "20260520-23/CCAF报名补充.md",
-    "20260520-23/爬虫mcp.md",
-    "20260520-23/查客户dify workflow 改造方向.md",
     "HR数字人",
     "智能拓客（数据准备）",
     "20260525-29",
