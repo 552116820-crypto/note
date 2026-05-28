@@ -22,6 +22,188 @@
             }
           },
           {
+            "id": "49c7c16c65678b86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/需求文档拆解实现方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "需求文档拆解实现方案"
+            }
+          },
+          {
+            "id": "5e0d8cdeec1762d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/其他/中午防晒.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "中午防晒"
+            }
+          },
+          {
+            "id": "4e7462a36d76b35c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普与企微机器人/企微端图片显示问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "企微端图片显示问题"
+            }
+          },
+          {
+            "id": "7418f1b5a632d2fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普与企微机器人/解决图片渲染问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "解决图片渲染问题"
+            }
+          },
+          {
+            "id": "3344eb1b811cb000",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "写入竞品的理化性质/为什么人工复核还有错误.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "为什么人工复核还有错误"
+            }
+          },
+          {
+            "id": "92ba6944499ac30f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/mattpocock skill.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mattpocock skill"
+            }
+          },
+          {
+            "id": "331dc65b9a739f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/codex-plugin-cc的原理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex-plugin-cc的原理"
+            }
+          },
+          {
+            "id": "4b5b779a1ce469a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/ccaf 考察的相关概念.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ccaf 考察的相关概念"
+            }
+          },
+          {
+            "id": "da54d90f13746695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/dify workflow 的维护skill.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dify workflow 的维护skill"
+            }
+          },
+          {
+            "id": "3b96b9565a0b76b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/codex插件桥接（评估skill）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex插件桥接（评估skill）"
+            }
+          },
+          {
+            "id": "12db36d45ed62881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/hermes，openclaw与claude code.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hermes，openclaw与claude code"
+            }
+          },
+          {
+            "id": "13188292d50f9b8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/skillopt推文.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "skillopt推文"
+            }
+          },
+          {
+            "id": "7d1df7c86d725232",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/cc中的codex.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cc中的codex"
+            }
+          },
+          {
             "id": "54750094305d4747",
             "type": "leaf",
             "state": {
@@ -33,6 +215,188 @@
               },
               "icon": "lucide-file",
               "title": "备忘录"
+            }
+          },
+          {
+            "id": "af038139a97297ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260525-29/steering的含义.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "steering的含义"
+            }
+          },
+          {
+            "id": "2720c6c651be4190",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260520-23/CCA-F.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CCA-F"
+            }
+          },
+          {
+            "id": "17e7abc06bed7b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（数据准备）/行业高置信度匹配项的更新条目数量.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "行业高置信度匹配项的更新条目数量"
+            }
+          },
+          {
+            "id": "862d5727ed496cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260520-23/CCAF报名补充.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CCAF报名补充"
+            }
+          },
+          {
+            "id": "211c5051c632f0ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260520-23/本周工作总结.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本周工作总结"
+            }
+          },
+          {
+            "id": "79371b7cada13374",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "企业标签和新行为时间轴的宏观结果"
+            }
+          },
+          {
+            "id": "fbdca523436b2d68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（数据准备）/计算规则中不合理的点.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "计算规则中不合理的点"
+            }
+          },
+          {
+            "id": "9c95b8864285ec9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/相似客户与成交匹配度衡量方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "相似客户与成交匹配度衡量方案"
+            }
+          },
+          {
+            "id": "05323def5f3a4a55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/附近客户方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "附近客户方案"
+            }
+          },
+          {
+            "id": "e1e9059176a97888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/初步方案和想法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "初步方案和想法"
+            }
+          },
+          {
+            "id": "6e83f154d6df307a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/百万级公海客户附近推荐方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "百万级公海客户附近推荐方案"
+            }
+          },
+          {
+            "id": "a65a17380ea723f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/空间索引.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "空间索引"
+            }
+          },
+          {
+            "id": "57d6567b94e24809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/其他/洗头水.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "洗头水"
             }
           },
           {
@@ -48,9 +412,37 @@
               "icon": "lucide-file",
               "title": "skillopt价值探讨"
             }
+          },
+          {
+            "id": "abe1b5dda64225f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/其他/护肤方案与饮食.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "护肤方案与饮食"
+            }
+          },
+          {
+            "id": "179ae39e56108f09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学习/其他/整理一天的护肤流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "整理一天的护肤流程"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -221,34 +613,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54750094305d4747",
+  "active": "7418f1b5a632d2fa",
   "lastOpenFiles": [
-    "20260525-29/skillopt价值探讨.md",
-    "20260525-29/备忘录.md",
-    "智能拓客/需要确认的点.md",
-    "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
-    "智能拓客（数据准备）/计算规则中不合理的点.md",
-    "学习/Cloudflare相关/cloudflare技术护城河.md",
-    "学习/git的状态字母.md",
+    "滴普与企微机器人/企微端图片显示问题.md",
+    "滴普与企微机器人/解决图片渲染问题.md",
     "学习/其他/中午防晒.md",
-    "学习/其他/洗头水.md",
-    "写入竞品的理化性质/填入excel的理化性质.md",
-    "学习/其他/hifi耳机 hd800s.md",
-    "写入竞品的理化性质/为什么人工复核还有错误.md",
-    "学习/金融现象（电竞比赛）.md",
-    "20260525-29/skillopt推文.md",
     "智能拓客/需求文档拆解实现方案.md",
-    "智能拓客/数据库选型.md",
-    "智能拓客/技术方案.md",
-    "智能拓客/Python 对 PostgreSQL 支持.md",
+    "智能拓客/需要确认的点.md",
+    "智能拓客（数据准备）/行业高置信度匹配项的更新条目数量.md",
+    "20260525-29/steering的含义.md",
+    "20260525-29/ccaf 考察的相关概念.md",
+    "20260525-29/codex-plugin-cc的原理.md",
+    "20260520-23/CCA-F.md",
+    "20260520-23/本周工作总结.md",
+    "20260520-23/CCAF报名补充.md",
+    "20260525-29/skillopt价值探讨.md",
+    "写入竞品的理化性质/为什么人工复核还有错误.md",
     "智能拓客/空间索引.md",
     "智能拓客/百万级公海客户附近推荐方案.md",
+    "智能拓客/初步方案和想法.md",
+    "智能拓客/附近客户方案.md",
+    "智能拓客/相似客户与成交匹配度衡量方案.md",
+    "智能拓客（数据准备）/计算规则中不合理的点.md",
+    "智能拓客（数据准备）/企业标签和新行为时间轴的宏观结果.md",
+    "20260525-29/备忘录.md",
+    "学习/其他/整理一天的护肤流程.md",
+    "学习/其他/护肤方案与饮食.md",
+    "20260525-29/skillopt推文.md",
     "20260525-29/hermes，openclaw与claude code.md",
-    "学习/其他/洗头水沐浴露.md",
-    "学习/其他/丘疹性荨麻疹.md",
-    "学习/其他/伤口和疤痕护理.md",
-    "智能拓客（数据准备）/行业匹配的宏观结果.md",
-    "智能拓客（数据准备）/行为时间轴信息收集.md",
     "HR数字人",
     "智能拓客（数据准备）",
     "20260525-29",
@@ -262,9 +654,9 @@
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "20260506/asset/image.png",
-    "滴普Fastagi/asset/image.png",
-    "滴普Fastagi/asset/image-1.png",
-    "滴普Fastagi/asset/image-2.png",
+    "滴普与企微机器人/asset/image.png",
+    "滴普与企微机器人/asset/image-1.png",
+    "滴普与企微机器人/asset/image-2.png",
     "客户流失预警/走向生产级review/asset/image.png",
     "客户流失预警/走向生产级review 1/asset/image.png",
     "20260413-0415/asset/image.png",

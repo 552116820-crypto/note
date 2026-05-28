@@ -2,5 +2,6 @@
   "attachmentFolderPath": "./asset",
   "promptDelete": false,
   "showLineNumber": true,
-  "focusNewTab": false
+  "focusNewTab": false,
+  "alwaysUpdateLinks": true
 }
