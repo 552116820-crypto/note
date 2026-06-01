@@ -4,25 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "76ebfccb21a288c1",
+        "id": "0450756f9c08c2a0",
         "type": "tabs",
         "children": [
           {
-            "id": "724383d1df61f7a7",
+            "id": "de4be0fd0c3c9108",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/ccaf学习清单.md",
+                "file": "客户流失预警/走向生产级review/项目部署凭据.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ccaf学习清单"
+              "title": "项目部署凭据"
             }
           },
           {
-            "id": "52e4a85b9d568cd8",
+            "id": "6a68e497f5edbf52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/git 两个远程仓库.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git 两个远程仓库"
+            }
+          },
+          {
+            "id": "36b8eba6f12868bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/服务器运维相关.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "服务器运维相关"
+            }
+          },
+          {
+            "id": "4bd7ab9ea5d884c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gitlab 和 服务器 流程"
+            }
+          },
+          {
+            "id": "ec0801ad17bfb81b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-03/本月工作总结_2026-05.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本月工作总结_2026-05"
+            }
+          },
+          {
+            "id": "f8e3818177fb4483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普与企微机器人/部署服务器的运维问题（ip白名单）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "部署服务器的运维问题（ip白名单）"
+            }
+          },
+          {
+            "id": "f7032c8be50d5418",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普与企微机器人/接口调用超时.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "接口调用超时"
+            }
+          },
+          {
+            "id": "1656f5de4255d785",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普与企微机器人/人工耗时评估与项目评估.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "人工耗时评估与项目评估"
+            }
+          },
+          {
+            "id": "132115b4e1070fa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "滴普与企微机器人/http和https.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "http和https"
+            }
+          },
+          {
+            "id": "7facb426a94874f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +148,7 @@
             }
           },
           {
-            "id": "f754db078e0d3de8",
+            "id": "7a9846650f626e88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,77 +162,77 @@
             }
           },
           {
-            "id": "15eb688a880dd5f5",
+            "id": "a625602175efe6d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/ccaf 考察的相关概念.md",
+                "file": "20260601-03/本月总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ccaf 考察的相关概念"
+              "title": "本月总结"
             }
           },
           {
-            "id": "1f907e7a9161b111",
+            "id": "dc15913dbecd3b82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/steering的含义.md",
+                "file": "智能拓客/需要确认的点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "steering的含义"
+              "title": "需要确认的点"
             }
           },
           {
-            "id": "f715e4243ff4418a",
+            "id": "c3c96f8a16d27d9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/本周总结.md",
+                "file": "智能拓客/需求文档拆解实现方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周总结"
+              "title": "需求文档拆解实现方案"
             }
           },
           {
-            "id": "3a8824c3a43bb1a0",
+            "id": "58b089b561011035",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260525-29/本周总结-OGSM.md",
+                "file": "20260601-03/待完成的点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周总结-OGSM"
+              "title": "待完成的点"
             }
           },
           {
-            "id": "df0b87e4d9afb707",
+            "id": "a6b4f9e6790b8768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滴普与企微机器人/接口调用超时.md",
+                "file": "20260601-03/工作日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "接口调用超时"
+              "title": "工作日志"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -177,7 +289,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 243.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -291,44 +403,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3a8824c3a43bb1a0",
+  "active": "a6b4f9e6790b8768",
   "lastOpenFiles": [
-    "20260525-29/本周总结.md",
+    "20260601-03/待完成的点.md",
+    "20260601-03/工作日志.md",
+    "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
+    "客户流失预警/走向生产级review/服务器运维相关.md",
+    "客户流失预警/走向生产级review/git 两个远程仓库.md",
+    "客户流失预警/走向生产级review/项目部署凭据.md",
+    "滴普与企微机器人/http和https.md",
+    "滴普与企微机器人/部署服务器的运维问题（ip白名单）.md",
+    "滴普与企微机器人/人工耗时评估与项目评估.md",
     "滴普与企微机器人/接口调用超时.md",
+    "智能拓客/后续工作：建三张表，接口交付（重要）.md",
+    "20260601-03/本月总结.md",
+    "智能拓客/需求文档拆解实现方案.md",
+    "智能拓客/需要确认的点.md",
+    "智能拓客/建表验证.md",
+    "20260601-03/本月工作总结_2026-05.md",
+    "20260601/本月工作总结_2026-05.md.tmp.1642.dbacf6362e2c",
+    "20260525-29/本周总结.md",
+    "20260520-23/本周工作总结.md",
+    "20260511-16/本周工作内容.md",
+    "20260601.md",
+    "20260601-03",
     "20260525-29/本周总结-OGSM.md",
     "20260525-29/本周总结-OGSM.md.tmp.23091.2d2ad40a0063",
     "20260525-29/本周总结.md.tmp.21337.992423c40b49",
-    "智能拓客/后续工作：建三张表，接口交付（重要）.md",
-    "智能拓客/建表验证.md",
     "20260525-29/ccaf学习清单.md",
     "20260525-29/ccaf 考察的相关概念.md",
     "学习/其他/中午防晒.md",
     "学习/其他/未命名.md",
     "20260525-29/steering的含义.md",
-    "20260520-23/CCA-F海报.md",
-    "学习/其他/身体护理（沐浴前后）.md",
-    "滴普与企微机器人/人工耗时评估与项目评估.md",
-    "学习/其他/洗头水沐浴露.md",
-    "滴普与企微机器人/输出图片.md",
-    "学习/其他/评估护肤流程.md",
-    "学习/其他/整理一天的护肤流程.md",
-    "滴普与企微机器人/企微端图片显示问题.md",
-    "滴普与企微机器人/解决图片渲染问题.md",
-    "智能拓客/需要确认的点.md",
-    "智能拓客/需求文档拆解实现方案.md",
-    "智能拓客（数据准备）/行业高置信度匹配项的更新条目数量.md",
-    "20260525-29/codex-plugin-cc的原理.md",
-    "20260520-23/本周工作总结.md",
-    "20260520-23/CCAF报名补充.md",
-    "20260525-29/skillopt价值探讨.md",
     "HR数字人",
     "智能拓客（数据准备）",
     "20260525-29",
     "20260520/查客户改造方向.md、",
     "写入竞品的理化性质",
     "20260520-23",
-    "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.06a95d4b1202",
-    "20260511-16/周一分享-基于Claude Code的竞企调研工作流.md.tmp.3676.7a4fbcc8b0c5",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "20260506/asset/image.png",
