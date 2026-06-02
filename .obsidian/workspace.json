@@ -8,202 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de4be0fd0c3c9108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/项目部署凭据.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目部署凭据"
-            }
-          },
-          {
-            "id": "6a68e497f5edbf52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/git 两个远程仓库.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git 两个远程仓库"
-            }
-          },
-          {
-            "id": "36b8eba6f12868bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/服务器运维相关.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "服务器运维相关"
-            }
-          },
-          {
-            "id": "4bd7ab9ea5d884c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "gitlab 和 服务器 流程"
-            }
-          },
-          {
-            "id": "ec0801ad17bfb81b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-03/本月工作总结_2026-05.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本月工作总结_2026-05"
-            }
-          },
-          {
-            "id": "f8e3818177fb4483",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普与企微机器人/部署服务器的运维问题（ip白名单）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "部署服务器的运维问题（ip白名单）"
-            }
-          },
-          {
-            "id": "f7032c8be50d5418",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普与企微机器人/接口调用超时.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "接口调用超时"
-            }
-          },
-          {
-            "id": "1656f5de4255d785",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普与企微机器人/人工耗时评估与项目评估.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "人工耗时评估与项目评估"
-            }
-          },
-          {
-            "id": "132115b4e1070fa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滴普与企微机器人/http和https.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "http和https"
-            }
-          },
-          {
-            "id": "7facb426a94874f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客/建表验证.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "建表验证"
-            }
-          },
-          {
-            "id": "7a9846650f626e88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客/后续工作：建三张表，接口交付（重要）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "后续工作：建三张表，接口交付（重要）"
-            }
-          },
-          {
-            "id": "a625602175efe6d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-03/本月总结.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本月总结"
-            }
-          },
-          {
-            "id": "dc15913dbecd3b82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客/需要确认的点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "需要确认的点"
-            }
-          },
-          {
-            "id": "c3c96f8a16d27d9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客/需求文档拆解实现方案.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "需求文档拆解实现方案"
-            }
-          },
-          {
             "id": "58b089b561011035",
             "type": "leaf",
             "state": {
@@ -218,21 +22,35 @@
             }
           },
           {
-            "id": "a6b4f9e6790b8768",
+            "id": "98004b2ddf390823",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260601-03/工作日志.md",
+                "file": "智能拓客/需求prompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工作日志"
+              "title": "需求prompt"
+            }
+          },
+          {
+            "id": "1a584460b11bafb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客/crm数据库的理解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "crm数据库的理解"
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -403,24 +221,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a6b4f9e6790b8768",
+  "active": "98004b2ddf390823",
   "lastOpenFiles": [
     "20260601-03/待完成的点.md",
-    "20260601-03/工作日志.md",
+    "智能拓客/需求prompt.md",
+    "智能拓客/crm数据库的理解.md",
+    "20260601-03/每天工作日志.md",
+    "客户流失预警/走向生产级review/项目部署凭据.md",
+    "智能拓客/后续工作：建三张表，接口交付（重要）.md",
+    "20260601-03/本月总结.md",
+    "20260601-03/本月工作总结_2026-05.md",
     "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
     "客户流失预警/走向生产级review/服务器运维相关.md",
     "客户流失预警/走向生产级review/git 两个远程仓库.md",
-    "客户流失预警/走向生产级review/项目部署凭据.md",
     "滴普与企微机器人/http和https.md",
     "滴普与企微机器人/部署服务器的运维问题（ip白名单）.md",
     "滴普与企微机器人/人工耗时评估与项目评估.md",
     "滴普与企微机器人/接口调用超时.md",
-    "智能拓客/后续工作：建三张表，接口交付（重要）.md",
-    "20260601-03/本月总结.md",
     "智能拓客/需求文档拆解实现方案.md",
     "智能拓客/需要确认的点.md",
     "智能拓客/建表验证.md",
-    "20260601-03/本月工作总结_2026-05.md",
     "20260601/本月工作总结_2026-05.md.tmp.1642.dbacf6362e2c",
     "20260525-29/本周总结.md",
     "20260520-23/本周工作总结.md",
@@ -433,8 +253,6 @@
     "20260525-29/ccaf学习清单.md",
     "20260525-29/ccaf 考察的相关概念.md",
     "学习/其他/中午防晒.md",
-    "学习/其他/未命名.md",
-    "20260525-29/steering的含义.md",
     "HR数字人",
     "智能拓客（数据准备）",
     "20260525-29",
