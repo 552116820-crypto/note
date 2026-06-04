@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "eda53f85f820c166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/部署https域名，nginx反代/部署nginx，接口url.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "部署nginx，接口url"
+            }
+          },
+          {
             "id": "7c3d47ded22e4376",
             "type": "leaf",
             "state": {
@@ -33,6 +47,34 @@
               },
               "icon": "lucide-file",
               "title": "待完成的点"
+            }
+          },
+          {
+            "id": "bfd0643a27cce88b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/每天工作日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "每天工作日志"
+            }
+          },
+          {
+            "id": "b83b8f513ad7fb5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/Redis缓存.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Redis缓存"
             }
           },
           {
@@ -61,6 +103,34 @@
               },
               "icon": "lucide-file",
               "title": "dify nginx 反代服务"
+            }
+          },
+          {
+            "id": "0721f0a5108f546d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git相关原理/git 推送保护机制与修护.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git 推送保护机制与修护"
+            }
+          },
+          {
+            "id": "51eac42b29576d35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 文件内容解读.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dify nginx 文件内容解读"
             }
           },
           {
@@ -277,12 +347,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1bf1c04a24716923",
+  "active": "bfd0643a27cce88b",
   "lastOpenFiles": [
     "智能拓客（第二阶段）/讨论“跳过”按钮的后台开发，即用户状态.md",
+    "20260601-06/每天工作日志.md",
     "20260601-06/待完成的点.md",
-    "智能拓客（第二阶段）/规范服务器项目文档.md",
     "智能拓客（第二阶段）/规范库名和表名.md",
+    "智能拓客（第二阶段）/部署https域名，nginx反代/部署nginx，接口url.md",
+    "智能拓客（第二阶段）/Redis缓存.md",
+    "智能拓客（第二阶段）/规范服务器项目文档.md",
+    "git相关原理/git 推送保护机制与修护.md",
+    "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 反代服务.md",
+    "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 文件内容解读.md",
     "智能拓客（第二阶段）/需求prompt_2.md",
     "1（env）/项目部署凭据.md",
     "智能拓客/开发过程（待续）.md",
@@ -290,15 +366,11 @@
     "智能拓客（第二阶段）",
     "20260601-06/dify工作流dsl文件导入进滴普的兼容问题.md",
     "智能拓客（第二阶段）/部署https域名，nginx反代/对接管理员，申请域名和证书.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/部署nginx，接口url.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 文件内容解读.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 反代服务.md",
     "智能拓客（第二阶段）/部署https域名，nginx反代",
     "1（env）",
     "智能拓客/需求prompt_1.md",
     "智能拓客/需求prompt_0.md",
     "20260601-06/持久化cc的effort max.md",
-    "20260601-06/每天工作日志.md",
     "学习/小说神作.md",
     "20260601-06/本月工作总结_2026-05.md",
     "学习/其他/增生性疤痕.md",
@@ -306,8 +378,6 @@
     "学习/其他/冬天护肤.md",
     "20260601-06/客户流失预警（1个月的上线情况）.md",
     "智能拓客/crm数据库理解2（基础信息表+客户标签表）.md",
-    "智能拓客/三张客户信息表的理解.md",
-    "智能拓客/接口设计方案以及距离计算方案.md",
     "20260601/本月工作总结_2026-05.md.tmp.1642.dbacf6362e2c",
     "20260601-06",
     "20260525-29/本周总结-OGSM.md.tmp.23091.2d2ad40a0063",
