@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba6105da4621e229",
+        "id": "c4aab94b1a7100f3",
         "type": "tabs",
         "children": [
           {
-            "id": "bebd10ade4417cb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/规范库名和表名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "规范库名和表名"
-            }
-          },
-          {
-            "id": "eda53f85f820c166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/部署https域名，nginx反代/部署nginx，接口url.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "部署nginx，接口url"
-            }
-          },
-          {
-            "id": "7c3d47ded22e4376",
+            "id": "59a468d89a758406",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +22,7 @@
             }
           },
           {
-            "id": "bfd0643a27cce88b",
+            "id": "c2cf25416f373062",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,12 +36,40 @@
             }
           },
           {
-            "id": "b83b8f513ad7fb5b",
+            "id": "a6704e7bca4a9c54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/Redis缓存.md",
+                "file": "智能拓客（第二阶段）/2.Redis缓存/plan mode redis添加全流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan mode redis添加全流程"
+            }
+          },
+          {
+            "id": "fd55c4a2256851e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/2.Redis缓存/redis-robust-treehouse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "redis-robust-treehouse"
+            }
+          },
+          {
+            "id": "40b657bef857ed12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/2.Redis缓存/Redis缓存.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,105 +78,20 @@
             }
           },
           {
-            "id": "f1b454fcdfa5da85",
+            "id": "88569732e83dd4e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/讨论“跳过”按钮的后台开发，即用户状态.md",
+                "file": "智能拓客（第二阶段）/3.开发“跳过功能”/人工plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "讨论“跳过”按钮的后台开发，即用户状态"
-            }
-          },
-          {
-            "id": "1bf1c04a24716923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 反代服务.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dify nginx 反代服务"
-            }
-          },
-          {
-            "id": "0721f0a5108f546d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git相关原理/git 推送保护机制与修护.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git 推送保护机制与修护"
-            }
-          },
-          {
-            "id": "51eac42b29576d35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 文件内容解读.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dify nginx 文件内容解读"
-            }
-          },
-          {
-            "id": "3a96e3621340db44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/需求prompt_2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "需求prompt_2"
-            }
-          },
-          {
-            "id": "ce6ec34107d96d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/规范服务器项目文档.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "规范服务器项目文档"
-            }
-          },
-          {
-            "id": "8fdd5806102df805",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1（env）/项目部署凭据.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目部署凭据"
+              "title": "人工plan"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "客户标签",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 326.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -347,44 +262,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21881cfaa5d9d79f",
+  "active": "59a468d89a758406",
   "lastOpenFiles": [
-    "20260601-06/待完成的点.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/部署nginx，接口url.md",
-    "智能拓客（第二阶段）/规范库名和表名.md",
     "20260601-06/每天工作日志.md",
-    "智能拓客（第二阶段）/讨论“跳过”按钮的后台开发，即用户状态.md",
-    "智能拓客（第二阶段）/Redis缓存.md",
-    "智能拓客（第二阶段）/规范服务器项目文档.md",
-    "git相关原理/git 推送保护机制与修护.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 反代服务.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/dify nginx 文件内容解读.md",
+    "20260601-06/待完成的点.md",
+    "智能拓客（第二阶段）/3.开发“跳过功能”/人工plan.md",
+    "智能拓客（第二阶段）/2.Redis缓存/plan mode redis添加全流程.md",
+    "智能拓客（第二阶段）/2.Redis缓存/redis-robust-treehouse.md",
+    "智能拓客（第二阶段）/2.Redis缓存/Redis缓存.md",
+    "智能拓客（第二阶段）/3.开发“跳过功能”/讨论“跳过”按钮的后台开发，等效用户状态.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/规范库名和表名.md",
     "智能拓客（第二阶段）/需求prompt_2.md",
+    "智能拓客（第二阶段）/合并时Redis的坑.md",
+    "智能拓客（第二阶段）/3.开发“跳过功能”",
+    "智能拓客（第二阶段）/1.规范数据库全流程/填写churn表的注释（方案与结果）.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/未命名.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/redis-robust-treehouse.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/d-note-md-d-note-plan-md-plan-plan-kind-hollerith.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/plan mode 备份并迁移数据库全流程.md",
+    "智能拓客（第二阶段）/2.Redis缓存",
+    "智能拓客（第二阶段）/1.规范数据库全流程/备份迁移churn_db的过程（解决dump卡死，本质MUT上限）.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/人工plan：规范数据库名称.md",
     "1（env）/项目部署凭据.md",
-    "智能拓客/开发过程（待续）.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程",
     "智能拓客/初步测试结果（启动与设置mtu 1400）.md",
+    "滴普与企微机器人/部署服务器的运维问题（ip白名单）.md",
+    "学习/文学相关/加缪三部曲.md",
+    "学习/文学相关/小说神作.md",
+    "学习/未命名.md",
+    "学习/文学相关",
+    "20260601-06/claude code 的 loop功能.md",
+    "智能拓客（第二阶段）/规范服务器项目文档.md",
+    "智能拓客（第二阶段）/7.部署https域名，nginx反代/dify nginx 反代服务.md",
     "智能拓客（第二阶段）",
-    "20260601-06/dify工作流dsl文件导入进滴普的兼容问题.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代/对接管理员，申请域名和证书.md",
-    "智能拓客（第二阶段）/部署https域名，nginx反代",
+    "智能拓客（第二阶段）/7.部署https域名，nginx反代",
     "1（env）",
-    "智能拓客/需求prompt_1.md",
-    "智能拓客/需求prompt_0.md",
-    "20260601-06/持久化cc的effort max.md",
-    "学习/小说神作.md",
-    "20260601-06/本月工作总结_2026-05.md",
-    "学习/其他/增生性疤痕.md",
-    "学习/其他/整理一天的护肤流程.md",
-    "学习/其他/冬天护肤.md",
-    "20260601-06/客户流失预警（1个月的上线情况）.md",
-    "智能拓客/crm数据库理解2（基础信息表+客户标签表）.md",
     "20260601/本月工作总结_2026-05.md.tmp.1642.dbacf6362e2c",
     "20260601-06",
     "20260525-29/本周总结-OGSM.md.tmp.23091.2d2ad40a0063",
-    "20260525-29/本周总结.md.tmp.21337.992423c40b49",
-    "HR数字人",
-    "智能拓客（数据准备）",
-    "20260525-29",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "20260506/asset/image.png",
