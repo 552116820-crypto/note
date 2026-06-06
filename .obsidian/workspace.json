@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c4aab94b1a7100f3",
+        "id": "bd3bc9b24f4221ea",
         "type": "tabs",
         "children": [
           {
-            "id": "59a468d89a758406",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/待完成的点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待完成的点"
-            }
-          },
-          {
-            "id": "c2cf25416f373062",
+            "id": "6f4fff385c856494",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,62 +22,35 @@
             }
           },
           {
-            "id": "a6704e7bca4a9c54",
+            "id": "7570fb903da4475e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/2.Redis缓存/plan mode redis添加全流程.md",
+                "file": "20260601-06/待完成的点.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan mode redis添加全流程"
+              "title": "待完成的点"
             }
           },
           {
-            "id": "fd55c4a2256851e8",
+            "id": "f8e688c96c2ab759",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/2.Redis缓存/redis-robust-treehouse.md",
+                "file": "智能拓客（第二阶段）/6.接口测试/plan mode d-note-6-plan-md-nested-hopcroft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "redis-robust-treehouse"
-            }
-          },
-          {
-            "id": "40b657bef857ed12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/2.Redis缓存/Redis缓存.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Redis缓存"
-            }
-          },
-          {
-            "id": "88569732e83dd4e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/3.开发“跳过功能”/人工plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "人工plan"
+              "title": "plan mode d-note-6-plan-md-nested-hopcroft"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,44 +221,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59a468d89a758406",
+  "active": "7570fb903da4475e",
   "lastOpenFiles": [
     "20260601-06/每天工作日志.md",
+    "20260601-06/本周工作内容-按项目.md",
+    "20260601-06/本周工作内容-按项目.md.tmp.31607.7e005192bd44",
+    "智能拓客（第二阶段）/6.接口测试/接口文档，对接前端.md.tmp.24108.280df095c2b6",
+    "智能拓客（第二阶段）/6.接口测试/plan mode d-note-6-plan-md-nested-hopcroft.md",
     "20260601-06/待完成的点.md",
-    "智能拓客（第二阶段）/3.开发“跳过功能”/人工plan.md",
-    "智能拓客（第二阶段）/2.Redis缓存/plan mode redis添加全流程.md",
-    "智能拓客（第二阶段）/2.Redis缓存/redis-robust-treehouse.md",
-    "智能拓客（第二阶段）/2.Redis缓存/Redis缓存.md",
-    "智能拓客（第二阶段）/3.开发“跳过功能”/讨论“跳过”按钮的后台开发，等效用户状态.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/规范库名和表名.md",
-    "智能拓客（第二阶段）/需求prompt_2.md",
-    "智能拓客（第二阶段）/合并时Redis的坑.md",
-    "智能拓客（第二阶段）/3.开发“跳过功能”",
-    "智能拓客（第二阶段）/1.规范数据库全流程/填写churn表的注释（方案与结果）.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/未命名.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/redis-robust-treehouse.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/d-note-md-d-note-plan-md-plan-plan-kind-hollerith.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/plan mode 备份并迁移数据库全流程.md",
-    "智能拓客（第二阶段）/2.Redis缓存",
-    "智能拓客（第二阶段）/1.规范数据库全流程/备份迁移churn_db的过程（解决dump卡死，本质MUT上限）.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/人工plan：规范数据库名称.md",
-    "1（env）/项目部署凭据.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程",
+    "智能拓客（第二阶段）/6.接口测试/人工plan.md",
+    "智能拓客（第二阶段）/5.开发“日志功能”/人工plan.md",
+    "智能拓客（第二阶段）/5.开发“日志功能”/plan mode d-note-5-plan-md-joyful-hollerith.md",
+    "智能拓客（第二阶段）/5.开发“日志功能”/plan mode 开发全流程.md",
     "智能拓客/初步测试结果（启动与设置mtu 1400）.md",
-    "滴普与企微机器人/部署服务器的运维问题（ip白名单）.md",
-    "学习/文学相关/加缪三部曲.md",
-    "学习/文学相关/小说神作.md",
-    "学习/未命名.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/备份迁移churn_db的过程（解决dump卡死，本质MUT上限）.md",
+    "智能拓客（第二阶段）/6.接口测试/接口文档，对接前端.md",
+    "智能拓客（第二阶段）/11.部署https域名，nginx反代/对接管理员，申请域名和证书.md",
+    "20260601-06/cc上codex偶发掉线.md",
+    "1（env）/项目部署凭据.md",
+    "智能拓客（第二阶段）/6.接口测试",
+    "智能拓客（第二阶段）/4.行为时间轴和AI推荐接口/codex review.md",
+    "智能拓客（第二阶段）/4.行为时间轴和AI推荐接口/人工plan.md",
+    "智能拓客（第二阶段）/4.行为时间轴和AI推荐接口/plan mode 两个接口开发全流程.md",
+    "智能拓客（第二阶段）/4.行为时间轴和AI推荐接口/plan mode d-note-4-ai-plan-md-quiet-sun.md",
+    "智能拓客（第二阶段）/合并时Redis的坑.md",
+    "20260601-06/GraphRAG.md",
+    "智能拓客（第二阶段）/3.开发“跳过功能”/plan mode “跳过”功能开发全流程.md",
+    "智能拓客（第二阶段）/3.开发“跳过功能”/plan mode d-note-3-plan-md-groovy-treehouse.md",
+    "客户流失预警/走向生产级review/执行日期调整成上海时间.md",
+    "智能拓客/需求prompt_1.md",
+    "智能拓客/开发过程（待续）.md",
+    "智能拓客（第二阶段）/5.开发“日志功能”",
+    "智能拓客（第二阶段）/需求prompt_2.md",
+    "智能拓客（第二阶段）/4.行为时间轴和AI推荐接口",
+    "智能拓客（第二阶段）/3.开发“跳过功能”",
+    "智能拓客（第二阶段）/2.Redis缓存",
+    "智能拓客（第二阶段）/1.规范数据库全流程",
     "学习/文学相关",
-    "20260601-06/claude code 的 loop功能.md",
-    "智能拓客（第二阶段）/规范服务器项目文档.md",
-    "智能拓客（第二阶段）/7.部署https域名，nginx反代/dify nginx 反代服务.md",
     "智能拓客（第二阶段）",
-    "智能拓客（第二阶段）/7.部署https域名，nginx反代",
-    "1（env）",
-    "20260601/本月工作总结_2026-05.md.tmp.1642.dbacf6362e2c",
-    "20260601-06",
-    "20260525-29/本周总结-OGSM.md.tmp.23091.2d2ad40a0063",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "20260506/asset/image.png",
