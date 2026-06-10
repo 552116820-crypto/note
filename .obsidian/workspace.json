@@ -288,7 +288,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -459,11 +459,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "837f73b2d2cc55eb",
+  "active": "21881cfaa5d9d79f",
   "lastOpenFiles": [
     "20260608-13/待完成.md",
-    "20260608-13/obsidian cli.md",
     "20260608-13/每天的工作日志.md",
+    "20260608-13/obsidian cli.md",
     "智能拓客（第二阶段）/11.合并成大项目/合并前/代理客户端的直连规则.md",
     "智能拓客（第二阶段）/11.合并成大项目/合并前/烟测慢的原因.md",
     "企微机器人桥接到滴普智能体（第二阶段）/共享文档编辑权限.md",
