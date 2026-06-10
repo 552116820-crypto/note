@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /mnt/d/note/.claude/skills)",
+      "Bash(cp -r /tmp/obsidian-skills/skills/obsidian-cli /mnt/d/note/.claude/skills/)"
+    ]
+  }
+}
