@@ -20,8 +20,387 @@
               "icon": "lucide-file",
               "title": "待完成"
             }
+          },
+          {
+            "id": "2453577a29c1d32c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/每天工作日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "每天工作日志"
+            }
+          },
+          {
+            "id": "cbaf15e9127edf6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260608-13/罗斯福.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "罗斯福"
+            }
+          },
+          {
+            "id": "139c7eeee4172b3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/待完成的点.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待完成的点"
+            }
+          },
+          {
+            "id": "6bb5f6f4f6dd1a9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/本月总结.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本月总结"
+            }
+          },
+          {
+            "id": "1f16e41b7bb0bcdb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/claude code 的 loop功能.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "claude code 的 loop功能"
+            }
+          },
+          {
+            "id": "5ba04a0b13cb290f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/cc上codex偶发掉线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cc上codex偶发掉线"
+            }
+          },
+          {
+            "id": "6be08bd0674e4e18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/dify工作流dsl文件导入进滴普的兼容问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "dify工作流dsl文件导入进滴普的兼容问题"
+            }
+          },
+          {
+            "id": "2531e2afb5ecf5d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/客户流失预警（1个月的上线情况）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "客户流失预警（1个月的上线情况）"
+            }
+          },
+          {
+            "id": "225ed6b585b2e44e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/持久化cc的effort max.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "持久化cc的effort max"
+            }
+          },
+          {
+            "id": "167b03983b45e3b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/本月工作总结_2026-05.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本月工作总结_2026-05"
+            }
+          },
+          {
+            "id": "10f71e16a2bdb259",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260601-06/本周工作内容-按项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本周工作内容-按项目"
+            }
+          },
+          {
+            "id": "8b16244b5cc31358",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260608-13/OGSM周报.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OGSM周报"
+            }
+          },
+          {
+            "id": "30ac2cf1a74f1d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260608-13/本周工作日志_按项目.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本周工作日志_按项目"
+            }
+          },
+          {
+            "id": "cf35aea68b63ee38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/审查并规范项目结构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "审查并规范项目结构"
+            }
+          },
+          {
+            "id": "d7adf6e93f3f3ce1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260608-13/中庸与平庸.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "中庸与平庸"
+            }
+          },
+          {
+            "id": "4e29f9cfb885384b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "企微机器人桥接到滴普智能体（第二阶段）/私聊场景下的多智能体切换.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "私聊场景下的多智能体切换"
+            }
+          },
+          {
+            "id": "705605e667c47b07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode churn深度重构 plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan mode churn深度重构 plan"
+            }
+          },
+          {
+            "id": "38017c8ed7fa7c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/文档更新.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文档更新"
+            }
+          },
+          {
+            "id": "ffe3a48d8ef885a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1（env）/项目部署凭据.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目部署凭据"
+            }
+          },
+          {
+            "id": "3eecfafcc919658d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260608-13/每天的工作日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "每天的工作日志"
+            }
+          },
+          {
+            "id": "bf21dc9ca02290db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260608-13/ruff.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ruff"
+            }
+          },
+          {
+            "id": "d564ccb5b18fca51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合成一个项目的必要性.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "合成一个项目的必要性"
+            }
+          },
+          {
+            "id": "61f1cf7133157d60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode 第二版 plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan mode 第二版 plan"
+            }
+          },
+          {
+            "id": "5f37bf5561a41d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode 第二版 共享层去重.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan mode 第二版 共享层去重"
+            }
+          },
+          {
+            "id": "fd04f9410cce11a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "企微机器人桥接到滴普智能体（第二阶段）/并发量，响应时间梯度测试结果.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "并发量，响应时间梯度测试结果"
+            }
+          },
+          {
+            "id": "aaf75fd7582d7367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/churn重构与ruff，mypy豁免.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "churn重构与ruff，mypy豁免"
+            }
+          },
+          {
+            "id": "68c56178528bd846",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "企微机器人桥接到滴普智能体（第二阶段）/plan mode 压测plan.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan mode 压测plan"
+            }
           }
-        ]
+        ],
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -192,35 +571,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7aef9f14e994c1a",
+  "active": "30ac2cf1a74f1d52",
   "lastOpenFiles": [
-    "20260608-13/每天的工作日志.md",
-    "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode 第二版 共享层去重plan.md",
+    "20260608-13/OGSM周报.md",
+    "20260608-13/罗斯福.md",
+    "20260601-06/每天工作日志.md",
+    "20260601-06/客户流失预警（1个月的上线情况）.md",
+    "20260601-06/本月工作总结_2026-05.md",
+    "20260601-06/本月总结.md",
+    "20260601-06/待完成的点.md",
+    "20260601-06/本周工作内容-按项目.md",
+    "20260601-06/cc上codex偶发掉线.md",
+    "20260601-06/claude code 的 loop功能.md",
+    "20260601-06/dify工作流dsl文件导入进滴普的兼容问题.md",
+    "20260601-06/持久化cc的effort max.md",
     "20260608-13/待完成.md",
-    "20260608-13/ruff.md",
+    "智能拓客（第二阶段）/11.合并成大项目/合并过程/审查并规范项目结构.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/私聊场景下的多智能体切换.md",
+    "20260608-13/中庸与平庸.md",
+    "智能拓客（第二阶段）/11.合并成大项目/合并过程/文档更新.md",
+    "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode churn深度重构 plan.md",
+    "20260608-13/本周工作日志_按项目.md",
+    "20260608-13/本周工作日志_按项目.md.tmp.16714.184cfe6d6bed",
+    "20260608-13/OGSM周报.md.tmp.16714.ffab35df1089",
+    "20260608-13/每天的工作日志.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/并发量，响应时间梯度测试结果.md",
     "1（env）/项目部署凭据.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/并发量，响应时间测试.md",
+    "智能拓客（第二阶段）/11.合并成大项目/合并过程/churn重构与ruff，mypy豁免.md",
     "企微机器人桥接到滴普智能体（第二阶段）/plan mode 压测plan.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/computer-use ，dify配置了mcp但看不见.md",
-    "20260608-13/服务器相关问题 vpn 卡 自动退出.md",
-    "obsidian 介绍.md",
+    "学习/电脑游戏相关/显示器与音响.md",
+    "学习/电脑游戏相关/内存SSD价格影响.md",
     "智能拓客（第二阶段）/11.合并成大项目/合并过程",
-    "学习/电脑游戏相关/游戏清单.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/compressed-hopping-token.md",
-    "智能拓客（第二阶段）/11.合并成大项目/toasty-drifting-comet.md",
-    "2026-06-10.md",
-    "学习/其他/炎症痘痘.md",
-    "学习/电脑游戏相关/电脑配置.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/给前端的本地接口连接问题.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/启动服务.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/CORS.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/企微测的相关调整，最大气泡窗口.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/共享文档编辑限制 与 mcp连接.md",
-    "20260608-13/obsidian cli.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/企微机器人mcp的JSON Config.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/openclaw接入mcp，滴普接入mcp.md",
-    "智能拓客（第二阶段）/11.合并成大项目/plan mode 第二版 共享层去重.md",
-    "20260608-13/agentloop.md",
     "智能拓客（第二阶段）/12.合并前给前端测试",
     "CLAUDE.md.tmp.42360.644258e619a9",
     "智能拓客（第二阶段）/11.合并成大项目/合并前",
@@ -228,8 +609,6 @@
     "智能拓客（第二阶段）/11.合并成大项目",
     "智能拓客（第二阶段）/10.规范接口返回的message",
     "企微机器人桥接到滴普智能体（第二阶段）",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端.md.tmp.10712.2354ac069a66",
-    "滴普与企微机器人/未命名",
     "企微机器人桥接到滴普智能体/asset/image-2.png",
     "企微机器人桥接到滴普智能体/asset/image.png",
     "企微机器人桥接到滴普智能体/asset/image-1.png",
