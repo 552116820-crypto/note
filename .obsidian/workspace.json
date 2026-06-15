@@ -8,292 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7aef9f14e994c1a",
+            "id": "0de7f485a0ad7a49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260608-13/待完成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待完成"
-            }
-          },
-          {
-            "id": "2453577a29c1d32c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/每天工作日志.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "每天工作日志"
-            }
-          },
-          {
-            "id": "cbaf15e9127edf6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260608-13/罗斯福.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "罗斯福"
-            }
-          },
-          {
-            "id": "139c7eeee4172b3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/待完成的点.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待完成的点"
-            }
-          },
-          {
-            "id": "6bb5f6f4f6dd1a9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/本月总结.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本月总结"
-            }
-          },
-          {
-            "id": "1f16e41b7bb0bcdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/claude code 的 loop功能.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "claude code 的 loop功能"
-            }
-          },
-          {
-            "id": "5ba04a0b13cb290f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/cc上codex偶发掉线.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cc上codex偶发掉线"
-            }
-          },
-          {
-            "id": "6be08bd0674e4e18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/dify工作流dsl文件导入进滴普的兼容问题.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dify工作流dsl文件导入进滴普的兼容问题"
-            }
-          },
-          {
-            "id": "2531e2afb5ecf5d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/客户流失预警（1个月的上线情况）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "客户流失预警（1个月的上线情况）"
-            }
-          },
-          {
-            "id": "225ed6b585b2e44e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/持久化cc的effort max.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "持久化cc的effort max"
-            }
-          },
-          {
-            "id": "167b03983b45e3b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/本月工作总结_2026-05.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本月工作总结_2026-05"
-            }
-          },
-          {
-            "id": "10f71e16a2bdb259",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260601-06/本周工作内容-按项目.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本周工作内容-按项目"
-            }
-          },
-          {
-            "id": "8b16244b5cc31358",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260608-13/OGSM周报.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OGSM周报"
-            }
-          },
-          {
-            "id": "30ac2cf1a74f1d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260608-13/本周工作日志_按项目.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "本周工作日志_按项目"
-            }
-          },
-          {
-            "id": "cf35aea68b63ee38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/审查并规范项目结构.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "审查并规范项目结构"
-            }
-          },
-          {
-            "id": "d7adf6e93f3f3ce1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260608-13/中庸与平庸.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "中庸与平庸"
-            }
-          },
-          {
-            "id": "4e29f9cfb885384b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体（第二阶段）/私聊场景下的多智能体切换.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "私聊场景下的多智能体切换"
-            }
-          },
-          {
-            "id": "705605e667c47b07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode churn深度重构 plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan mode churn深度重构 plan"
-            }
-          },
-          {
-            "id": "38017c8ed7fa7c9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/文档更新.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "文档更新"
-            }
-          },
-          {
-            "id": "ffe3a48d8ef885a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1（env）/项目部署凭据.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "项目部署凭据"
-            }
-          },
-          {
-            "id": "3eecfafcc919658d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260608-13/每天的工作日志.md",
+                "file": "20260615/每天的工作日志.md",
                 "mode": "source",
                 "source": false
               },
@@ -302,105 +22,35 @@
             }
           },
           {
-            "id": "bf21dc9ca02290db",
+            "id": "347a920baa9f0ab3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260608-13/ruff.md",
+                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ruff"
+              "title": "并行443端口,解耦dify 443的方案"
             }
           },
           {
-            "id": "d564ccb5b18fca51",
+            "id": "b372ff4c0b0cc7e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合成一个项目的必要性.md",
+                "file": "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/仅按运行业务逻辑无bug为标准，无考虑运维安全.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "合成一个项目的必要性"
-            }
-          },
-          {
-            "id": "61f1cf7133157d60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode 第二版 plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan mode 第二版 plan"
-            }
-          },
-          {
-            "id": "5f37bf5561a41d8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode 第二版 共享层去重.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan mode 第二版 共享层去重"
-            }
-          },
-          {
-            "id": "fd04f9410cce11a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体（第二阶段）/并发量，响应时间梯度测试结果.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "并发量，响应时间梯度测试结果"
-            }
-          },
-          {
-            "id": "aaf75fd7582d7367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/合并过程/churn重构与ruff，mypy豁免.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "churn重构与ruff，mypy豁免"
-            }
-          },
-          {
-            "id": "68c56178528bd846",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体（第二阶段）/plan mode 压测plan.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "plan mode 压测plan"
+              "title": "仅按运行业务逻辑无bug为标准，无考虑运维安全"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -432,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#1）",
+                "query": "8080",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -457,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 310.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -571,55 +221,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30ac2cf1a74f1d52",
+  "active": "347a920baa9f0ab3",
   "lastOpenFiles": [
-    "20260608-13/OGSM周报.md",
-    "20260608-13/罗斯福.md",
-    "20260601-06/每天工作日志.md",
-    "20260601-06/客户流失预警（1个月的上线情况）.md",
-    "20260601-06/本月工作总结_2026-05.md",
-    "20260601-06/本月总结.md",
-    "20260601-06/待完成的点.md",
-    "20260601-06/本周工作内容-按项目.md",
-    "20260601-06/cc上codex偶发掉线.md",
-    "20260601-06/claude code 的 loop功能.md",
-    "20260601-06/dify工作流dsl文件导入进滴普的兼容问题.md",
-    "20260601-06/持久化cc的effort max.md",
+    "20260615/每天的工作日志.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
+    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/仅按运行业务逻辑无bug为标准，无考虑运维安全.md",
+    "20260615/待完成.md",
     "20260608-13/待完成.md",
-    "智能拓客（第二阶段）/11.合并成大项目/合并过程/审查并规范项目结构.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/私聊场景下的多智能体切换.md",
-    "20260608-13/中庸与平庸.md",
-    "智能拓客（第二阶段）/11.合并成大项目/合并过程/文档更新.md",
-    "智能拓客（第二阶段）/11.合并成大项目/合并过程/plan mode churn深度重构 plan.md",
-    "20260608-13/本周工作日志_按项目.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全/ai评审，缺运维安全相关兜底.md",
+    "智能拓客（第二阶段）/12.合并前给前端测试/plan action 缺少联系人与联系方式字段.md",
+    "20260615",
+    "智能拓客（第二阶段）/12.合并前给前端测试/plan mode 增加联系人字段.md",
+    "1（env）/项目部署凭据.md",
+    "智能拓客/初步测试结果（启动与设置mtu 1400）.md",
+    "智能拓客（第二阶段）/1.规范数据库全流程/备份迁移churn_db的过程（解决dump卡死，本质MUT上限）.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/运维相关知识，服务器已有dify子域名，怎么再加域名.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify nginx反代生效配置.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify上端口，nginx的使用情况.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify nginx 写法.md",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/docker端口映射配置相关知识.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况",
+    "客户流失预警/走向生产级review/PR前的review，443 端口被占用.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-1.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-3.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-2.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/对接管理员，申请域名和证书.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify nginx 反代服务.md",
+    "智能拓客（第二阶段）/项目理解：铁律，脚手架.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全",
+    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/claude 与 codex 评审.md",
+    "智能拓客（第二阶段）/11.合并成大项目/2.合并过程/审查并规范项目结构.md",
+    "智能拓客（第二阶段）/12.合并前给前端测试/交付并调试本地测试接口.md",
+    "智能拓客（第二阶段）/12.合并前给前端测试/给前端的本地接口连接问题.md",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口：加行业筛选.md",
+    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review",
     "20260608-13/本周工作日志_按项目.md.tmp.16714.184cfe6d6bed",
     "20260608-13/OGSM周报.md.tmp.16714.ffab35df1089",
-    "20260608-13/每天的工作日志.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/并发量，响应时间梯度测试结果.md",
-    "1（env）/项目部署凭据.md",
-    "智能拓客（第二阶段）/11.合并成大项目/合并过程/churn重构与ruff，mypy豁免.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/plan mode 压测plan.md",
-    "学习/电脑游戏相关/显示器与音响.md",
-    "学习/电脑游戏相关/内存SSD价格影响.md",
-    "智能拓客（第二阶段）/11.合并成大项目/合并过程",
+    "智能拓客（第二阶段）/11.合并成大项目/2.合并过程",
     "智能拓客（第二阶段）/12.合并前给前端测试",
     "CLAUDE.md.tmp.42360.644258e619a9",
-    "智能拓客（第二阶段）/11.合并成大项目/合并前",
-    "学习/电脑游戏相关",
-    "智能拓客（第二阶段）/11.合并成大项目",
-    "智能拓客（第二阶段）/10.规范接口返回的message",
-    "企微机器人桥接到滴普智能体（第二阶段）",
     "企微机器人桥接到滴普智能体/asset/image-2.png",
     "企微机器人桥接到滴普智能体/asset/image.png",
     "企微机器人桥接到滴普智能体/asset/image-1.png",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
     "20260506/asset/image.png",
-    "客户流失预警/走向生产级review/asset/image.png",
-    "客户流失预警/走向生产级review 1/asset/image.png",
-    "20260413-0415/asset/image.png",
     "未命名.canvas",
-    "asset/image.png",
     "客探/客探1.2版本/未命名.canvas",
     "客探一期dify代办和总结/未命名.canvas"
   ]
