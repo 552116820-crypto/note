@@ -4,25 +4,151 @@
     "type": "split",
     "children": [
       {
-        "id": "0576af280f737ed9",
+        "id": "9512e2190b53f395",
         "type": "tabs",
         "children": [
           {
-            "id": "0de7f485a0ad7a49",
+            "id": "399a4f0ec6f99956",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260615/每天的工作日志.md",
+                "file": "客户流失预警/走向生产级review/服务器运维相关.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天的工作日志"
+              "title": "服务器运维相关"
             }
           },
           {
-            "id": "347a920baa9f0ab3",
+            "id": "7a5e5f3fae66573f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/执行日期调整成上海时间.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "执行日期调整成上海时间"
+            }
+          },
+          {
+            "id": "e477704db7538fbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260615/待完成.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待完成"
+            }
+          },
+          {
+            "id": "539fd5cd3f47449d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/请求接口8.138.104.14配置8080端口.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "请求接口8.138.104.14配置8080端口"
+            }
+          },
+          {
+            "id": "d0ece06fbc045e51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "企微机器人桥接到滴普智能体（第二阶段）/同步readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "同步readme"
+            }
+          },
+          {
+            "id": "861007fa36727094",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1（env）/项目部署凭据.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "项目部署凭据"
+            }
+          },
+          {
+            "id": "1e270f23951bbdb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gitlab 和 服务器 流程"
+            }
+          },
+          {
+            "id": "1ea962d09e2bc471",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/docker celery 日志 未及时更新代码.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docker celery 日志 未及时更新代码"
+            }
+          },
+          {
+            "id": "14c46c1c10d120a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260615/docker启动容器内服务的命令解析.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "docker启动容器内服务的命令解析"
+            }
+          },
+          {
+            "id": "85a0983d5fc5db86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/aisales.amer.cn域名确认和对接服务器管理员.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "aisales.amer.cn域名确认和对接服务器管理员"
+            }
+          },
+          {
+            "id": "dfe264bfc1876951",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,21 +162,91 @@
             }
           },
           {
-            "id": "b372ff4c0b0cc7e9",
+            "id": "aeb4f32fac81e18c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/仅按运行业务逻辑无bug为标准，无考虑运维安全.md",
+                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "仅按运行业务逻辑无bug为标准，无考虑运维安全"
+              "title": "急着上线共享dify nginx与后续演进"
+            }
+          },
+          {
+            "id": "c03c35e47df6e5b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/13.代码侧的运维安全/评估项目部署上线的距离.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "评估项目部署上线的距离"
+            }
+          },
+          {
+            "id": "69d69cc25e70ba80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/走向生产级review/登录服务器.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "登录服务器"
+            }
+          },
+          {
+            "id": "19a0b7ca78d96d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/13.代码侧的运维安全/验证mysql库的白名单.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "验证mysql库的白名单"
+            }
+          },
+          {
+            "id": "b28651b591f3f3d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/13.代码侧的运维安全/确认docker 日志 干净程度.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "确认docker 日志 干净程度"
+            }
+          },
+          {
+            "id": "6c50398cf3dc5127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "客户流失预警/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -82,7 +278,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "8080",
+                "query": "curl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +303,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 374.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -221,54 +417,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "347a920baa9f0ab3",
+  "active": "861007fa36727094",
   "lastOpenFiles": [
-    "20260615/每天的工作日志.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
-    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/仅按运行业务逻辑无bug为标准，无考虑运维安全.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/同步readme.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/请求接口8.138.104.14配置8080端口.md",
     "20260615/待完成.md",
-    "20260608-13/待完成.md",
-    "智能拓客（第二阶段）/13.代码侧的运维安全/ai评审，缺运维安全相关兜底.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/plan action 缺少联系人与联系方式字段.md",
-    "20260615",
-    "智能拓客（第二阶段）/12.合并前给前端测试/plan mode 增加联系人字段.md",
+    "客户流失预警/走向生产级review/执行日期调整成上海时间.md",
+    "客户流失预警/走向生产级review/服务器运维相关.md",
+    "客户流失预警/走向生产级review/登录服务器.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全/评估项目部署上线的距离.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全/验证mysql库的白名单.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/aisales.amer.cn域名确认和对接服务器管理员.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全/确认docker 日志 干净程度.md",
     "1（env）/项目部署凭据.md",
-    "智能拓客/初步测试结果（启动与设置mtu 1400）.md",
-    "智能拓客（第二阶段）/1.规范数据库全流程/备份迁移churn_db的过程（解决dump卡死，本质MUT上限）.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
+    "20260615/docker启动容器内服务的命令解析.md",
+    "客户流失预警/docker celery 日志 未及时更新代码.md",
+    "客户流失预警/走向生产级review/gitlab 和 服务器 流程.md",
+    "客户流失预警/未命名.md",
+    "20260615/每天的工作日志.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/运维相关知识，服务器已有dify子域名，怎么再加域名.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify nginx反代生效配置.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify上端口，nginx的使用情况.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify nginx 写法.md",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/docker端口映射配置相关知识.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况",
-    "客户流失预警/走向生产级review/PR前的review，443 端口被占用.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-1.png",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-3.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-1.png",
+    "20260615/chmod 600.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全/ai评审，缺运维安全相关兜底，与后续的改进方向.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/plan action 支持多个企微机器人,多智能体暂时关闭.md",
+    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/claude 与 codex 评审.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/asset/image.png",
+    "企微机器人桥接到滴普智能体（第二阶段）/asset",
+    "企微机器人桥接到滴普智能体/asset/image.png",
+    "企微机器人桥接到滴普智能体/asset/image-1.png",
+    "企微机器人桥接到滴普智能体/asset/image-2.png",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.af5480972924",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.fde48e56c9c3",
+    "20260615",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-2.png",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/对接管理员，申请域名和证书.md",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况/dify nginx 反代服务.md",
-    "智能拓客（第二阶段）/项目理解：铁律，脚手架.md",
     "智能拓客（第二阶段）/13.代码侧的运维安全",
-    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review/claude 与 codex 评审.md",
-    "智能拓客（第二阶段）/11.合并成大项目/2.合并过程/审查并规范项目结构.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/交付并调试本地测试接口.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/给前端的本地接口连接问题.md",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口：加行业筛选.md",
     "智能拓客（第二阶段）/11.合并成大项目/3.合并后review",
     "20260608-13/本周工作日志_按项目.md.tmp.16714.184cfe6d6bed",
     "20260608-13/OGSM周报.md.tmp.16714.ffab35df1089",
-    "智能拓客（第二阶段）/11.合并成大项目/2.合并过程",
-    "智能拓客（第二阶段）/12.合并前给前端测试",
-    "CLAUDE.md.tmp.42360.644258e619a9",
-    "企微机器人桥接到滴普智能体/asset/image-2.png",
-    "企微机器人桥接到滴普智能体/asset/image.png",
-    "企微机器人桥接到滴普智能体/asset/image-1.png",
     "查找研发岗对应的竞争企业/asset/image.png",
     "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
-    "20260506/asset/image.png",
     "未命名.canvas",
     "客探/客探1.2版本/未命名.canvas",
     "客探一期dify代办和总结/未命名.canvas"
