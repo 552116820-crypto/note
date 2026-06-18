@@ -1,131 +1,102 @@
 {
   "main": {
-    "id": "eb30899e348b5e5e",
+    "id": "559fbb77e69bcccb",
     "type": "split",
     "children": [
       {
-        "id": "c14b06bb6be18838",
+        "id": "f5f96998cedab486",
         "type": "tabs",
         "children": [
           {
-            "id": "49a4c3dbb2bfb96d",
+            "id": "b4640917dd9f270a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/其他/护肤方案与饮食.md",
+                "file": "20260615/每天的工作日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "护肤方案与饮食"
+              "title": "每天的工作日志"
             }
           },
           {
-            "id": "81d1faf4e81ee4be",
+            "id": "c7a984908c110be0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/其他/肤质.md",
+                "file": "企微机器人桥接到滴普智能体（第二阶段）/长连接和短连接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "肤质"
+              "title": "长连接和短连接"
             }
           },
           {
-            "id": "8d9e2391e6beef3e",
+            "id": "e6cde879e2488094",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/其他/冬天护肤.md",
+                "file": "企微机器人桥接到滴普智能体（第二阶段）/短连接支持msg_item 字段.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "冬天护肤"
+              "title": "短连接支持msg_item 字段"
             }
           },
           {
-            "id": "d41ddd6f2d4c9994",
+            "id": "981d58503ec1eccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/其他/中午防晒.md",
+                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "中午防晒"
+              "title": "并行443端口,解耦dify 443的方案"
             }
           },
           {
-            "id": "c97b626a7658c3ea",
+            "id": "61e421ddef7d66a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习/其他/整理一天的护肤流程.md",
+                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/配置全流程（重要）+调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "整理一天的护肤流程"
-            }
-          },
-          {
-            "id": "77e55f986371bf85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/其他/洗头水沐浴露.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "洗头水沐浴露"
-            }
-          },
-          {
-            "id": "802dfcfd124bd07f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学习/知识锁游戏.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "知识锁游戏"
+              "title": "配置全流程（重要）+调试"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fab62346ea2f3e6a",
+    "id": "8294936e20683c5a",
     "type": "split",
     "children": [
       {
-        "id": "9613163570fd7923",
+        "id": "c2bffd5feae63565",
         "type": "tabs",
         "children": [
           {
-            "id": "ed920acf6f3d8350",
+            "id": "21881cfaa5d9d79f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -133,12 +104,12 @@
             }
           },
           {
-            "id": "1bb046e914ad6c79",
+            "id": "d161aab7a903fee6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "curl",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +121,7 @@
             }
           },
           {
-            "id": "6600260384c768e0",
+            "id": "1a2673328738d6fe",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -163,23 +134,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5
   },
   "right": {
-    "id": "2cc1328aa6ba792d",
+    "id": "b89bc66d8472f7f7",
     "type": "split",
     "children": [
       {
-        "id": "03d1545341a124de",
+        "id": "78e33964331a50a3",
         "type": "tabs",
         "children": [
           {
-            "id": "6ffdcea9e15d0969",
+            "id": "9b0150e47b767ee8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学习/其他/整理一天的护肤流程.md",
+                "file": "20260403/obsidian 2 github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,25 +160,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "整理一天的护肤流程 的反向链接列表"
+              "title": "obsidian 2 github 的反向链接列表"
             }
           },
           {
-            "id": "0a0968e2408624b7",
+            "id": "3996641f4d82c5f5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学习/其他/整理一天的护肤流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "整理一天的护肤流程 的出链列表"
+              "title": "出链"
             }
           },
           {
-            "id": "61b4051019d4ea33",
+            "id": "660683f2d0f3d1d4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -222,7 +192,7 @@
             }
           },
           {
-            "id": "ac3e21511619d645",
+            "id": "59f5abe572868721",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -236,26 +206,35 @@
             }
           },
           {
-            "id": "7e8fb032a698d728",
+            "id": "3117d78f2dbf4f51",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "学习/其他/整理一天的护肤流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "整理一天的护肤流程 的大纲"
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "a1965610c23e2829",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 308.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,13 +248,56 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "802dfcfd124bd07f",
+  "active": "b4640917dd9f270a",
   "lastOpenFiles": [
-    "学习/其他/洗头水沐浴露.md",
-    "学习/其他/整理一天的护肤流程.md",
-    "学习/其他/中午防晒.md",
-    "学习/其他/冬天护肤.md",
-    "学习/其他/护肤方案与饮食.md",
-    "学习/其他/肤质.md"
+    "企微机器人桥接到滴普智能体（第二阶段）/短连接支持msg_item 字段.md",
+    "20260615/每天的工作日志.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/长连接和短连接.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/配置全流程（重要）+调试.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/plan ai review后的方案，待人工审查.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/企微机器人的流式文字和图片输出.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/单气泡末尾图 msg_item不渲染，markdown也不成功.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/改造图文混排，单气泡末尾图.md",
+    "企微机器人桥接到滴普智能体/输出图片.md",
+    "企微机器人桥接到滴普智能体/http和https.md",
+    "企微机器人桥接到滴普智能体/部署服务器的运维问题（ip白名单）.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/markdown v2.md",
+    "企微机器人桥接到滴普智能体/asset/image.png",
+    "企微机器人桥接到滴普智能体/asset/image-1.png",
+    "企微机器人桥接到滴普智能体/asset/image-2.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-1.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-3.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/8.138.104.14.8080还能用吗？.md",
+    "1（env）/项目部署凭据.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md.tmp.9857.dd235a39a052",
+    "智能拓客（第二阶段）/12.合并前给前端测试/plan action 同步日志：补充联系人方式.md",
+    "智能拓客（第二阶段）/12.合并前给前端测试/plan mode 同步日志：补充联系人.md",
+    "智能拓客（第二阶段）/13.代码侧的运维安全/确认docker 日志 干净程度.md",
+    "20260615/scp linux命令.md",
+    "git相关原理/解决obsidian workspace冲突.md",
+    "20260615/待完成.md",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/plan action 上线https域名和配置nginx.md",
+    "企微机器人桥接到滴普智能体/企微端图片显示问题.md",
+    "企微机器人桥接到滴普智能体/解决图片渲染问题.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题",
+    "企微机器人桥接到滴普智能体（第二阶段）/asset/image.png",
+    "企微机器人桥接到滴普智能体（第二阶段）/asset",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.af5480972924",
+    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.fde48e56c9c3",
+    "20260615",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/dify部署情况",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-2.png",
+    "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset",
+    "智能拓客（第二阶段）/13.代码侧的运维安全",
+    "智能拓客（第二阶段）/11.合并成大项目/3.合并后review",
+    "查找研发岗对应的竞争企业/asset/image.png",
+    "查找研发岗对应的竞争企业/asset/企业微信截图_17785509206595.png",
+    "未命名.canvas",
+    "客探/客探1.2版本/未命名.canvas",
+    "客探一期dify代办和总结/未命名.canvas"
   ]
 }

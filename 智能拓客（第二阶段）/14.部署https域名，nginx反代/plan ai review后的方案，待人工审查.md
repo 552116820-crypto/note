@@ -150,25 +150,6 @@ docker exec docker-nginx-1 cat /etc/nginx/proxy.conf
 
 把这个 `proxy.conf` 的输出贴给我，我就能帮你最终敲定那份 nginx conf 了。
 
----
-
-### Turn 3  *(2026-06-17 09:46)*
-
-**User:**
-
-[root@AI-appliancce-server ~]# docker exec docker-nginx-1 cat /etc/nginx/proxy.conf
-# Please do not directly edit this file. Instead, modify the .env variables related to NGINX configuration.
-
-proxy_set_header Host $host;
-proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-proxy_set_header X-Forwarded-Proto $scheme;
-proxy_set_header X-Forwarded-Port $server_port;
-proxy_http_version 1.1;
-proxy_set_header Connection "";
-proxy_buffering off;
-proxy_read_timeout 3600s;
-proxy_send_timeout 3600s;
-格尼
 
 ---
 
