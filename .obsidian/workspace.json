@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f5f96998cedab486",
+        "id": "489a9f098f1d4e13",
         "type": "tabs",
         "children": [
           {
-            "id": "b4640917dd9f270a",
+            "id": "71b1512407165dbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,175 +22,34 @@
             }
           },
           {
-            "id": "6b0fea9044d42adc",
+            "id": "3d2c1e2f87bc0d64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260608-13/本周工作日志_按项目.md",
+                "file": "20260615-18/本周工作总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周工作日志_按项目"
+              "title": "本周工作总结"
             }
           },
           {
-            "id": "0d9427337abb28be",
+            "id": "f7de6da39bb0336f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260601-06/本周工作内容-按项目.md",
+                "file": "20260615-18/待完成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周工作内容-按项目"
-            }
-          },
-          {
-            "id": "4f68de4aac00e9d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git相关原理/git 地图.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git 地图"
-            }
-          },
-          {
-            "id": "fc98b68503b84d1b",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260615-18/scp linux命令.md",
-                "bFile": "20260615-18/scp linux命令.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: scp linux命令  (Working Tree)"
-            }
-          },
-          {
-            "id": "c7530b1797a17676",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260615-18/scp linux命令.md",
-                "bFile": "20260615-18/scp linux命令.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: scp linux命令  (Working Tree)"
-            }
-          },
-          {
-            "id": "c9a7ae8aff0be228",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "20260615/scp linux命令.md",
-                "bFile": "20260615/scp linux命令.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: scp linux命令  (Working Tree)"
-            }
-          },
-          {
-            "id": "0f4f42ffc3fe39aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "git相关原理/git stash.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git stash"
-            }
-          },
-          {
-            "id": "14eb2846668572fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260608-13/OGSM周报.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OGSM周报"
-            }
-          },
-          {
-            "id": "c7a984908c110be0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体（第二阶段）/长连接和短连接.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "长连接和短连接"
-            }
-          },
-          {
-            "id": "e6cde879e2488094",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "企微机器人桥接到滴普智能体（第二阶段）/短连接支持msg_item 字段.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "短连接支持msg_item 字段"
-            }
-          },
-          {
-            "id": "981d58503ec1eccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "并行443端口,解耦dify 443的方案"
-            }
-          },
-          {
-            "id": "61e421ddef7d66a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/14.部署https域名，nginx反代/配置全流程（重要）+调试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "配置全流程（重要）+调试"
+              "title": "待完成"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -361,19 +220,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9a7ae8aff0be228",
+  "active": "71b1512407165dbc",
   "lastOpenFiles": [
+    "20260615-18/本周工作总结.md",
+    "20260615-18/每天的工作日志.md",
+    "20260615-18/待完成.md",
+    "20260615-18/OGSM周报.md",
+    "20260608-13/本周工作日志_按项目.md",
+    "企微机器人桥接到滴普智能体（第二阶段）/短连接支持msg_item 字段.md",
     "git相关原理/git 地图.md",
     "git相关原理/git stash.md",
     "20260601-06/本周工作内容-按项目.md",
-    "20260615-18/本周工作总结.md",
     "20260615/本周工作总结.md.tmp.21309.7dc06b55c289",
-    "20260615-18/OGSM周报.md",
     "20260615/OGSM周报.md.tmp.21309.0d4d78bd4324",
-    "20260608-13/本周工作日志_按项目.md",
     "20260608-13/OGSM周报.md",
-    "20260615-18/每天的工作日志.md",
-    "企微机器人桥接到滴普智能体（第二阶段）/短连接支持msg_item 字段.md",
     "企微机器人桥接到滴普智能体（第二阶段）/长连接和短连接.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/配置全流程（重要）+调试.md",
@@ -396,7 +256,6 @@
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md.tmp.9857.dd235a39a052",
     "智能拓客（第二阶段）/12.合并前给前端测试/plan action 同步日志：补充联系人方式.md",
-    "智能拓客（第二阶段）/12.合并前给前端测试/plan mode 同步日志：补充联系人.md",
     "智能拓客（第二阶段）/15.部署后发现并改进问题",
     "企微机器人桥接到滴普智能体（第二阶段）/asset/image.png",
     "企微机器人桥接到滴普智能体（第二阶段）/asset",
