@@ -4,4 +4,4 @@
 
 
 
-![[智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-1.png]]
+![[智能拓客（第二阶段）/13.部署https域名，nginx反代/asset/image-1.png]]
