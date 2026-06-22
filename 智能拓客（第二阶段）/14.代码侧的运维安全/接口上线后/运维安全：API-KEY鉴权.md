@@ -81,6 +81,9 @@ app.add_middleware(
 
 **建议**(便宜、与调用方无关都对):落实 settings 的原意——`CORS_ORIGINS` 留空就**不挂** CORS 中间件(生产同源不需要);非空才挂,且用**显式白名单**、`allow_credentials` 仅在确实用 cookie 时才开。顺手把 `main.py` 接到 `lead_settings.cors_origins`,消掉孤儿配置。
 
+ ── CORS（填前端域名，多个逗号分隔；留空默认 *）──
+#CORS_ORIGINS=http://localhost:3000,https://your-frontend.com
+
 ---
 
 ## 3. api_log 改 allowlist 脱敏:加固项,可做但不急
