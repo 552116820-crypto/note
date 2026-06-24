@@ -3,5 +3,6 @@
   "promptDelete": false,
   "showLineNumber": true,
   "focusNewTab": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
 }

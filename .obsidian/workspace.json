@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8927e00b914d257f",
+        "id": "cf5f4259732dcf9b",
         "type": "tabs",
         "children": [
           {
-            "id": "dd69e459b6aba02b",
+            "id": "a5da69b279642ab1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,62 +22,21 @@
             }
           },
           {
-            "id": "cfc8df5f55938456",
+            "id": "42937391289ba72e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/生产json日志bug和鉴定auth.md",
+                "file": "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生产json日志bug和鉴定auth"
-            }
-          },
-          {
-            "id": "90c0a0cc09449bb3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260622-26/待完成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待完成"
-            }
-          },
-          {
-            "id": "9cad0b9a1a375e80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/加 GitHub Actions ，CI形态.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "加 GitHub Actions ，CI形态"
-            }
-          },
-          {
-            "id": "bf597f2f15c6d813",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI多维度评审项目20260623"
+              "title": "plan action edge中立网关和运维知识（重要）"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "curl",
+                "query": "8080",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 343.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -211,12 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "plan action edge中立网关和运维知识（重要） 的大纲"
             }
           },
           {
@@ -234,7 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,37 +208,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd69e459b6aba02b",
+  "active": "21881cfaa5d9d79f",
   "lastOpenFiles": [
-    "20260622-26/待完成.md",
     "20260622-26/每天工作日志.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/生产json日志bug和鉴定auth.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/加 GitHub Actions ，CI形态.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/日志同步更新.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前/ai评审，缺运维安全相关兜底，与后续的改进方向.md",
-    "20260622-26/codex rescue运行原理.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/拿回gps，经纬度字段落库.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/cors和allow-list改进，鉴权方案.md",
-    "1（env）/项目部署凭据.md",
-    "20260622-26/cors的相关知识 和 鉴定auth.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/现有的项目的auth.md",
+    "20260622-26/striped lock 和 Redis 分布式锁.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权方案/独立churn项目与企微小程序相关的接口鉴权.md",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/运维安全：API-KEY鉴权.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前/确认docker 日志 干净程度.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/log表上异常日志.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前/验证mysql库的白名单.md",
-    "20260615-18/待完成.md",
-    "20260615-18/本周工作总结.md",
-    "20260615-18/每天的工作日志.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/清空log表的压测和灰度流量.md",
+    "20260622-26/skill的 Linux 符号链接.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/8.138.104.14.8080还能用吗？.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/给dify体检.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/dify证书过期，在网络下的aisales还能用吗.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan mode.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/aisales.amer.cn配置在dify网络下的全流程.md",
+    "1（env）/项目部署凭据.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/第二个公网ip 方案 不合理.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/配置全流程（重要）+调试.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/未命名",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/plan action 上线https域名和配置nginx.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/plan ai review后的方案，待人工审查.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/请求接口8.138.104.14配置8080端口.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/8.138.104.14.8080与aisales.amer.cn区别与联系.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/宿主机端口和容器端口的区别与联系.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md",
+    "智能拓客（第二阶段）/13.部署https域名，nginx反代/aisales.amer.cn域名确认和对接服务器管理员.md",
+    "20260622-26/待完成.md",
+    "智能拓客（第二阶段）/企微小程序的接口鉴权方案/独立churn项目的鉴权.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权方案",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/加 GitHub Actions ，CI形态.md",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前/评估项目部署上线的距离.md",
-    "客户流失预警/工程优化建议.md",
-    "客户流失预警/客户名单生成逻辑.md",
-    "客户流失预警/接口上线后的优化.md",
     "20260622-26",
-    "20260615-18/OGSM周报.md",
     "20260615/本周工作总结.md.tmp.21309.7dc06b55c289",
     "20260615/OGSM周报.md.tmp.21309.0d4d78bd4324",
     "企微机器人桥接到滴普智能体/asset/image.png",
@@ -289,9 +252,6 @@
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md.tmp.9857.dd235a39a052",
     "智能拓客（第二阶段）/15.部署后发现并改进问题",
     "企微机器人桥接到滴普智能体（第二阶段）/asset/image.png",
-    "企微机器人桥接到滴普智能体（第二阶段）/asset",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.af5480972924",
-    "智能拓客（第二阶段）/6.接口测试与优化/接口文档，对接前端 20260615.md.tmp.1518.fde48e56c9c3",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-2.png",
     "查找研发岗对应的竞争企业/asset/image.png",

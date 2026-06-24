@@ -754,3 +754,255 @@ push 后:
 诚实说一句:我已把已知的两个新特性降级,剩下的 keys 都是很老就有的,这次过 lint 把握较大;但万一这个 CE 版本还有别的老毛病,把报错贴给我,我接着修。
 
 ---
+
+
+# Claude Code 对话记录
+
+- **来源**: Claude Code
+- **会话**: `dc8d0515-3fef-4ec2-9bf8-2ad0b21dd3df`
+- **范围**: Turn 14-16
+- **导出时间**: 2026-06-24 09:10:01
+
+---
+
+### Turn 1  *(2026-06-24 00:49)*
+
+**User:**
+
+gitlab为什么还是pending，怎么回事
+
+**Assistant:**
+
+先给个定性,这其实是**好消息里的坏消息**:
+
+**pipeline 能进到 `pending`,说明你的 `.gitlab-ci.yml` 已经修对了**——lint 过了、pipeline 也成功创建了。现在卡住的不再是代码/yaml,而是**基础设施:没有 Runner 来执行这个 job**。
+
+## 为什么 pending
+
+GitLab 服务器**自己不跑 CI**。它只负责创建 pipeline、把 job 丢进队列;真正干活的是独立的 **Runner**(执行代理),它轮询 GitLab、领走 job、跑完回传。**没有在线的 Runner 来领,job 就永远排队 = pending**。
+
+## 30 秒确认是哪一种
+
+- **点开那个 pending 的 job**,GitLab 一般直接写了原因,最常见两句:
+  - *"stuck because there are no active runners online"* → 没 runner / runner 离线
+  - *"no runners that can run untagged jobs"* → 有 runner,但它不接"没打 tag"的活(我的 yaml 没设 tags)
+- 或看 **`项目 → Settings → CI/CD → Runners`**:到底有没有 runner?绿点=在线,灰点=离线,空的=一个都没有。
+
+## 对症
+
+| 看到的情况 | 解法 |
+|---|---|
+| 一个 runner 都没有(最常见) | 注册一个(见下) |
+| 有但灰色离线 | 去那台机器 `sudo gitlab-runner start` |
+| "no runners that can run untagged jobs" | runner 编辑页勾上 **"Run untagged jobs"**,或给 ci job 加 `tags:` |
+
+## 注册一个 Runner(用 docker executor——因为 yaml 里有 `image: python:3.12-slim`)
+
+在**一台有 docker 的机器**上做(你的部署服务器就有,正跑着 compose):
+
+```bash
+# 1) 装 gitlab-runner（Debian/Ubuntu）
+curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+sudo apt-get install -y gitlab-runner
+
+# 2) 注册（token 在 项目→Settings→CI/CD→Runners 的"手动注册/Set up a specific runner"区复制）
+sudo gitlab-runner register --non-interactive \
+  --url "http://113.78.134.101:927/" \
+  --registration-token "<粘贴界面上的 token>" \
+  --executor docker \
+  --docker-image python:3.12-slim \
+  --description "amer-ci"
+```
+
+注册完 runner 自动上线,在 pipeline 页点 **Retry**,job 就会被领走开跑。
+
+## 不想折腾 runner 的退路(建议先确认这个)
+
+**GitHub Actions 用的是 GitHub 托管 runner、开箱即用、不用你配任何东西。** 先去 **GitHub 仓库的 Actions 页**看一眼那份是不是已经绿了——
+
+- **如果绿了:你其实已经有一套能跑、在护着每次 push 的 CI 了。** GitLab 这条就是双保险,可以晚点再配 runner,甚至先放着。
+- 自建 GitLab CI 的价值是"代码不出 GitLab 内网也能跑门禁",但它要你**自己维护 runner**(一台常在线、有 docker 的机器)。值不值得配,看你是否真需要 GitLab 侧的门禁。
+
+你先看一眼:① 那个 pending job 页面写的具体原因是哪句?② GitHub Actions 那份现在什么状态?告诉我,我帮你定下一步。
+
+---
+
+### Turn 2  *(2026-06-24 00:56)*
+
+**User:**
+
+This build is stuck, because the project doesn't have any runners online assigned to it.提示这个是什么情况
+
+**Assistant:**
+
+这句提示和我上一条判断完全一致,而且把范围缩到最明确的一种:**这个项目没有任何"在线且分配给它"的 Runner。** 翻译成大白话——**没有任何机器在帮这个项目跑 CI**,所以 job 只能一直排队。
+
+## 本质:GitLab CI 必须你自己养一个 Runner
+
+这不是 yaml 或代码问题(yaml 已经对了、pipeline 都建出来了),是**基础设施缺一个执行者**。而且要命的是:**Runner 得你自己维护**——一台常开机、有 docker、装了 `gitlab-runner` 并保持进程运行的机器。它一关机/掉线,CI 立刻又 pending。这是**持续的运维成本**,跟 GitHub 那种"平台白送托管 runner"完全不同。
+
+所以现在是个**取舍**,不是 bug:
+
+## 路 A:配一个 Runner(仅当你有常在线+docker 的机器,比如部署服务器)
+
+在那台机器上(上一条给过完整命令,核心就这两步):
+
+```bash
+curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+sudo apt-get install -y gitlab-runner
+sudo gitlab-runner register --non-interactive \
+  --url "http://113.78.134.101:927/" \
+  --registration-token "<项目 Settings→CI/CD→Runners 里复制>" \
+  --executor docker --docker-image python:3.12-slim --description "amer-ci"
+```
+
+注册完它就"online + assigned to this project",回 pipeline 点 **Retry** 就跑。**前提是这台机器得一直开着**,否则又 pending。
+
+## 路 B(我更推荐):别为内部项目养 runner,用 GitHub Actions
+
+GitHub Actions 是**平台托管 runner、零运维、push 即跑**。你两个 remote 都推了,所以那份应该已经在 GitHub 上跑了。
+
+**关键就一个问题:你 GitHub 仓库的 Actions 页,那份 CI 现在是绿的吗?**
+
+- **绿了** → 你其实已经有一套能跑、在护着每次 push 的 CI 了。GitLab 这条 pending 可以直接无视(甚至把 `.gitlab-ci.yml` 删掉省心),**不用折腾 runner**。
+- 没看 / 也有问题 → 把状态贴给我,我帮你弄绿那份——那才是性价比最高的。
+
+---
+
+**我的判断**:除非你有"代码必须留在 GitLab 内网、不能依赖 GitHub"的硬约束,否则不值得为这个项目额外养一台 runner。先去看一眼 GitHub Actions 绿没——大概率你已经有 CI 了,只是一直盯着 GitLab 这条没注意到另一条已经通了。
+
+告诉我:① GitHub Actions 那份什么状态?② 你有没有一台愿意长期当 runner 的常在线机器?我据此给你拍板。
+
+---
+
+### Turn 3  *(2026-06-24 01:00)*
+
+**User:**
+
+我的github 是绿的啊。gitlab内网也不是我能动的啊，感觉把 .gitlab-ci.yml 删掉算了，你觉得呢
+
+**Assistant:**
+
+同意,删掉是对的——而且这不是"放弃",是去掉一个**永远不可能跑、只会制造噪音的摆设**。理由很硬:
+
+1. **你配不了 runner = GitLab CI 永远 pending**,留着它每次 push 都产生一个 stuck 的 pipeline,看着像"CI 红了",纯误导。
+2. **GitHub Actions 已经绿了** = ruff / mypy / pytest / pip-audit 全套门禁已经在跑、在护着你每次 push。GitLab 那份功能上**完全冗余**。
+3. 删掉后 GitLab 上**没有 `.gitlab-ci.yml` 就不会再创建 pipeline**,pending 噪音直接消失;**GitHub Actions 用的是 `.github/workflows/`,完全不受影响、继续绿**。
+
+我来删 + 提交(顺便扫一下有没有别处还引用它,免得留悬空):
+
+删除完成(commit 44b4f89)、无悬空引用。但我注意到 `git status` 冒出一批文件——**这些是会话开始时就存在的、不是我这次动的**(CLAUDE.md / README.md / docs/* / 两个未跟踪的 test 文件),和最初的 gitStatus 完全一致。其中 **Makefile 让我警觉**:我 commit 时 `git add Makefile` 可能把你会话前就有的 Makefile 改动也一起提交了。我得查清楚,确认没把你的在途工作卷进我的 commit:
+
+核查清楚了,**好消息**:我的 commit `37f459a` 对 Makefile **只动了 `494→538` 这一行,干净,没卷进你的任何工作**。
+
+而工作区现在剩的这批,全是**你自己的在途工作**——和最初 gitStatus 一模一样:
+
+- `tests/churn/test_crm_api_http.py`、`tests/churn/test_mysql_repo_dialect.py`(两个新测试,未跟踪)
+- `CLAUDE.md`/`README.md`/`docs/*`(基线 547 等改动)
+- `Makefile` 工作区是 `538→547`
+
+这正是你 memory 里 `churn-test-strategy-deterministic` 记的那件事(codex 评审后补 CRM HTTP + mysql 测试、基线 538→547)。**我全程没碰这些,原样保留。**
+
+先更新 memory(CI 只剩 GitHub Actions),再跟你讲一个要注意的数字:
+
+memory 已更新(CI 只剩 GitHub Actions,记了 GitLab 加了又删的来龙去脉)。现在把整体状态和一个**要你注意的数字**讲清楚:
+
+## ✅ 我的提交都干净
+
+5 个 commit 全部只含我的改动,没碰你的在途工作:
+```
+44b4f89 ci: 删除 GitLab CI（无 runner 权限、永远 pending）
+e67c89e ci(gitlab): 降级兼容老版（这步后来被删盖过，留作历史）
+39fbf20 chore(security): ruff 开 ASYNC+S…
+37f459a ci: 加 GitHub Actions + GitLab CI…
+97b77e0 chore(churn): sha1 usedforsecurity=False
+```
+
+## ⚠️ 关于 538 vs 547(不是 bug,是时间点不同)
+
+- 我 commit 的 `Makefile` 基线写 **538**——对应**当前已跟踪的测试集**(你那两个新 churn 测试还是 `??` 未跟踪、没进 git,所以已提交的测试跑出来就是 538)。
+- 你工作区的 `CLAUDE.md` / `Makefile` 已是 **547**——那是**你把两个新测试提交之后**的目标基线。
+
+两个数字在各自时间点都对。**你提交那批 churn 测试补强时,基线自然统一到 547、覆盖我的 538,无冲突。** 我不替你改成 547,因为 547 依赖你那两个还没提交的测试文件——现在改 Makefile 反而会和"已提交的测试集"对不上。
+
+## 你的在途工作(我没碰)
+
+`tests/churn/test_crm_api_http.py`、`test_mysql_repo_dialect.py` + `CLAUDE.md`/`README`/`docs/*` 的 547 相关改动——这是你的 churn 测试补强。按你**铁律2(churn 单独 commit)**,它本就该和我的 CI commit 分开,现在正好是分开的。要的话我可以帮你把这批也单独提交(churn 测试一个 commit、docs 一个),但你可能想自己来或还没完工——你定。
+
+## 下一步:push
+
+本地比远程**领先 2 个 commit**(e67c89e 降级 + 44b4f89 删除),还没推。push 后 GitLab 上 `.gitlab-ci.yml` 消失、**不再产生 pending pipeline**;GitHub 不受影响、继续绿:
+
+```bash
+git push origin main && git push github main
+```
+
+---
+
+**收尾:CI 这件事到此落定**——GitHub Actions(ruff/mypy/pytest/pip-audit)是你**实际在用、零运维、已绿**的那套门禁;GitLab 因为你配不了 runner 已干净移除。push 完这两个 commit,GitLab 的 pending 噪音就彻底没了。你的 churn 测试补强要不要我搭把手,说一声。
+
+---
+
+
+# Claude Code 对话记录
+
+- **来源**: Claude Code
+- **会话**: `dc8d0515-3fef-4ec2-9bf8-2ad0b21dd3df`
+- **范围**: Turn 18
+- **导出时间**: 2026-06-24 09:47:01
+
+---
+
+### Turn 1  *(2026-06-24 01:40)*
+
+**User:**
+
+直接在主分支main上commit吧
+
+**Assistant:**
+
+好,我来提交这批。但这是**你的在途工作、不是我写的**,我不能盲目 `git add` 一把梭——提交前我得先看清每处改了什么(确认不是半成品、没夹带不该进库的东西),并**跑一遍验证**(尤其那两个新 churn 测试必须是确定性的、全绿,否则 push 后 GitHub CI 会红)。同时按你**铁律2**把 churn 和非 churn 拆开提交。
+
+先 review + 验证:
+
+我看到那两个新 churn 测试了——**质量很高**:`test_crm_api_http.py` 用真实 `httpx.Response` 覆盖 HTML 错误页/302/非对象 JSON/重试退避(全 monkeypatch、不连真网络);`test_mysql_repo_dialect.py` 用 FakeEngine 让 upsert 走 MySQL 分支、编译断言 `ON DUPLICATE KEY UPDATE` 覆盖所有可变列(不连库)。都是确定性的,正是你 memory 里 churn 测试补强那条的活,可以放心提交。
+
+但 `git diff` 那几个文件居然是空的——**说明你已经把这些改动 `git add` 暂存了**(所以 `git diff` 看不到、要看 `--cached`)。我重新查准确状态,并跑验证(含这俩新测试,应该 547 全绿):
+
+状态其实**已经干净了**——`git status` 显示 **"working tree clean"**,`pytest` 是 **547 passed** 全绿、ruff/mypy 全过。也就是说:**你已经自己把那批在途工作(2 个新 churn 测试 + 547 基线 + docs)提交了**,现在没有任何待提交的东西了。
+
+我看一下 commit 全貌,确认这批怎么提交的、以及哪些还没 push:
+
+状态全清楚了——**你已经自己把它提交好了,不需要我再 commit 了**:
+
+```
+9104e26 test(churn): 补 CRM HTTP 真实响应解析 + mysql upsert 方言断言（基线 538→547）  ← 你提交的
+44b4f89 ci: 删除 GitLab CI
+...
+```
+
+`9104e26` 就是你那批 churn 测试补强,而且提交得很规范:**`test(churn)` 类型、单独成 commit、message 写清了 538→547**——正好符合你自己的铁律2(churn 单独可回滚)。工作树现在 **clean、547 全绿、ruff/mypy 全过**。所以这一摊已经收口,没有需要我接手 commit 的东西了。
+
+## 就差最后一步:push
+
+本地比两个远程都**领先 2 个 commit**,还没推:
+
+```
+9104e26  churn 测试补强（基线→547）
+44b4f89  删除 GitLab CI
+```
+
+```bash
+git push origin main && git push github main
+```
+
+push 之后:
+
+- **GitLab**:`44b4f89` 让 `.gitlab-ci.yml` 从远程消失 → **不再创建 pipeline、pending 噪音彻底终结**(之前那条挂着的 pending pipeline 可以在界面手动 Cancel,可选)。
+- **GitHub**:Actions 重新跑,这次带上 `9104e26` 的两个新测试 = **547 全绿**(我本地已验证);删 `.gitlab-ci.yml` 对它无影响。
+
+---
+
+**整件事到此闭环**:CI = GitHub Actions(ruff/mypy/pytest/pip-audit,零运维、绿);GitLab 因配不了 runner 已干净移除;churn 测试补强已就位(547)。**push 这两个 commit 就全部落地了。** 要我替你跑那条 push,还是你自己来?
+
+---
