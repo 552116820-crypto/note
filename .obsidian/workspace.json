@@ -4,11 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cf5f4259732dcf9b",
+        "id": "5fd637ee9525637a",
         "type": "tabs",
         "children": [
           {
-            "id": "a5da69b279642ab1",
+            "id": "dde6955240591545",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI多维度评审项目20260623"
+            }
+          },
+          {
+            "id": "b2df57edefe27b87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文档的问题与风险，补充缺口，更新同步文档"
+            }
+          },
+          {
+            "id": "c185161cd25b43f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,17 +50,87 @@
             }
           },
           {
-            "id": "42937391289ba72e",
+            "id": "df1fed9b00c10e0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/代码质量的问题与风险，提纯收敛claude 项目memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan action edge中立网关和运维知识（重要）"
+              "title": "代码质量的问题与风险，提纯收敛claude 项目memory"
+            }
+          },
+          {
+            "id": "962052e654c71aa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/架构设计的问题与风险，在api服务中解耦churn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "架构设计的问题与风险，在api服务中解耦churn"
+            }
+          },
+          {
+            "id": "5a8b971af25d13db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/实缴资金.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实缴资金"
+            }
+          },
+          {
+            "id": "43c4fccf3bc5fb86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/待完成.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待完成"
+            }
+          },
+          {
+            "id": "d62153139a542bcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260615-18/每天的工作日志.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "每天的工作日志"
+            }
+          },
+          {
+            "id": "95f0ed5fa6e81219",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260615-18/待完成.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "待完成"
             }
           }
         ],
@@ -93,7 +191,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 413.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -210,35 +308,35 @@
   },
   "active": "21881cfaa5d9d79f",
   "lastOpenFiles": [
+    "20260622-26/待完成.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/代码质量的问题与风险，提纯收敛claude 项目memory.md",
     "20260622-26/每天工作日志.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/架构设计的问题与风险，在api服务中解耦churn.md",
+    "20260622-26/实缴资金.md",
+    "20260615-18/待完成.md",
+    "20260615-18/每天的工作日志.md",
+    "1（env）/项目部署凭据.md",
+    "20260622-26/codex 录制回放.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/日志同步 CHANGELOG 回填.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/独立churn项目与企微小程序相关的接口鉴权.md",
+    "智能拓客（第二阶段）/crm passport时区确认.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/限流的前置确认和技术方案.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/针对性方案，改成加请求头 + 限流的方式.md",
+    "20260608-13/待完成.md",
+    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
     "20260622-26/striped lock 和 Redis 分布式锁.md",
-    "智能拓客（第二阶段）/16.企微小程序的接口鉴权方案/独立churn项目与企微小程序相关的接口鉴权.md",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/运维安全：API-KEY鉴权.md",
     "20260622-26/skill的 Linux 符号链接.md",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/8.138.104.14.8080还能用吗？.md",
     "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/给dify体检.md",
-    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
     "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/dify证书过期，在网络下的aisales还能用吗.md",
     "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan mode.md",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/并行443端口,解耦dify 443的方案.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/aisales.amer.cn配置在dify网络下的全流程.md",
-    "1（env）/项目部署凭据.md",
-    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/第二个公网ip 方案 不合理.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/配置全流程（重要）+调试.md",
     "智能拓客（第二阶段）/17.解耦dify，443端口中立网关",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/未命名",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/plan action 上线https域名和配置nginx.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/plan ai review后的方案，待人工审查.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/请求接口8.138.104.14配置8080端口.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/8.138.104.14.8080与aisales.amer.cn区别与联系.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/宿主机端口和容器端口的区别与联系.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/aisales.amer.cn域名确认和对接服务器管理员.md",
-    "20260622-26/待完成.md",
-    "智能拓客（第二阶段）/企微小程序的接口鉴权方案/独立churn项目的鉴权.md",
-    "智能拓客（第二阶段）/16.企微小程序的接口鉴权方案",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/加 GitHub Actions ，CI形态.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前",
     "20260622-26",
