@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fd637ee9525637a",
+        "id": "f73e0ca961630f42",
         "type": "tabs",
         "children": [
           {
-            "id": "dde6955240591545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AI多维度评审项目20260623"
-            }
-          },
-          {
-            "id": "b2df57edefe27b87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "文档的问题与风险，补充缺口，更新同步文档"
-            }
-          },
-          {
-            "id": "c185161cd25b43f5",
+            "id": "2a9cbb5c2ebbcc18",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,49 +22,7 @@
             }
           },
           {
-            "id": "df1fed9b00c10e0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/代码质量的问题与风险，提纯收敛claude 项目memory.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "代码质量的问题与风险，提纯收敛claude 项目memory"
-            }
-          },
-          {
-            "id": "962052e654c71aa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/架构设计的问题与风险，在api服务中解耦churn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "架构设计的问题与风险，在api服务中解耦churn"
-            }
-          },
-          {
-            "id": "5a8b971af25d13db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260622-26/实缴资金.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "实缴资金"
-            }
-          },
-          {
-            "id": "43c4fccf3bc5fb86",
+            "id": "483af457480ad491",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +36,35 @@
             }
           },
           {
-            "id": "d62153139a542bcf",
+            "id": "41bd2a3dae139422",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/OGSM周报.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OGSM周报"
+            }
+          },
+          {
+            "id": "e8d66d3716f88eb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260615-18/本周工作总结.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "本周工作总结"
+            }
+          },
+          {
+            "id": "01e5e2a4e28d20d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,7 +78,7 @@
             }
           },
           {
-            "id": "95f0ed5fa6e81219",
+            "id": "3d8bb4e9291452fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -131,6 +89,76 @@
               },
               "icon": "lucide-file",
               "title": "待完成"
+            }
+          },
+          {
+            "id": "35fbb0ccf77df28c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "文档的问题与风险，补充缺口，更新同步文档"
+            }
+          },
+          {
+            "id": "4621efb86dd5de36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/可维护性的问题与风险，收口分散的 prefix，v2版本接口.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "可维护性的问题与风险，收口分散的 prefix，v2版本接口"
+            }
+          },
+          {
+            "id": "c6204ef844cd38b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/plan mode 把分散的 prefix 收口到单一常量.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "plan mode 把分散的 prefix 收口到单一常量"
+            }
+          },
+          {
+            "id": "ad887d785f7179de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "智能拓客（第二阶段）/前缀契约泛化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "前缀契约泛化"
+            }
+          },
+          {
+            "id": "ddcddc76c2f138de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "缓存与锁/概念解读，实战讲解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "概念解读，实战讲解"
             }
           }
         ],
@@ -166,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "8080",
+                "query": "前缀契约泛化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,7 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5
+    "width": 300.5
   },
   "right": {
     "id": "b89bc66d8472f7f7",
@@ -306,34 +334,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21881cfaa5d9d79f",
+  "active": "483af457480ad491",
   "lastOpenFiles": [
+    "20260622-26/OGSM周报.md",
     "20260622-26/待完成.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/代码质量的问题与风险，提纯收敛claude 项目memory.md",
+    "20260622-26/本周工作总结-按项目.md",
+    "20260622-26/本周工作总结-按项目.md.tmp.18978.844d0f3eccf1",
+    "20260622-26/OGSM周报.md.tmp.18978.63224bd64245",
     "20260622-26/每天工作日志.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/架构设计的问题与风险，在api服务中解耦churn.md",
-    "20260622-26/实缴资金.md",
-    "20260615-18/待完成.md",
+    "20260615-18/本周工作总结.md",
     "20260615-18/每天的工作日志.md",
+    "20260615-18/待完成.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/plan mode 把分散的 prefix 收口到单一常量.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/可维护性的问题与风险，收口分散的 prefix，v2版本接口.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
+    "智能拓客（第二阶段）/前缀契约泛化.md",
+    "缓存与锁/概念解读，实战讲解.md",
+    "缓存与锁/striped lock 和 Redis 分布式锁.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/工程化的问题与风险，修两件 docstring 自述位置.md",
+    "缓存与锁/对于AI开发的意义.md",
+    "智能拓客（第二阶段）/重新定义计算规则 plan.md",
     "1（env）/项目部署凭据.md",
-    "20260622-26/codex 录制回放.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/日志同步 CHANGELOG 回填.md",
-    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/独立churn项目与企微小程序相关的接口鉴权.md",
-    "智能拓客（第二阶段）/crm passport时区确认.md",
-    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/限流的前置确认和技术方案.md",
-    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/针对性方案，改成加请求头 + 限流的方式.md",
-    "20260608-13/待完成.md",
-    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan action edge中立网关和运维知识（重要）.md",
-    "20260622-26/striped lock 和 Redis 分布式锁.md",
-    "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后/运维安全：API-KEY鉴权.md",
-    "20260622-26/skill的 Linux 符号链接.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/8.138.104.14.8080还能用吗？.md",
-    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/给dify体检.md",
-    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/dify证书过期，在网络下的aisales还能用吗.md",
-    "智能拓客（第二阶段）/17.解耦dify，443端口中立网关/plan mode.md",
-    "智能拓客（第二阶段）/13.部署https域名，nginx反代/急着上线共享dify nginx与后续演进.md",
+    "智能拓客（第二阶段）/重新定义计算规则后的日志同步.md",
+    "智能拓客（第二阶段）/重新定义计算规则.md",
+    "学习/电脑游戏相关/升降桌.md",
+    "缓存与锁",
+    "20260622-26/opencli工具 模拟人类操作.md",
+    "智能拓客（第二阶段）/11.合并成大项目/2.合并过程/churn重构与ruff，mypy豁免.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/安全性的问题与风险，无任何改动.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/架构设计的问题与风险，在api服务中解耦churn.md",
+    "智能拓客（第二阶段）/15.部署后发现并改进问题/代码质量的问题与风险，提纯收敛claude 项目memory.md",
     "智能拓客（第二阶段）/17.解耦dify，443端口中立网关",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/未命名",
     "智能拓客（第二阶段）/16.企微小程序的接口鉴权",
@@ -341,14 +372,11 @@
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前",
     "20260622-26",
     "20260615/本周工作总结.md.tmp.21309.7dc06b55c289",
-    "20260615/OGSM周报.md.tmp.21309.0d4d78bd4324",
     "企微机器人桥接到滴普智能体/asset/image.png",
     "企微机器人桥接到滴普智能体/asset/image-1.png",
     "企微机器人桥接到滴普智能体/asset/image-2.png",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/asset/image-1.png",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/asset/image-3.png",
-    "智能拓客（第二阶段）/14.部署https域名，nginx反代/HTTPS上线最终小结+慢的根因排查（DNS非HTTPS）.md.tmp.9857.dd235a39a052",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题",
     "企微机器人桥接到滴普智能体（第二阶段）/asset/image.png",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image.png",
     "智能拓客（第二阶段）/14.部署https域名，nginx反代/asset/image-2.png",
