@@ -4,39 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "f73e0ca961630f42",
+        "id": "f321e9a551408fc1",
         "type": "tabs",
         "children": [
           {
-            "id": "2a9cbb5c2ebbcc18",
+            "id": "9cf59648a6c1483d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260622-26/每天工作日志.md",
+                "file": "20260629-20260704/用http，不用https.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "每天工作日志"
+              "title": "用http，不用https"
             }
           },
           {
-            "id": "483af457480ad491",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260622-26/待完成.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "待完成"
-            }
-          },
-          {
-            "id": "e5db672a33bf41f0",
+            "id": "79bd5b8281e1e8ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +36,7 @@
             }
           },
           {
-            "id": "41bd2a3dae139422",
+            "id": "2001571bb956bcaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,35 +50,21 @@
             }
           },
           {
-            "id": "e8d66d3716f88eb8",
+            "id": "bba13a1ef789a9cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20260615-18/本周工作总结.md",
+                "file": "20260622-26/待完成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "本周工作总结"
+              "title": "待完成"
             }
           },
           {
-            "id": "01e5e2a4e28d20d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260615-18/每天的工作日志.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "每天的工作日志"
-            }
-          },
-          {
-            "id": "3d8bb4e9291452fe",
+            "id": "b3ae5b8ddd101d88",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,77 +78,147 @@
             }
           },
           {
-            "id": "35fbb0ccf77df28c",
+            "id": "ec25b87441cdaa22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
+                "file": "商机机器人/初步方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "文档的问题与风险，补充缺口，更新同步文档"
+              "title": "初步方案"
             }
           },
           {
-            "id": "4621efb86dd5de36",
+            "id": "6f9087041a1fab55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/可维护性的问题与风险，收口分散的 prefix，v2版本接口.md",
+                "file": "20260622-26/每天工作日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "可维护性的问题与风险，收口分散的 prefix，v2版本接口"
+              "title": "每天工作日志"
             }
           },
           {
-            "id": "c6204ef844cd38b7",
+            "id": "ae6dde6a3dd24028",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/15.部署后发现并改进问题/plan mode 把分散的 prefix 收口到单一常量.md",
+                "file": "20260629-20260704/每天工作日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "plan mode 把分散的 prefix 收口到单一常量"
+              "title": "每天工作日志"
             }
           },
           {
-            "id": "ad887d785f7179de",
+            "id": "6103ead8d58ff443",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "智能拓客（第二阶段）/前缀契约泛化.md",
+                "file": "20260622-26/opencli工具 模拟人类操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "前缀契约泛化"
+              "title": "opencli工具 模拟人类操作"
             }
           },
           {
-            "id": "ddcddc76c2f138de",
+            "id": "264e029c282acd67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "缓存与锁/概念解读，实战讲解.md",
+                "file": "20260622-26/AI工牌 实时语音.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "概念解读，实战讲解"
+              "title": "AI工牌 实时语音"
+            }
+          },
+          {
+            "id": "ce3a855198c69b98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/实缴资金.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "实缴资金"
+            }
+          },
+          {
+            "id": "aebb2a1e42a9358d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/codex 录制回放.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex 录制回放"
+            }
+          },
+          {
+            "id": "79e81fe1055bc466",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/skill的 Linux 符号链接.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "skill的 Linux 符号链接"
+            }
+          },
+          {
+            "id": "5b8247ffeaebc5b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/codex rescue运行原理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "codex rescue运行原理"
+            }
+          },
+          {
+            "id": "a5fbfa182599b805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20260622-26/cors的相关知识 和 鉴定auth.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cors的相关知识 和 鉴定auth"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -208,7 +250,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "前缀契约泛化",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -348,44 +390,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "483af457480ad491",
+  "active": "ae6dde6a3dd24028",
   "lastOpenFiles": [
-    "20260622-26/本周工作总结-按项目.md",
+    "20260622-26/智能拓客操作手册-企微版.md",
+    "20260629-20260704/每天工作日志.md",
+    "未命名.md",
+    "20260629-20260704",
+    "商机机器人/初步方案.md",
+    "20260622-26/智能拓客操作手册.md",
+    "商机机器人",
+    "20260615-18/待完成.md",
     "20260622-26/待完成.md",
     "20260622-26/每天工作日志.md",
+    "20260622-26/opencli工具 模拟人类操作.md",
+    "20260622-26/AI工牌 实时语音.md",
+    "20260622-26/实缴资金.md",
+    "20260622-26/codex 录制回放.md",
+    "20260622-26/skill的 Linux 符号链接.md",
+    "20260622-26/codex rescue运行原理.md",
+    "20260622-26/cors的相关知识 和 鉴定auth.md",
     "20260622-26/OGSM周报.md",
+    "20260622-26/本周工作总结-按项目.md",
+    "20260629-20260704/用http，不用https.md",
+    "git相关原理/rebase,merge.md",
+    "git相关原理/解决obsidian workspace冲突.md",
+    "客户流失预警/排查错误，服务器上docker celery的日志20260629.md",
+    "客户流失预警/走向生产级review/服务器运行相关.md",
+    "智能拓客（第二阶段）/16.企微小程序的接口鉴权/独立churn项目与企微小程序相关的接口鉴权.md",
+    "客户流失预警/走向生产级review/celery的使用.md",
+    "客户流失预警/docker celery 日志 未及时更新代码.md",
+    "客户流失预警/LLM的使用.md",
     "20260622-26/本周工作总结-按项目.md.tmp.18978.844d0f3eccf1",
     "20260622-26/OGSM周报.md.tmp.18978.63224bd64245",
-    "20260615-18/本周工作总结.md",
-    "20260615-18/每天的工作日志.md",
-    "20260615-18/待完成.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/plan mode 把分散的 prefix 收口到单一常量.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/可维护性的问题与风险，收口分散的 prefix，v2版本接口.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/文档的问题与风险，补充缺口，更新同步文档.md",
-    "智能拓客（第二阶段）/前缀契约泛化.md",
-    "缓存与锁/概念解读，实战讲解.md",
-    "缓存与锁/striped lock 和 Redis 分布式锁.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/工程化的问题与风险，修两件 docstring 自述位置.md",
-    "缓存与锁/对于AI开发的意义.md",
-    "智能拓客（第二阶段）/重新定义计算规则 plan.md",
-    "1（env）/项目部署凭据.md",
-    "智能拓客（第二阶段）/重新定义计算规则后的日志同步.md",
-    "智能拓客（第二阶段）/重新定义计算规则.md",
-    "学习/电脑游戏相关/升降桌.md",
     "缓存与锁",
-    "20260622-26/opencli工具 模拟人类操作.md",
-    "智能拓客（第二阶段）/11.合并成大项目/2.合并过程/churn重构与ruff，mypy豁免.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/AI多维度评审项目20260623.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/安全性的问题与风险，无任何改动.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/架构设计的问题与风险，在api服务中解耦churn.md",
-    "智能拓客（第二阶段）/15.部署后发现并改进问题/代码质量的问题与风险，提纯收敛claude 项目memory.md",
     "智能拓客（第二阶段）/17.解耦dify，443端口中立网关",
     "智能拓客（第二阶段）/13.部署https域名，nginx反代/未命名",
     "智能拓客（第二阶段）/16.企微小程序的接口鉴权",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线后",
     "智能拓客（第二阶段）/14.代码侧的运维安全/接口上线前",
-    "20260622-26",
-    "20260615/本周工作总结.md.tmp.21309.7dc06b55c289",
     "企微机器人桥接到滴普智能体/asset/image.png",
     "企微机器人桥接到滴普智能体/asset/image-1.png",
     "企微机器人桥接到滴普智能体/asset/image-2.png",
