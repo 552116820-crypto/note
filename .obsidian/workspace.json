@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "87ad8160c7065e75",
+        "id": "4969f1bc3dd9eef6",
         "type": "tabs",
         "children": [
           {
-            "id": "0e922f6f6deb0e50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "产品推荐，迭代helplook/helplook上产品选型的文档结构.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "helplook上产品选型的文档结构"
-            }
-          },
-          {
-            "id": "106296648be81b16",
+            "id": "f9b6bd47b0b87eb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,35 +22,7 @@
             }
           },
           {
-            "id": "77ab18c6b037db0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "产品推荐，迭代helplook/数据准备和项目落地.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "数据准备和项目落地"
-            }
-          },
-          {
-            "id": "07888a1978da65cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260629-20260704/agent的对外调用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "agent的对外调用"
-            }
-          },
-          {
-            "id": "cf62ef942b9a78be",
+            "id": "9d3dbf57f64205e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,63 +36,21 @@
             }
           },
           {
-            "id": "74aabe409616c823",
+            "id": "7a641f20318a326a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "产品推荐，迭代helplook/数据多层次来源.md",
+                "file": "客探一期/客户文档分段超长被拆断的问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "数据多层次来源"
-            }
-          },
-          {
-            "id": "79698c8f68b0892d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "产品推荐，迭代helplook/探讨后端推荐逻辑实现.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "探讨后端推荐逻辑实现"
-            }
-          },
-          {
-            "id": "7e232dd6be86325c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "产品推荐，迭代helplook/了解企微的推送卡片功能.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "了解企微的推送卡片功能"
-            }
-          },
-          {
-            "id": "7e0d04b977e55874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "20260629-20260704/滑动交互.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "滑动交互"
+              "title": "客户文档分段超长被拆断的问题"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,36 +222,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "74aabe409616c823",
+  "active": "9d3dbf57f64205e6",
   "lastOpenFiles": [
+    "客探一期/客户文档分段超长被拆断的问题.md",
     "20260629-20260704/每天工作日志.md",
-    "产品推荐，迭代helplook/数据多层次来源.md",
-    "20260629-20260704/agent的对外调用.md",
-    "产品推荐，迭代helplook/helplook上产品选型的文档结构.md",
-    "产品推荐，迭代helplook/数据准备和项目落地.md",
     "20260629-20260704/待完成.md",
+    "产品推荐，迭代helplook/数据准备和项目落地.md",
+    "学习/投资方向/调研前沿与未来方向.md",
+    "学习/投资方向/普通人该怎么做.md",
+    "客探一期/优化高相似度客户的追问流程.md",
+    "学习/其他/阿达帕林加入.md",
+    "20260622-26/待完成.md",
     "产品推荐，迭代helplook/了解企微的推送卡片功能.md",
     "产品推荐，迭代helplook/探讨后端推荐逻辑实现.md",
+    "学习/投资方向",
+    "产品推荐，迭代helplook/数据多层次来源.md",
+    "产品推荐，迭代helplook/了解helplook背后的逻辑.md",
+    "20260629-20260704/agent的对外调用.md",
+    "产品推荐，迭代helplook/helplook上产品选型的文档结构.md",
     "20260629-20260704/滑动交互.md",
     "产品推荐，迭代helplook/helplook上产品选型的文档结构.md.tmp.6754.aee6afbd6783",
     "商机机器人/企业微信_商机机器人_知识储备.md",
-    "客探一期/优化高相似度客户的追问流程.md",
-    "产品推荐，迭代helplook/了解helplook背后的逻辑.md",
     "商机机器人/初步知识企微开发.md",
     "客探二期/未命名.md",
     "客探二期/优化一期.md",
     "客探二期/客户流失预警.md",
     "产品推荐，迭代helplook",
-    "20260622-26/待完成.md",
     "20260622-26/每天工作日志.md",
     "20260622-26/AI工牌 实时语音.md",
     "20260622-26/opencli工具 模拟人类操作.md",
     "20260622-26/OGSM周报.md",
     "20260622-26/本周工作总结-按项目.md",
-    "20260629-20260704/蒸馏模型与反蒸馏.md",
-    "20260615-18/待完成.md",
-    "20260622-26/实缴资金.md",
-    "20260622-26/codex 录制回放.md",
     "2026年6月-OGSM月报.md.tmp.3943.4c59d1c89381",
     "2026年6月-OGSM月报.md.tmp.3943.4501cffcb769",
     "2026年6月-OGSM月报.md.tmp.3943.3a2c9d93e1ac",
@@ -343,7 +260,6 @@
     "商机机器人",
     "20260622-26/本周工作总结-按项目.md.tmp.18978.844d0f3eccf1",
     "20260622-26/OGSM周报.md.tmp.18978.63224bd64245",
-    "缓存与锁",
     "企微机器人桥接到滴普智能体/asset/image.png",
     "企微机器人桥接到滴普智能体/asset/image-1.png",
     "企微机器人桥接到滴普智能体/asset/image-2.png",
